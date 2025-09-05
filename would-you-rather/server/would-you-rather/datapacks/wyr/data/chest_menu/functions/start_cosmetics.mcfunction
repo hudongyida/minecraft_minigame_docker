@@ -1,0 +1,6 @@
+scoreboard players set @s screen 1
+function chest_menu:clear
+replaceitem entity @s enderchest.11 quartz_pillar{HideFlags:63,display:{Name:'[{"text":"讲台","color":"#0eedcf","italic":false,"bold":true}]',Lore:['[{"text":"讲台是你在演出期间","italic":true,"color":"gray"}]','[{"text":"所站立的地方.","italic":true,"color":"gray"}]']},clickable:1}
+replaceitem entity @s enderchest.13 light_blue_banner{HideFlags:63,display:{Name:'[{"text":"横幅","color":"#ffff40","italic":false,"bold":true}]',Lore:['[{"text":"横幅将出现在大厅和","italic":true,"color":"gray"}]','[{"text":"舞台上, 比赛结束后, 他们将","italic":true,"color":"gray"}]','[{"text":"更改为获胜者选定的旗帜.","color":"gray","italic":true}]']},clickable:1}
+replaceitem entity @s enderchest.15 paper{HideFlags:63,display:{Name:'[{"text":"粉丝","color":"#1de027","italic":false,"bold":true}]',Lore:['[{"text":"球迷会出现在看台上, ","italic":true,"color":"gray"}]','[{"text":"为你加油喝彩.","italic":true,"color":"gray"}]']},clickable:1}
+replaceitem entity @s enderchest.18 barrier{HideFlags:63,clickable:1,display:{Name:'[{"text":"返回","color":"#ff0000","italic":false,"bold":true}]'}}

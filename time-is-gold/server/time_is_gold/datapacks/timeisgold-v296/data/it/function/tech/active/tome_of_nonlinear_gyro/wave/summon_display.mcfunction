@@ -1,0 +1,6 @@
+execute store result score #TEMP item.tome_of_nonlinear_gyro.wave_randomizer run random value 1..100
+
+execute positioned ~ ~ ~ if block ~ ~ ~ #it:air unless block ~ ~-0.1 ~ #it:air if score #TEMP item.tome_of_nonlinear_gyro.wave_randomizer matches ..10 run function it:tech/active/tome_of_nonlinear_gyro/wave_display/purple_concrete_powder
+execute positioned ~ ~ ~ if block ~ ~ ~ #it:air unless block ~ ~-0.1 ~ #it:air if score #TEMP item.tome_of_nonlinear_gyro.wave_randomizer matches 11..20 run function it:tech/active/tome_of_nonlinear_gyro/wave_display/purple_glass
+execute positioned ~ ~ ~ if block ~ ~ ~ #it:air unless block ~ ~-0.1 ~ #it:air if score #TEMP item.tome_of_nonlinear_gyro.wave_randomizer matches 20..40 run function it:tech/active/tome_of_nonlinear_gyro/wave_display/crying_obsidian
+execute positioned ~ ~ ~ if block ~ ~ ~ #it:air unless block ~ ~-0.1 ~ #it:air if score #TEMP item.tome_of_nonlinear_gyro.wave_randomizer matches 41..100 run function it:tech/active/tome_of_nonlinear_gyro/wave_display/obsidian

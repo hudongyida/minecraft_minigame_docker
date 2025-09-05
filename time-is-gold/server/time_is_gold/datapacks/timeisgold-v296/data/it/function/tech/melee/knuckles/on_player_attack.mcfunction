@@ -1,0 +1,2 @@
+$execute as @e[tag=monster,scores={entityid=$(entityid)}] at @s run particle minecraft:block{block_state:"minecraft:green_glazed_terracotta"} ~ ~1 ~ 0 0 0 0.5 10 force
+execute as @s at @s run playsound minecraft:block.vault.break block @s ~ ~ ~ 0.5 1.5

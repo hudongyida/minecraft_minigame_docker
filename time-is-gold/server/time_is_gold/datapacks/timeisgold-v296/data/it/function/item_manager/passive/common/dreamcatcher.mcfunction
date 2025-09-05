@@ -1,0 +1,1 @@
+give @s minecraft:sunflower[minecraft:lore=[{"translate": "item.dreamcatcher.lore.0"}],minecraft:custom_name={"translate":"item.dreamcatcher.name"},minecraft:custom_data={item:"dreamcatcher",itemRarity:0,itemType:1},max_stack_size=1,tooltip_style="minecraft:common/passive"] 1

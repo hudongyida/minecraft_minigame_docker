@@ -1,0 +1,2 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:safe_fall_distance modifier add system.combat.safe_fall_distance_delta $(safe_fall_distance_delta) add_value
+$attribute @s[tag=combat.apply_attributes.temp_] minecraft:safe_fall_distance modifier add system.combat.safe_fall_distance_multiplier $(safe_fall_distance_multiplier) add_multiplied_base

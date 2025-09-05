@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/legendary/netherite_boots"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/legendary/netherite_chestplate"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/legendary/netherite_helmet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/legendary/netherite_leggings"
+                }
+            ]
+        }
+    ]
+}

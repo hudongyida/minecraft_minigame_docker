@@ -1,0 +1,1 @@
+item replace entity @s container.17 with stick[item_name={"translate":"system.gamemanager.teleport.shop.button.enabled_name"},custom_data={item:"teleport_to_shop",enabled:true,teleport_shop_throw:{}},item_model="netherite_upgrade_smithing_template"]

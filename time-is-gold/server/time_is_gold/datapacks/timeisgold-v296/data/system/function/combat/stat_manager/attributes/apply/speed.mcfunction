@@ -1,0 +1,2 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:movement_speed modifier add system.combat.speed_delta $(speed_delta) add_value
+$attribute @s[tag=combat.apply_attributes.temp_] minecraft:movement_speed modifier add system.combat.speed_multiplier $(speed_multiplier) add_multiplied_base

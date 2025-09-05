@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.jail_cell.bone.bone] run data modify entity @s {} merge value {transformation:[-6.666666666666667f,0f,8.164311994315688e-16f,0f,0f,6.666666666666667f,0f,-2.9250000000000003f,-8.164311994315688e-16f,0f,-6.666666666666667f,0f,0f,0f,0f,1f],start_interpolation:0}

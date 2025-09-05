@@ -1,0 +1,85 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/anticognition_field"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/automaton_turret"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/autophagiease"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/big_red_button"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/bowstring"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/dawnveil_eye"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/diy_repair_kit"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/emp_generator"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/flag_of_command"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/hyperretractor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/mystic_force"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/paranoia"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/pocket_refrigerator"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/sacrifice"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/rare/supercooled_ice"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+execute as @s at @s run summon marker ^ ^ ^ {Tags:[item.iron_fist.shockwave.marker,item.iron_fist.shockwave.marker.uninitialized],data:{damage:12, playerid:0}}
+execute as @s at @s run data modify entity @n[type=marker,tag=item.iron_fist.shockwave.marker,tag=item.iron_fist.shockwave.marker.uninitialized,distance=..0.5] Rotation[0] set from entity @s Rotation[0]
+execute as @s at @s store result entity @n[type=marker,tag=item.iron_fist.shockwave.marker,tag=item.iron_fist.shockwave.marker.uninitialized,distance=..0.5] data.playerid int 1 run scoreboard players get @s playerid
+execute as @s at @s run tag @n[type=marker,tag=item.iron_fist.shockwave.marker,tag=item.iron_fist.shockwave.marker.uninitialized,distance=..0.5] remove item.iron_fist.shockwave.marker.uninitialized
+execute as @s at @s run function it:tech/utils/use_cost/time {cost:20}

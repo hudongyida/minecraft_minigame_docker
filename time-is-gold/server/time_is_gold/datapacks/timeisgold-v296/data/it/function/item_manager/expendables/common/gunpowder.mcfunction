@@ -1,0 +1,1 @@
+give @s minecraft:gunpowder[minecraft:lore=[],minecraft:custom_name={"translate": "item.gunpowder.name"},minecraft:custom_data={item:"gunpowder",itemRarity:0,itemType:4,itemPrice:100},tooltip_style="minecraft:common/expendables"] 1

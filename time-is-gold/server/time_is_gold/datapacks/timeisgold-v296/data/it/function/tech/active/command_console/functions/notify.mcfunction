@@ -1,0 +1,2 @@
+title @s actionbar {"translate":"item.command_console.message",with:[{"score":{name:"@s",objective:"item.command_console.collection"},"color":"green","italic":false}]}
+scoreboard players reset @s item.command_console.collection

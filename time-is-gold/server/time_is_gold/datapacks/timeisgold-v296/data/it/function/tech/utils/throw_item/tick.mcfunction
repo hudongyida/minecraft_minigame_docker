@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=item.utils.throw_item.marker] at @s run function it:tech/utils/throw_item/step with entity @s data

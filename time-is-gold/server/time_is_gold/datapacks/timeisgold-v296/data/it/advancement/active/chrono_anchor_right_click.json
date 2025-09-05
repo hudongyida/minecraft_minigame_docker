@@ -1,0 +1,36 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": 
+                    [
+                        "minecraft:pearlescent_froglight"
+                    ],
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"chrono_anchor"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/active/chrono_anchor/right_click"
+    }
+}

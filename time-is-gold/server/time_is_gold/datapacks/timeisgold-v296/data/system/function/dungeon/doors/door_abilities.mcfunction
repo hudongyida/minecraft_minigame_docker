@@ -1,0 +1,1 @@
+$execute at @s as $(playeruuid) run function it:item_abilities_on_opening_doors {room_id:$(room_id)}

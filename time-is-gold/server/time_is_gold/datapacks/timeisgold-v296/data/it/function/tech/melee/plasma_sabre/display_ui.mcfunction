@@ -1,0 +1,2 @@
+execute as @s if score @s item.plasma_sabre.active_tick matches 1.. run function system:ui/bar/set {value:item.plasma_sabre.active_tick, value_target:"@s", base:scoreboardConstant, base_target:"#200", invert:0, item:plasma_sabre}
+execute as @s unless score @s item.plasma_sabre.active_tick matches 1.. run function it:tech/utils/cooldown/ui_display {value:item.plasma_sabre.cooldown, value_target:"@s", base:item.plasma_sabre.cooldown, base_target:"#MAX_VALUE", invert:1, item:plasma_sabre}

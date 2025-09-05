@@ -1,0 +1,21 @@
+{
+    "type": "empty",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "it:item/expendables/common/arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

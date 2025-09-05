@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ as @a[predicate=system:player,distance=$(inner_radius)..$(outer_radius)] run function monsters:tech/global/utils/monster_damage/melee/init {value:30.0d, monsteruuid:"$(monsteruuid)"}

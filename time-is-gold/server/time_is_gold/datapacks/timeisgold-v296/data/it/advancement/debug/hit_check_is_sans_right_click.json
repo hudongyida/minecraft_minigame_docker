@@ -1,0 +1,36 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": 
+                    [
+                        "minecraft:stick"
+                    ],
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"hit_check_is_sans"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/debug/hit_check_is_sans/right_click"
+    }
+}

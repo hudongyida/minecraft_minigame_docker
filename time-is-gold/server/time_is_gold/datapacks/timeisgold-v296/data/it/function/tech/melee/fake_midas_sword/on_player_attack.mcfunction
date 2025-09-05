@@ -1,0 +1,1 @@
+execute as @s run function it:tech/utils/use_cost/time {cost:50}

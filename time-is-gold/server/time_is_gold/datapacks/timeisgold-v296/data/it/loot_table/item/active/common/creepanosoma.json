@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.creepanosoma.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.creepanosoma.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.creepanosoma.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.creepanosoma.name"
+                                },
+                                "custom_data": {
+                                    "item": "creepanosoma",
+                                    "itemRarity": 0,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "item_model": "minecraft:glass_bottle",
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:common/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

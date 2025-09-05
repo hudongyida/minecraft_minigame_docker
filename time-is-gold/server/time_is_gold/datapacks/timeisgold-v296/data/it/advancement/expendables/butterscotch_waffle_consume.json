@@ -1,0 +1,32 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:consume_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"butterscotch_waffle"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/expendables/butterscotch_waffle/on_consume"
+    }
+}

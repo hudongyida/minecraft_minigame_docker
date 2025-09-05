@@ -1,0 +1,3 @@
+function system:dungeon/special_rooms/minesweeper/operation/tick
+function system:dungeon/special_rooms/minesweeper/give_spelunker/tick
+function system:dungeon/special_rooms/minesweeper/reward_display/tick

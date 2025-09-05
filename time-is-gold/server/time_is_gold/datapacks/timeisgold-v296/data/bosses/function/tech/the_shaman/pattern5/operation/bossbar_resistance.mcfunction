@@ -1,0 +1,1 @@
+$bossbar set $(bossbarid) color blue

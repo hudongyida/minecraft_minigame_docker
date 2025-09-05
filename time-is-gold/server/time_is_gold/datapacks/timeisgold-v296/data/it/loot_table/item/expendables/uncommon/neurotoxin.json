@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.neurotoxin.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.neurotoxin.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.neurotoxin.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.neurotoxin.name"
+                                },
+                                "custom_data": {
+                                    "item": "neurotoxin",
+                                    "itemRarity": 1,
+                                    "itemType": 4
+                                },
+                                "potion_contents": {
+                                    "custom_color": 8889187,
+                                    "custom_effects": [
+                                        {
+                                            "id": "darkness",
+                                            "amplifier": 22,
+                                            "show_particles": false,
+                                            "duration": 40,
+                                            "show_icon": false
+                                        }
+                                    ]
+                                },
+                                "max_stack_size": 64,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "potion_contents",
+                                        "potion_duration_scale"
+                                    ]
+                                },
+                                "tooltip_style": "minecraft:uncommon/expendables"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

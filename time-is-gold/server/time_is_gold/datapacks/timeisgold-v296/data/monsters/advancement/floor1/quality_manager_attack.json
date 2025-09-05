@@ -1,0 +1,25 @@
+{
+    "criteria":
+    {
+        "requirement":
+        {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions":
+            {
+                "damage":
+                {
+                    "blocked": false,
+                    "source_entity":
+                    {
+                        "type": "minecraft:vindicator",
+                        "nbt": "{Tags:[quality_manager]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "monsters:tech/floor1/quality_manager/attack"
+    }
+}

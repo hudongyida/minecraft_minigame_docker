@@ -1,0 +1,2 @@
+execute as @s if score @s item.windup_clock.tick matches 1.. run function system:ui/bar/set {value:"item.windup_clock.tick", value_target:"@s", base:"item.windup_clock.tick", base_target:"#MAX_VALUE", invert:0, item:windup_clock}
+execute as @s unless score @s item.windup_clock.tick matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.windup_clock.cooldown", value_target:"@s", base:"item.windup_clock.cooldown", base_target:"#MAX_VALUE", invert:1, item:windup_clock}

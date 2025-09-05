@@ -1,0 +1,2 @@
+#tellraw @a [{"text":"✗ ","color":"red","italic":false}, {"selector":"@s","color":"gray","bold":false}, {"text":"时间耗尽，被淘汰了。","color":"gray","bold":false}]
+tellraw @a {"translate":"system.gamemanager.player_death.default",with:[{"selector":"@s"}]}

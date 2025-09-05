@@ -1,0 +1,2 @@
+execute as @e[type=interaction,tag=dungeon.bossfight.disabled_door] run tag @s add dungeon.door
+execute as @e[type=interaction,tag=dungeon.bossfight.disabled_door] run tag @s remove dungeon.bossfight.disabled_door

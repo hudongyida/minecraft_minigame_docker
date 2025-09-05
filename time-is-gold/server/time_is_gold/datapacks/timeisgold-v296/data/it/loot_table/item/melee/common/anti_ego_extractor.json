@@ -1,0 +1,86 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.anti_ego_extractor.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.anti_ego_extractor.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.anti_ego_extractor.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.anti_ego_extractor.lore.3"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "4",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "2",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 3.0,
+                                        "id": "anti_ego_extractor_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.0,
+                                        "id": "anti_ego_extractor_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.anti_ego_extractor.name"
+                                },
+                                "custom_data": {
+                                    "item": "anti_ego_extractor",
+                                    "itemRarity": 0,
+                                    "itemType": 2
+                                },
+                                "tooltip_style": "minecraft:common/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

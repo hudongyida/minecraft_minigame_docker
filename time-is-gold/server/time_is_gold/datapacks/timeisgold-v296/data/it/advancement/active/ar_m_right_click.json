@@ -1,0 +1,36 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": 
+                    [
+                        "minecraft:armor_stand"
+                    ],
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"ar_m"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/active/ar_m/right_click"
+    }
+}

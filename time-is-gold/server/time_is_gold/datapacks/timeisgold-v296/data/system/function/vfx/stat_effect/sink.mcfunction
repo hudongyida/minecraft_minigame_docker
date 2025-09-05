@@ -1,0 +1,3 @@
+execute at @s positioned ~ ~1 ~ run particle minecraft:dolphin ~ ~ ~ 0.3 0.5 0.3 0.01 5 force
+execute if score @s combat.sink matches 5.. at @s positioned ~ ~1 ~ run particle minecraft:falling_dust{block_state:"minecraft:blue_glazed_terracotta"} ~ ~ ~ 0.25 0.5 0.25 0.1 1 force
+execute if score @s combat.sink matches 10.. at @s positioned ~ ~1 ~ run particle minecraft:warped_spore ~ ~ ~ 0.1 0.1 0.1 0.005 2 force

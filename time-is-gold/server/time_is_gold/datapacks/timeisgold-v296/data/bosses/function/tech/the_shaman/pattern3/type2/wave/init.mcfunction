@@ -1,0 +1,2 @@
+$execute at @s run summon marker ~ ~ ~ {Tags:["bosses.the_shaman.pattern3.chalice.type2.marker.wave"],Rotation:[0f,0f],data:{bossuuid:"$(bossuuid)"}}
+$execute at @s run summon marker ~ ~ ~ {Tags:["bosses.the_shaman.pattern3.chalice.type2.marker.wave"],Rotation:[180f,0f],data:{bossuuid:"$(bossuuid)"}}

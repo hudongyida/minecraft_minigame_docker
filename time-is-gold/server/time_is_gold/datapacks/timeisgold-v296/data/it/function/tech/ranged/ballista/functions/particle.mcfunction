@@ -1,0 +1,25 @@
+tp @s ~ ~ ~ ~ ~
+execute rotated as @s rotated ~ ~ positioned ^0.1000 ^0.0000 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0966 ^0.0259 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0866 ^0.0500 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0707 ^0.0707 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0500 ^0.0866 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0259 ^0.0966 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0000 ^0.1000 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0259 ^0.0966 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0500 ^0.0866 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0707 ^0.0707 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0866 ^0.0500 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0966 ^0.0259 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.1000 ^0.0000 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0966 ^-0.0259 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0866 ^-0.0500 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0707 ^-0.0707 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0500 ^-0.0866 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0259 ^-0.0966 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^-0.0000 ^-0.1000 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0259 ^-0.0966 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0500 ^-0.0866 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0707 ^-0.0707 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0866 ^-0.0500 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0
+execute rotated as @s rotated ~ ~ positioned ^0.0966 ^-0.0259 ^ facing entity @s feet run particle cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0

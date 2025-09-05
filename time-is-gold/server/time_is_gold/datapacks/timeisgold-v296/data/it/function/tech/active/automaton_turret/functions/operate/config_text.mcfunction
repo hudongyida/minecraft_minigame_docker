@@ -1,0 +1,1 @@
+$execute as @s run data modify entity @s text set value [{"score":{"name":"@n[tag=item.automaton_turret.id-$(playerid),tag=item.automaton_turret.marker,distance=..3]","objective":"item.automaton_turret.fuel"}},{"color":"yellow","text":"⚡"}]

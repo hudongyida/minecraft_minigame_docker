@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers":
+        [
+            {
+                "attribute": "minecraft:attack_damage",
+                "id": "auction_microphone_attack_damage",
+                "amount":
+                {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "item.auction_microphone.auction_count",
+                    "scale": 1
+                },
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:attack_speed",
+                "id": "auction_microphone_attack_speed",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": 
+                    [
+                        "minecraft:netherite_hoe"
+                    ],
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"reaper_scythe"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/melee/reaper_scythe/right_click"
+    }
+}

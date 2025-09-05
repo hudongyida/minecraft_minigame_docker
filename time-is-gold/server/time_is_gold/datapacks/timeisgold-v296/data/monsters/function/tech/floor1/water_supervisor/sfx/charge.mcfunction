@@ -1,0 +1,1 @@
+$playsound entity.player.splash player @a ~ ~ ~ 1 $(pitch) 0

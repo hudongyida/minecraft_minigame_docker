@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.digital_camera.cooldown}
+execute as @a[predicate=system:player] run function it:tech/utils/cooldown/ui_display {value:item.digital_camera.cooldown, value_target:"@s", base:item.digital_camera.cooldown, base_target:"#MAX_VALUE", invert:1, item:digital_camera}

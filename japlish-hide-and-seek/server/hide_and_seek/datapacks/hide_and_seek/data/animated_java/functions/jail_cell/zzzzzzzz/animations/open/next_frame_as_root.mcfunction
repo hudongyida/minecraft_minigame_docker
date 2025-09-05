@@ -1,0 +1,1 @@
+function animated_java:jail_cell/zzzzzzzz/animations/open/tick_animation

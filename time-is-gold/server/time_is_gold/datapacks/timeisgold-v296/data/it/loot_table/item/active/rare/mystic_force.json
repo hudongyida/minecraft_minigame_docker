@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:end_portal_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.mystic_force.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.mystic_force.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.mystic_force.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.mystic_force.lore.3"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:rare/active",
+                                "custom_name": {
+                                    "translate": "item.mystic_force.name"
+                                },
+                                "custom_data": {
+                                    "item": "mystic_force",
+                                    "itemRarity": 2,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

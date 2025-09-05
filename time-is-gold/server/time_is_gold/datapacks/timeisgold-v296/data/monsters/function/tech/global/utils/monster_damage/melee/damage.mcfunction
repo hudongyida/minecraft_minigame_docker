@@ -1,0 +1,1 @@
+$damage @s $(value) mob_attack by $(monsteruuid)

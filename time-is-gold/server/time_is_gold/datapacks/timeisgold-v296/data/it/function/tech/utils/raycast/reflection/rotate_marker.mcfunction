@@ -1,0 +1,3 @@
+$execute as @s at @s positioned ~$(x) ~$(y) ~$(z) run summon marker ~ ~ ~ {Tags:[item.utils.raycast.reflection.marker.rotation.$(selfuuid)]}
+$execute as @s at @s rotated as @s run rotate @s facing entity @n[type=marker,tag=item.utils.raycast.reflection.marker.rotation.$(selfuuid)]
+$execute as @s at @s positioned ~$(x) ~$(y) ~$(z) run kill @n[type=marker,tag=item.utils.raycast.reflection.marker.rotation.$(selfuuid),distance=..0.5]

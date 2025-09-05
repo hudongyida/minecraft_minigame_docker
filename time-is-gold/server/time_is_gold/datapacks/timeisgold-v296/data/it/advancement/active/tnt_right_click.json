@@ -1,0 +1,32 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"tnt"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/active/tnt/right_click"
+    }
+}

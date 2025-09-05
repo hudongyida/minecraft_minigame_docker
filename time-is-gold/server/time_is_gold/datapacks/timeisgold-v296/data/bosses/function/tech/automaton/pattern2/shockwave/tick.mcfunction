@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=bosses.automaton.shockwave.marker] at @s run function bosses:tech/automaton/pattern2/shockwave/step

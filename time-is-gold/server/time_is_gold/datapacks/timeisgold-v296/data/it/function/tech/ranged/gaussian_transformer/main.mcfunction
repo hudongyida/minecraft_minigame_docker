@@ -1,0 +1,1 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.gaussian_transformer.cooldown}

@@ -1,0 +1,1 @@
+$execute as @a[scores={$(scoreboard)=1..99999}] run scoreboard players remove @s $(scoreboard) 1

@@ -1,0 +1,1 @@
+execute as @a at @s if block ~ ~-0.001 ~ minecraft:emerald_block run effect give @s jump_boost 1 5 true

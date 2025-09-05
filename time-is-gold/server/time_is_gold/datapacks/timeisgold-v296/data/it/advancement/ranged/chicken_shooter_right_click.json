@@ -1,0 +1,36 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": 
+                    [
+                        "minecraft:stick"
+                    ],
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"chicken_shooter"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/ranged/chicken_shooter/right_click"
+    }
+}

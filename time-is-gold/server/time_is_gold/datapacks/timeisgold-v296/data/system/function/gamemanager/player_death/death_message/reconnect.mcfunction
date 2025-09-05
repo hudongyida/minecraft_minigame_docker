@@ -1,0 +1,1 @@
+tellraw @a [{"text":"🔌 ","color":"green","italic":false}, {"selector":"@s","color":"gray","bold":false}, {"text":"已重新连接。","color":"gray","bold":false}]

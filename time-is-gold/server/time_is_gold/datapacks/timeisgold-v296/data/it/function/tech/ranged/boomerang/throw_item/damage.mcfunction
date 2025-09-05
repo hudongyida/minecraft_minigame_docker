@@ -1,0 +1,1 @@
+$function system:combat/modified_damage/ranged/init {playerid:$(playerid), value:12d, knockback:1}

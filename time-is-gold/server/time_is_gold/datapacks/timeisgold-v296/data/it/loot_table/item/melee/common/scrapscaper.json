@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.scrapscaper.lore.0"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "10",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "2.5",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 9.0,
+                                        "id": "scrap_scaper_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -1.5,
+                                        "id": "scrap_scaper_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.scrapscaper.name"
+                                },
+                                "custom_data": {
+                                    "item": "scrapscaper",
+                                    "itemRarity": 0,
+                                    "itemType": 2
+                                },
+                                "tooltip_style": "minecraft:common/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

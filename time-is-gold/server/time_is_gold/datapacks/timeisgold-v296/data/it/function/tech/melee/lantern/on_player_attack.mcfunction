@@ -1,0 +1,1 @@
+$execute as @e[tag=monster,scores={entityid=$(entityid)},limit=1] at @s run function it:tech/melee/lantern/monster_attack/init

@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run playsound minecraft:entity.silverfish.death hostile @s ~ ~ ~ 0.5 $(pitch) 0

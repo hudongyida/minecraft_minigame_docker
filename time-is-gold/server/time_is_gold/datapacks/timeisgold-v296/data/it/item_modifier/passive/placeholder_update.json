@@ -1,0 +1,10 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+    "lore":
+    [
+        {"nbt":"stack[-1].lore0", "storage":"timeisgold:function_api", "interpret": true},
+        {"nbt":"stack[-1].lore1", "storage":"timeisgold:function_api", "interpret": true}
+    ],
+    "mode": "replace_section"
+}

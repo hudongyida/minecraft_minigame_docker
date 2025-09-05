@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "text": "\u231a +3.0s",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "text": "\u231a +15.0%",
+                                        "italic": false,
+                                        "color": "green"
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 0.1,
+                                        "id": "generic.knockback_resistance",
+                                        "operation": "add_value",
+                                        "slot": "chest",
+                                        "type": "knockback_resistance"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.wax_and_feathers.name"
+                                },
+                                "custom_data": {
+                                    "item": "wax_and_feathers",
+                                    "itemRarity": 4,
+                                    "itemType": 3,
+                                    "armor": {
+                                        "additive": 30,
+                                        "multiplicative": 150
+                                    }
+                                },
+                                "tooltip_style": "minecraft:legendary/armor"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

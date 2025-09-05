@@ -1,0 +1,1 @@
+execute as @a run function it:tech/utils/detect/crossbow/charge {item:roulettow, arrow_name:{"text":"?","color":"#ff55ff","italic":false}, end_function__path:"it:tech/ranged/roulettow/crossbow/charge",prev_function__path:none}

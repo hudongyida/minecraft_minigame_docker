@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ store result entity @n[type=marker,tag=$(marker),distance=..0.5] data.playerid int 1 run scoreboard players get @s playerid

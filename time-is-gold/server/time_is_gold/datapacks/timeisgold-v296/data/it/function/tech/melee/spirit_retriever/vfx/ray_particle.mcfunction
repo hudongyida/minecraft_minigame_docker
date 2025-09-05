@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run particle ominous_spawning ~ ~ ~ 0.05 0.05 0.05 0.01 1 force

@@ -1,0 +1,2 @@
+execute unless score @s item.noble_leap.damage_bonus matches 0.. run scoreboard players set @s item.noble_leap.damage_bonus 0
+title @s actionbar [{translate: "item.noble_leap.hud"}, {score: {name: "@s", objective: item.noble_leap.damage_bonus}, color:"gold"}, {text:"%", color:"gold"}]

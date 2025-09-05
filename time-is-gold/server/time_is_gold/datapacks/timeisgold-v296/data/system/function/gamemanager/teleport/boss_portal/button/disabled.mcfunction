@@ -1,0 +1,1 @@
+item replace entity @s container.16 with gray_stained_glass_pane[item_name={"translate":"system.gamemanager.teleport.boss_portal.button.disabled_name"},custom_data={item:"teleport_to_boss_portal",enabled:false,teleport_boss_portal_throw:{}},item_model="barrier"]

@@ -1,0 +1,2 @@
+tag @s add unlock_p_21
+tellraw @s [{"text":"- - - - - - - - - - - - - - - - - - - - - - - - - - -","color":"gray","bold":true},{"text":"\n你已解锁史诗装饰品!","color":"dark_purple","bold":false},{"text":"\n讲台 ","color":"dark_aqua","bold":true},{"text":"- ","color":"gray","bold":true},{"text":"热水浴缸","color":"#0eedcf","bold":true},{"text":"\n你可以在末影箱内选择它!","color":"gray","bold":false}]

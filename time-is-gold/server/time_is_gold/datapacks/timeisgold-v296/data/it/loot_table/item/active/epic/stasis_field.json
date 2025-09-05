@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.stasis_field.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.stasis_field.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.stasis_field.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.stasis_field.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.stasis_field.name"
+                                },
+                                "custom_data": {
+                                    "item": "stasis_field",
+                                    "itemRarity": 3,
+                                    "itemType": 0
+                                },
+                                "tooltip_style": "minecraft:epic/active",
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

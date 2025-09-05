@@ -1,0 +1,2 @@
+$execute as @a[predicate=system:player,scores={playerid=$(playerid)},limit=1] run clear @s arrow $(arrow_cost)
+$function system:combat/modified_damage/ranged/init {playerid:$(playerid), value:$(damage), knockback:1}

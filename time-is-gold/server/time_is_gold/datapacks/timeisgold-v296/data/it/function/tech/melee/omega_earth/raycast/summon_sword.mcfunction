@@ -1,0 +1,3 @@
+# 실행 인자: raycast 이후 소환된 마커
+
+$execute positioned ~ ~ ~ run summon item_display ~ ~120 ~ {item:{id:"minecraft:iron_sword",count:1b}, Tags:[item.omega_earth.sword_display, item.omega_earth.sword_display.$(selfuuid0).$(selfuuid1).$(selfuuid2).$(selfuuid3)], teleport_duration:1, transformation:{scale:[10f, 10f, 10f],left_rotation:[0f, 0f, 0.924f, 0.383f], right_rotation:[0f, 0f, 0f, 1f], translation:[0f, 0f, 0f]}}

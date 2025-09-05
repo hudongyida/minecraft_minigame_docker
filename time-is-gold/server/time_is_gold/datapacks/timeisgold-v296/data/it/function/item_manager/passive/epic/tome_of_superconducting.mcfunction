@@ -1,0 +1,1 @@
+give @s minecraft:book[minecraft:lore=[{"translate": "item.tome_of_superconducting.lore.0"}, {"translate": "item.tome_of_superconducting.lore.1"}],minecraft:custom_name={"translate": "item.tome_of_superconducting.name"},minecraft:custom_data={item:"tome_of_superconducting",itemRarity:3,itemType:1,itemSortTag:["book"]},max_stack_size=1,tooltip_style="minecraft:epic/passive"] 1

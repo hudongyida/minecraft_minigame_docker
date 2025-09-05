@@ -1,0 +1,1 @@
+give @s minecraft:archer_pottery_sherd[minecraft:lore=[{"translate": "item.sigil_of_arrows.lore.0"}, {"translate": "item.sigil_of_arrows.lore.1"}, {"translate": "item.sigil_of_arrows.lore.2"}],minecraft:custom_name={"translate":"item.sigil_of_arrows.name"},minecraft:custom_data={item:"sigil_of_arrows",itemRarity:2,itemType:1},tooltip_style="minecraft:rare/passive"] 1

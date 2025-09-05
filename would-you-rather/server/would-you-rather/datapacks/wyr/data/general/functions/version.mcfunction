@@ -1,0 +1,1 @@
+tellraw @a {"text":"这是 '你宁愿' *Alpha* 1.3","color":"light_purple"}

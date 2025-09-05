@@ -1,0 +1,2 @@
+execute as @e[type=marker,tag=system.portal.marker.data_storage] at @s run function system:portal/step
+execute as @a at @s unless score @s system.portal.enter_tick = #SYSTEM system.portal.enter_tick unless function system:portal/portal_use_check run scoreboard players operation @s system.portal.enter_tick = #SYSTEM system.portal.enter_tick

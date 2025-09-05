@@ -1,0 +1,1 @@
+$execute as @n[type=marker,tag=item.windup_clock.marker.manager.$(playeruuid)] at @s run function it:tech/active/windup_clock/operation/clock/destroy with entity @s data

@@ -1,0 +1,6 @@
+data modify storage macro: block_data.down set value "true"
+data modify storage macro: block_data.east set value "false"
+data modify storage macro: block_data.north set value "false"
+data modify storage macro: block_data.south set value "false"
+data modify storage macro: block_data.up set value "false"
+data modify storage macro: block_data.west set value "false"

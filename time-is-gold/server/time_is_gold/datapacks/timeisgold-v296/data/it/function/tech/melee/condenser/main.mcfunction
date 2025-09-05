@@ -1,0 +1,3 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.condenser.cooldown}
+execute as @a[predicate=system:player] run function system:ui/bar/set {value:item.condenser.cooldown, value_target:"@s", base:item.condenser.cooldown, base_target:"#MAX_VALUE", invert:1, item:condenser}
+execute as @a if items entity @s weapon.mainhand *[custom_data~{item:condenser}] run function it:tech/melee/condenser/display_state

@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/epic/ashy_furance"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/epic/chrono_anchor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/epic/nailed_doll"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/epic/nano_boost"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/epic/stasis_field"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/epic/tome_of_nonlinear_gyro"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/epic/uu_matter"
+                }
+            ]
+        }
+    ]
+}

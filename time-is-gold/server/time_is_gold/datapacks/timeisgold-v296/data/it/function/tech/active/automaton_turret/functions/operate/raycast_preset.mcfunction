@@ -1,0 +1,4 @@
+$data modify storage timeisgold:function_api stack append value {type:active, path:automaton_turret, initfunction:none, tickfunction:"laser/trajectory", hitfunction:"laser/damage", endfunction:none,\
+                                                                playerid:$(playerid), speed:0.25, hitbox_1:0.15, hitbox_2:0.7, hitbox_3:0.85, wall:0, hitend:1, step:100}
+$execute as @n[type=block_display,tag=item.automaton_turret.id-$(playerid),tag=item.automaton_turret.head,distance=..3] anchored eyes at @s run function it:tech/utils/raycast/default/init with storage timeisgold:function_api stack[-1]
+data remove storage timeisgold:function_api stack[-1]

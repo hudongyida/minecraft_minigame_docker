@@ -1,0 +1,1 @@
+give @s barrel[lock={components:{custom_name:{"text":"please_dont_open_this"}}},custom_name=[{"text":"Locked Barrel","italic":false}],container=[{item:{id:"minecraft:barrier",components:{custom_name:[{"text":"Bruh","color":"red","italic":false}],lore:[[{"text":"why","color":"gray","italic":false}]],enchantment_glint_override:true}},slot:13}]] 1

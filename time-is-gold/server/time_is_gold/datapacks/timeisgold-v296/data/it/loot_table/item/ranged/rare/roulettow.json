@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.roulettow.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.roulettow.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.roulettow.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.roulettow.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.roulettow.name"
+                                },
+                                "custom_data": {
+                                    "item": "roulettow",
+                                    "itemRarity": 2,
+                                    "itemType": 2
+                                },
+                                "enchantments": {
+                                    "quick_charge": 3
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "enchantments"
+                                    ]
+                                },
+                                "tooltip_style": "minecraft:rare/ranged"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

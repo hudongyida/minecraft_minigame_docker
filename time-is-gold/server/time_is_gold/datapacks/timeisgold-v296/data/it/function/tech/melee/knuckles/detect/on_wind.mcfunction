@@ -1,0 +1,1 @@
+execute as @s on vehicle if entity @s[tag=item.knuckles.dash] run return 1

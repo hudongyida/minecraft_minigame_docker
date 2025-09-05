@@ -1,0 +1,2 @@
+$execute as @s if score @s system.gamemanager.player_death.titlecount matches $(titlecount) run title @s title {"text":"$(text)","color":"green",shadow_color:0}
+$execute as @s if score @s system.gamemanager.player_death.titlecount matches $(titlecount) at @s run playsound minecraft:ui.loom.select_pattern master @s ~ ~ ~ 1 2 1

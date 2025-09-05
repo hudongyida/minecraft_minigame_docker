@@ -1,0 +1,1 @@
+give @s minecraft:echo_shard[minecraft:lore=[{"translate": "item.silent_faith.lore.0"}, {"translate": "item.silent_faith.lore.1"}, {"translate": "item.silent_faith.lore.2"}],minecraft:custom_name={"translate": "item.silent_faith.name"},minecraft:custom_data={item:"silent_faith",itemRarity:1,itemType:1},max_stack_size=2,tooltip_style="minecraft:uncommon/passive"] 1

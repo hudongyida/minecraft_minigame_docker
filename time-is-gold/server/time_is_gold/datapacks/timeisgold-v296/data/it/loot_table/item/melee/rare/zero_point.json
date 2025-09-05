@@ -1,0 +1,87 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.zero_point.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.zero_point.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.zero_point.lore.2"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "10",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.4",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:rare/melee",
+                                "custom_name": {
+                                    "translate": "item.zero_point.name"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 9,
+                                        "id": "zero_point_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.6,
+                                        "id": "zero_point_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_data": {
+                                    "item": "zero_point",
+                                    "itemRarity": 2,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

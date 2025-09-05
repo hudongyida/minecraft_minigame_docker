@@ -1,0 +1,1 @@
+$execute as @n[type=block_display,tag=item.automaton_turret.id-$(playerid),tag=item.automaton_turret.head,distance=..3] at @s run data merge entity @s {start_interpolation:0,interpolation_duration:2,transformation:{translation:[-0.5f,-0.5f,-0.88f]}}

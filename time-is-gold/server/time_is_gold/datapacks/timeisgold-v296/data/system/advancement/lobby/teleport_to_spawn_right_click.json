@@ -1,0 +1,32 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"lobby_teleport_to_spawn"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "system:lobby/inventory/item/teleport_to_spawn_right_click"
+    }
+}

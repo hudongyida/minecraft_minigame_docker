@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:empty",
+    "pools": 
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "system:special_rooms/quiet_forest/weapon",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "system:special_rooms/quiet_forest/ability",
+                    "weight": 100
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shulker_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.knuckles.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.knuckles.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.knuckles.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.knuckles.lore.3"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "4",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "4",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.knuckles.name"
+                                },
+                                "custom_data": {
+                                    "item": "knuckles",
+                                    "itemRarity": 1,
+                                    "itemType": 2
+                                },
+                                "max_stack_size": 1,
+                                "consumable": {
+                                    "consume_seconds": 2147483647,
+                                    "animation": "bow"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "item.knuckles.speed",
+                                        "type": "attack_speed",
+                                        "amount": 0,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "id": "item.knuckles.damage",
+                                        "type": "attack_damage",
+                                        "amount": 3,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:uncommon/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

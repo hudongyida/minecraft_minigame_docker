@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=dungeon.special_rooms.shop.fusion_crafter.marker.manager] at @s run function system:dungeon/special_rooms/shop/operation/fusion_crafter/step

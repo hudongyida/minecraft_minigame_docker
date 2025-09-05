@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type_specific": {
+            "type": "minecraft:player"
+        },
+        "movement": {
+            "fall_distance": {
+                "min": 3.5
+            }
+        }
+    }
+}

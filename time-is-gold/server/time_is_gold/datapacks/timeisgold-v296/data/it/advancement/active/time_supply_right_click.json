@@ -1,0 +1,32 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"time_supply"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/active/time_supply/right_click"
+    }
+}

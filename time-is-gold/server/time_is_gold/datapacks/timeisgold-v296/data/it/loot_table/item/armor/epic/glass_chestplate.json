@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    [
+                                        {
+                                            "text": "\u231a +20.0s",
+                                            "color": "aqua",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\u231a +0.0%",
+                                            "color": "green",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "translate": "item.glass_chestplate.lore.0"
+                                        }
+                                    ]
+                                ],
+                                "attribute_modifiers": [],
+                                "custom_name": {
+                                    "translate": "item.glass_chestplate.name"
+                                },
+                                "custom_data": {
+                                    "item": "glass_chestplate",
+                                    "itemRarity": 3,
+                                    "itemType": 3,
+                                    "armor": {
+                                        "additive": 200,
+                                        "multiplicative": 0
+                                    }
+                                },
+                                "max_damage": 16,
+                                "tooltip_style": "minecraft:epic/armor"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

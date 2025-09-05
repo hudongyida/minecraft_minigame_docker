@@ -1,0 +1,93 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.katana.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.katana.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.katana.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.katana.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.katana.lore.4"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "12",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.6",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 11.0,
+                                        "id": "katana_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.4,
+                                        "id": "katana_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.katana.name"
+                                },
+                                "custom_data": {
+                                    "item": "katana",
+                                    "itemRarity": 3,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:epic/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

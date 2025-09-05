@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.rage_inducing_potion.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.rage_inducing_potion.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.rage_inducing_potion.lore.2"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:uncommon/expendables",
+                                "custom_name": {
+                                    "translate": "item.rage_inducing_potion.name"
+                                },
+                                "custom_data": {
+                                    "item": "rage_inducing_potion",
+                                    "itemRarity": 1,
+                                    "itemType": 4
+                                },
+                                "potion_contents": {
+                                    "custom_color": 16772608,
+                                    "custom_effects": [
+                                        {
+                                            "amplifier": 0,
+                                            "duration": 1200,
+                                            "id": "minecraft:strength"
+                                        }
+                                    ]
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "potion_contents",
+                                        "potion_duration_scale"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

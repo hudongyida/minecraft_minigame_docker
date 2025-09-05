@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/common/chicken_shooter"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/common/film_camera"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/common/rocket_launcher_2"
+                }
+            ]
+        }
+    ]
+}

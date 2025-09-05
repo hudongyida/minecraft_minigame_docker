@@ -1,0 +1,235 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/ar_m"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/barricade"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/dike_justice"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/muleta"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/pastbound_eye"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/purifying_salt"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/soul_prison"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/taser"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/tnt"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/top_hat"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/tremor_eye"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/active/uncommon/vampire_fang"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/uncommon/chainmail_boots"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/uncommon/chainmail_chestplate"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/uncommon/chainmail_helmet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/uncommon/chainmail_leggings"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/armor/uncommon/rusty_shield"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/uncommon/assassin_dagger"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/uncommon/bamboo_spear"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/uncommon/knuckles"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/uncommon/lancet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/uncommon/manchineel_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/uncommon/rapier"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/uncommon/throwing_knife"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/uncommon/time_shard"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/chiseled_comet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/contrary_wind"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/deciphering_monocle"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/door_breaching_manual"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/hedgehog_plushie"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/metal_detector"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/metronome"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/moonwalker"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/noble_leap"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/scabbard"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/sigil_of_strength"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/silent_faith"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/passive/uncommon/unstabilization_anchor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/uncommon/antique_transformer"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/uncommon/boomerang"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/uncommon/euclidean_transformer"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/uncommon/hunter_bow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/uncommon/poison_eproce"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/uncommon/rocket_launcher_3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/ranged/uncommon/trumpet"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+execute if score @s item.windup_clock.tick matches 0.. run function it:tech/active/windup_clock/operation/cancel

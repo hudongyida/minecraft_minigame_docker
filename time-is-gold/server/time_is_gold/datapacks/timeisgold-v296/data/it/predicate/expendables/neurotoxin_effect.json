@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate":
+    {
+        "effects":
+        {
+            "darkness":
+            {
+                "amplifier": 22,
+                "visible": false
+            }
+        }
+    }
+}

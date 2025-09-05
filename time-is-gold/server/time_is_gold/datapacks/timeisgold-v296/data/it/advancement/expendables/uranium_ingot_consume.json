@@ -1,0 +1,32 @@
+{
+    "criteria":
+    {
+        "right_click":
+        {
+            "trigger": "minecraft:consume_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"uranium_ingot"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "right_click"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/expendables/uranium_ingot/on_consume"
+    }
+}

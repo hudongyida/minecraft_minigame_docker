@@ -1,0 +1,1 @@
+give @s armor_stand[minecraft:entity_data={Tags:["dungeon.operation_pos","dungeon.quiet_forest_shop_pos"],id:"minecraft:armor_stand"},minecraft:custom_name={"text":"Quiet Forest Shop", "color":"red", "italic":false},minecraft:lore=[[{"text":""}],[{"text":"DEBUG ITEM","color":"#ff5555","italic":false,"bold":true}]]] 1

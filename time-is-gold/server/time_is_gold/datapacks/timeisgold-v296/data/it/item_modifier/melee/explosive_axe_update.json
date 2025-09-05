@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers":
+        [
+            {
+                "attribute": "minecraft:attack_damage",
+                "id": "explosive_axe_attack_damage",
+                "amount":
+                {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "item.explosive_axe.damage_value",
+                    "scale": 1
+                },
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:attack_speed",
+                "id": "explosive_axe_attack_speed",
+                "amount": -2.8,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    }
+]

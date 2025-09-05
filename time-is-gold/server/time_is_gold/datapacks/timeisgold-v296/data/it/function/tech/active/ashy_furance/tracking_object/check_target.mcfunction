@@ -1,0 +1,1 @@
+$execute as @s unless entity $(targetuuid) run data remove entity @s data.targetuuid

@@ -1,0 +1,2 @@
+execute as @e[type=marker,tag=bosses.the_shaman.pattern3.chalice.type1.marker.display_area] at @s run function bosses:tech/the_shaman/pattern3/type1/vfx/display_area
+execute as @e[type=marker,tag=bosses.the_shaman.pattern3.chalice.type1.marker.wave] at @s run function bosses:tech/the_shaman/pattern3/type1/wave/step

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=bosses.the_shaman.pattern2.marker.mirror.prep] run function bosses:tech/the_shaman/pattern2/place_mirror/step

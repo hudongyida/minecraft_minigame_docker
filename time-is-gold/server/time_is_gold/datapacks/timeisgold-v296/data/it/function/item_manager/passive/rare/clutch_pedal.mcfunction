@@ -1,0 +1,1 @@
+give @s minecraft:tripwire_hook[minecraft:lore=[{"translate": "item.clutch_pedal.lore.0"}, {"translate": "item.clutch_pedal.lore.1"}],minecraft:custom_name={"translate":"item.clutch_pedal.name"},minecraft:custom_data={item:"clutch_pedal",itemRarity:2,itemType:1},max_stack_size=1,tooltip_style="minecraft:rare/passive"] 1

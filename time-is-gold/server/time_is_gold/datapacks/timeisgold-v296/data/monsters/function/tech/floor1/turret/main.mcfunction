@@ -1,0 +1,1 @@
+execute as @s at @s as @n[type=block_display,tag=turret_head,distance=..2] run function monsters:tech/floor1/turret/operation

@@ -1,0 +1,74 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:prismarine_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.time_shard.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.time_shard.lore.1"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "4",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "4",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:uncommon/melee",
+                                "custom_name": {
+                                    "translate": "item.time_shard.name"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "time_shard_attack_damage",
+                                        "slot": "mainhand",
+                                        "type": "attack_damage",
+                                        "amount": 3,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "custom_data": {
+                                    "item": "time_shard",
+                                    "itemRarity": 1,
+                                    "itemType": 2
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

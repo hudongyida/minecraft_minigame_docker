@@ -1,0 +1,2 @@
+tag @s add unlock_f_14
+tellraw @s [{"text":"- - - - - - - - - - - - - - - - - - - - - - - - - - -","color":"gray","bold":true},{"text":"\n你已解锁传奇装饰品!","color":"gold","bold":false},{"text":"\n粉丝 ","color":"dark_aqua","bold":true},{"text":"- ","color":"gray","bold":true},{"text":"Perry","color":"#1de027","bold":true},{"text":"\n你可以在末影箱内选择它!","color":"gray","bold":false}]

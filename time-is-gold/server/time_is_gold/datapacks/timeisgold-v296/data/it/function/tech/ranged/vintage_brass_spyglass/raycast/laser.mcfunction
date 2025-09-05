@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^ run particle dust_color_transition{to_color:[1.000, 0.839, 0.427], from_color:[0.768,0.517,0.145],scale:0.8} ^ ^ ^ 0.01 0.01 0.01 1 5

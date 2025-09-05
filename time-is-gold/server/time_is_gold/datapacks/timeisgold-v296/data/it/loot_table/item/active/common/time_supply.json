@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dropper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.time_supply.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.time_supply.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.time_supply.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.time_supply.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.time_supply.name"
+                                },
+                                "custom_data": {
+                                    "item": "time_supply",
+                                    "itemRarity": 0,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:common/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

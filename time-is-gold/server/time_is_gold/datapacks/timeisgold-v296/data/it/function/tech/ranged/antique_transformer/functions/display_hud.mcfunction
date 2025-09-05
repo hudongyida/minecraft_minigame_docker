@@ -1,0 +1,1 @@
+function it:tech/utils/cooldown/ui_display {value:"item.antique_transformer.cooldown", value_target:"@s", base:"item.antique_transformer.cooldown", base_target:"#MAX_VALUE", invert:1, item:antique_transformer}

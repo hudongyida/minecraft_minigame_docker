@@ -1,0 +1,2 @@
+execute as @s if score @s item.dike_justice.active matches 1.. run function system:ui/bar/set {value:"item.dike_justice.active", value_target:"@s", base:"item.dike_justice.active", base_target:"#MAX_VALUE", invert:0, item:dike_justice}
+execute as @s unless score @s item.dike_justice.active matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.dike_justice.cooldown", value_target:"@s", base:"item.dike_justice.cooldown", base_target:"#MAX_VALUE", invert:1, item:dike_justice}

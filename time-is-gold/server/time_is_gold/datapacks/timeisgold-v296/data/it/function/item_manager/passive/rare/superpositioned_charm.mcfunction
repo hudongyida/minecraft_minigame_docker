@@ -1,0 +1,1 @@
+give @s minecraft:stick[minecraft:lore=[{"translate": "item.superpositioned_charm.lore.0"}],minecraft:custom_name={"translate":"item.superpositioned_charm.name"},minecraft:custom_data={item:"superpositioned_charm",itemRarity:2,itemType:1},max_stack_size=64,item_model="minecraft:music_disc_precipice",tooltip_style="minecraft:rare/passive"] 1

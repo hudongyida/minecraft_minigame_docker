@@ -1,0 +1,1 @@
+give @s minecraft:crossbow[minecraft:lore=[{"translate": "item.energy_blaster.lore.0"}, {"translate": "item.energy_blaster.lore.1"}, {"translate": "item.energy_blaster.lore.2"}],minecraft:custom_name={"translate": "item.energy_blaster.name"},minecraft:custom_data={item:"energy_blaster",itemRarity:3,itemType:2},enchantments={quick_charge:2},tooltip_style="minecraft:epic/ranged"]

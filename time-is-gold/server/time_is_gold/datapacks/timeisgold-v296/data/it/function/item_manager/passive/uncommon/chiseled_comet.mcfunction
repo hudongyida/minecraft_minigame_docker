@@ -1,0 +1,1 @@
+give @s minecraft:end_stone[minecraft:lore=[{"translate": "item.chiseled_comet.lore.0"}, {"translate": "item.chiseled_comet.lore.1"}, {"translate": "item.chiseled_comet.lore.2"}],minecraft:custom_name={"translate": "item.chiseled_comet.name"},minecraft:custom_data={item:"chiseled_comet",itemRarity:1,itemType:1},max_stack_size=1,tooltip_style="minecraft:uncommon/passive"] 1

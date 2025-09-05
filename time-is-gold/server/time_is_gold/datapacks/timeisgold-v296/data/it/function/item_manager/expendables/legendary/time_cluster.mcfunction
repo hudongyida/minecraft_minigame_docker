@@ -1,0 +1,1 @@
+give @s minecraft:gold_block[minecraft:lore=[{"translate": "item.time_cluster.lore.0"}, {"translate": "item.time_cluster.lore.1"}],minecraft:custom_name={"translate": "item.time_cluster.name"},minecraft:custom_data={item:"time_cluster",itemPrice:3000,itemRarity:4,itemType:4},consumable={consume_seconds:2147483647},tooltip_style="minecraft:legendary/expendables"] 1

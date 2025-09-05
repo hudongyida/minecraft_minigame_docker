@@ -1,0 +1,1 @@
+execute as @s on origin if entity @s[tag=item.knuckles.wind_owner] run return 1

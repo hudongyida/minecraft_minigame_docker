@@ -1,0 +1,3 @@
+execute as @e[type=interaction,tag=system.shop.interaction] if function system:shop/purchase/player_check run function system:shop/purchase/operation/init
+execute as @e[type=item,tag=system.shop.item.showcase] at @s as @e[type=fishing_bobber,distance=..2] if entity @s run kill @s
+execute as @e[type=marker,tag=system.shop.marker.storage] at @s run function system:shop/prevent_cheese_showcase with entity @s data

@@ -1,0 +1,1 @@
+execute as @e[tag=monster,distance=..3] unless score @s item.poison_eproce.interval matches 1.. run function it:tech/ranged/poison_eproce/raycast/apply

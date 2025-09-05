@@ -1,0 +1,1 @@
+execute as @a if items entity @s hotbar.* *[custom_data~{item:saint_berries}] at @s as @e[tag=monster,distance=..5,tag=undead] run effect give @s slowness 1 1 false

@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.ballista.lore.0"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.ballista.name"
+                                },
+                                "custom_data": {
+                                    "item": "ballista",
+                                    "itemRarity": 3,
+                                    "itemType": 2
+                                },
+                                "enchantments": {
+                                    "minecraft:power": 10
+                                },
+                                "tooltip_style": "minecraft:epic/ranged",
+                                "max_damage": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

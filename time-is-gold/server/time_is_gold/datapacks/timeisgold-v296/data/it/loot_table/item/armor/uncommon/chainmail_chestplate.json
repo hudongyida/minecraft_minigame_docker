@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    [
+                                        {
+                                            "text": "\u231a +",
+                                            "color": "aqua",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "???",
+                                            "color": "aqua",
+                                            "obfuscated": true
+                                        },
+                                        {
+                                            "text": "s",
+                                            "color": "aqua"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\u231a +",
+                                            "color": "green",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "???",
+                                            "color": "green",
+                                            "obfuscated": true
+                                        },
+                                        {
+                                            "text": "%",
+                                            "color": "green"
+                                        }
+                                    ]
+                                ],
+                                "attribute_modifiers": [],
+                                "custom_name": {
+                                    "translate": "item.chainmail_chestplate.name"
+                                },
+                                "custom_data": {
+                                    "armor": {
+                                        "uninitialized": true
+                                    },
+                                    "item": "chainmail_chestplate",
+                                    "itemRarity": 1,
+                                    "itemType": 3
+                                },
+                                "tooltip_style": "minecraft:uncommon/armor"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

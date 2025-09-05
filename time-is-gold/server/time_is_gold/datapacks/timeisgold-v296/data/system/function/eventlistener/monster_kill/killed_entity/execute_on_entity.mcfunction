@@ -1,0 +1,1 @@
+$execute as $(monsteruuid) at @s run function monsters:tech/monster_abilities_killed_by_player

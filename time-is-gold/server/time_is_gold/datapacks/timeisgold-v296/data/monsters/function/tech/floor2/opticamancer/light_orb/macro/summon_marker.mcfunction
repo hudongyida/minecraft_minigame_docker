@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["opticamancer.light_orb.marker.direction.$(monsteruuid)"]}

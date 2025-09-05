@@ -1,0 +1,1 @@
+$summon chicken ~ ~ ~ {Tags:["item.chicken_shooter.chicken"],Motion:[$(x),$(y),$(z)],PersistenceRequired:true,data:{playerid:$(playerid)},DeathLootTable:"system:placeholder/none"}

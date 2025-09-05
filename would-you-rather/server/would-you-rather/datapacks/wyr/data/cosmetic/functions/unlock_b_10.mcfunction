@@ -1,0 +1,2 @@
+tag @s add unlock_b_10
+tellraw @s [{"text":"- - - - - - - - - - - - - - - - - - - - - - - - - - -","color":"gray","bold":true},{"text":"\n你已解锁史诗装饰品!","color":"dark_purple","bold":false},{"text":"\n横幅 ","color":"dark_aqua","bold":true},{"text":"- ","color":"gray","bold":true},{"text":"史莱姆","color":"#ffff40","bold":true},{"text":"\n你可以在末影箱内选择它!","color":"gray","bold":false}]

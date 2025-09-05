@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run kill @e[type=armor_stand,tag=bosses.the_shaman.pattern3.chalice.armor_stand.$(selfuuid),distance=..3]

@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name":[{"text":"旋转控制[锁定]","color":"white","italic":false}]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[技能说明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "切换自身拟态是否跟随视角旋转",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,Tags:[\"ability\",\"hider_ability\",\"rotation_lock\",\"no_drop\"],HideFlags:63}"
+            },
+	    {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:vanishing_curse": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

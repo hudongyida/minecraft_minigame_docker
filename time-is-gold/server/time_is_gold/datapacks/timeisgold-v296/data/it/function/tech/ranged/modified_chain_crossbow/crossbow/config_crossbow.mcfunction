@@ -1,0 +1,2 @@
+execute at @s as @n[tag=item.utils.crossbow.armor_stand,type=armor_stand] run data modify entity @s equipment.mainhand.components.minecraft:custom_data.chain_arrow set value 4
+#scoreboard players set @s item.modified_chain_crossbow.chain_arrow 5

@@ -1,0 +1,2 @@
+$execute align y positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["bosses.the_shaman.pattern1.mirror_shard.marker","bosses.the_shaman.pattern1.mirror_shard.marker.uninitialized"],data:{bossuuid:"$(bossuuid)"}}
+execute align y positioned ~ ~ ~ as @n[type=marker,tag=bosses.the_shaman.pattern1.mirror_shard.marker.uninitialized] at @s run function bosses:tech/the_shaman/pattern6/clone/mirror_shard/set_data

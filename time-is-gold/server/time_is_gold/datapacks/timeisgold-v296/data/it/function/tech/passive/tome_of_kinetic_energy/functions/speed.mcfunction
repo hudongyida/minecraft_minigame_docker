@@ -1,0 +1,10 @@
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/slow run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 10
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/walk run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 40
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/sprint run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 70
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/speed_slow run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 100
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/speed_medio run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 130
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/speed_fast run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 160
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/rapid run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 190
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/blink run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 220
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/turbo run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 250
+execute as @s if predicate it:passive/tome_of_kinetic_energy_speed/sonic run return run scoreboard players set @s item.tome_of_kinetic_energy.speed 500

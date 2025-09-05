@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:anvil",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.taser.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.taser.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.taser.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.taser.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.taser.name"
+                                },
+                                "custom_data": {
+                                    "item": "taser",
+                                    "itemRarity": 1,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:uncommon/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

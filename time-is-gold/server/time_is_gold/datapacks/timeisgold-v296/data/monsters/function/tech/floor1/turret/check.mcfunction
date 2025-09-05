@@ -1,0 +1,1 @@
+$execute unless entity @e[type=slime,tag=turret_id_$(id)] run return 1

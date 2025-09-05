@@ -1,0 +1,1 @@
+give @s minecraft:decorated_pot[custom_name=[{"text":"Locked Decorated Pot","italic":false}],container=[{item:{id:"minecraft:barrier",components:{custom_name:[{"text":"Bruh","color":"red","italic":false}],lore:[[{"text":"why","color":"gray","italic":false}]],enchantment_glint_override:true}},slot:0}]] 1

@@ -1,0 +1,1 @@
+give @s armor_stand[minecraft:entity_data={Tags:["dungeon.operation_pos","dungeon.shop_item_fusion_pos"],id:"minecraft:armor_stand",PortalCooldown:2147483647,Rotation:[0f,0f]},minecraft:custom_name={"text":"Shop Item Fusion", "color":"gold", "italic":false}] 1

@@ -1,0 +1,1 @@
+function animated_java:scan_effect/zzzzzzzz/animations/scanning/pause_as_root

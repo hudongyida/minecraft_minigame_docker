@@ -1,0 +1,1 @@
+give @s minecraft:miner_pottery_sherd[minecraft:lore=[{"translate": "item.sigil_of_leap.lore.0"}, {"translate": "item.sigil_of_leap.lore.1"}, {"translate": "item.sigil_of_leap.lore.2"}],minecraft:custom_name={"translate":"item.sigil_of_leap.name"},minecraft:custom_data={item:"sigil_of_leap",itemRarity:0,itemType:1},tooltip_style="minecraft:common/passive"]

@@ -1,0 +1,1 @@
+tag @s add item.utils.entity.on_sight.final_target

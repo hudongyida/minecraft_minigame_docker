@@ -1,0 +1,2 @@
+execute as @s if score @s bosses.the_shaman.pattern1.cooldown matches 1.. run scoreboard players remove @s bosses.the_shaman.pattern1.cooldown 1
+execute as @s at @s unless score @s bosses.the_shaman.pattern1.cooldown matches 1.. if entity @p[predicate=system:player,distance=..50] run function bosses:tech/the_shaman/pattern6/clone/mirror_shard/use_pattern1

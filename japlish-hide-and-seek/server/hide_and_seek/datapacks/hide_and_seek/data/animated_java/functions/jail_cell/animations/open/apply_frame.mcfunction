@@ -1,0 +1,2 @@
+execute if entity @s[tag=aj.jail_cell.root] run function animated_java:jail_cell/zzzzzzzz/animations/open/apply_frame_as_root
+execute if entity @s[tag=!aj.jail_cell.root] run tellraw @a ["",{"text":"["},{"text":"Animated Java","color":"aqua"},{"text":"] "},{"text":"ERROR ☠","color":"red"},{"text":" > ","color":"gray"},[{"text":"The function","color":"yellow"},{"text":" animated_java:jail_cell/animations/open/apply_frame ","color":"blue"},{"text":"must be run"},{"text":" as ","color":"red"},{"text":"the root entity!"}]]

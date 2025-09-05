@@ -1,0 +1,1 @@
+execute as @a if items entity @s hotbar.* *[custom_data~{item:holy_berries}] at @s as @e[tag=monster,distance=..5,tag=undead] unless entity @s[tag=item.holy_berries.apply] run function it:tech/passive/holy_berries/sink

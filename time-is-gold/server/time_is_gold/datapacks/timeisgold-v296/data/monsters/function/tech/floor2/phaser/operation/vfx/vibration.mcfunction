@@ -1,0 +1,1 @@
+$particle vibration{arrival_in_ticks:1, destination:{pos:[$(x), $(y), $(z)], type:"minecraft:block"}} ~ ~ ~ 0.25 0.25 0.25 0 8 force

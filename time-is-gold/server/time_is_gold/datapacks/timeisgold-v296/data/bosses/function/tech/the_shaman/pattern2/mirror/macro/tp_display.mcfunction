@@ -1,0 +1,1 @@
+$execute as @s at @s rotated as @s positioned ~ ~ ~ run tp @e[type=block_display,tag=bosses.the_shaman.mirror.block_display.$(selfuuid)] ~ ~ ~ ~ ~

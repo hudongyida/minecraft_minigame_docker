@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glow_ink_sac",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.air_shotter.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.air_shotter.lore.1"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.air_shotter.name"
+                                },
+                                "custom_data": {
+                                    "item": "air_shotter",
+                                    "itemRarity": 0,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:common/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

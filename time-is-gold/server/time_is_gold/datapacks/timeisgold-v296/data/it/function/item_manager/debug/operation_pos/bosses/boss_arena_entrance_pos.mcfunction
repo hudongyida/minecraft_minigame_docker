@@ -1,0 +1,1 @@
+give @s armor_stand[minecraft:entity_data={Tags:["dungeon.operation_pos","dungeon.boss_arena_entrance_pos"],id:"minecraft:armor_stand",PortalCooldown:2147483647,Rotation:[0f,0f]},minecraft:custom_name={"text":"Boss Arena Entrance", "color":"red", "italic":false},minecraft:lore=[[{"text":""}],[{"text":"DEBUG ITEM","color":"#ff5555","italic":false,"bold":true}]]] 1

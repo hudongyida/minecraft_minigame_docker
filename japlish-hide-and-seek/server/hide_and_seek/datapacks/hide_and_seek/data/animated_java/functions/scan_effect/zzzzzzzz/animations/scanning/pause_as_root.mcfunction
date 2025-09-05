@@ -1,0 +1,1 @@
+tag @s remove aj.scan_effect.animation.scanning

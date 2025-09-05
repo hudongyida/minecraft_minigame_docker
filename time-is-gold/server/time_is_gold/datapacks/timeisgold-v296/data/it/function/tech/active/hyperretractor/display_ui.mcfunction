@@ -1,0 +1,2 @@
+execute as @s if score @s item.hyperretractor.tick matches 1.. run function system:ui/bar/set {value:"item.hyperretractor.tick", value_target:"@s", base:"item.hyperretractor.tick", base_target:"#MAX_VALUE", invert:0, item:hyperretractor}
+execute as @s unless score @s item.hyperretractor.tick matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.hyperretractor.cooldown", value_target:"@s", base:"item.hyperretractor.cooldown", base_target:"#MAX_VALUE", invert:1, item:hyperretractor}

@@ -1,0 +1,1 @@
+$execute at @s as @n[type=marker,tag=bosses.the_shaman.pattern6.marker.clone_pos_temp] at @s run function bosses:tech/the_shaman/pattern6/clone/summon/init {bossuuid:"$(monsteruuid)"}

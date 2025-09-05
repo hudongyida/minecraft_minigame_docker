@@ -1,0 +1,2 @@
+execute positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["item.time_shard.marker.stasis_field", "item.time_shard.marker.stasis_field.uninitialized"]}
+execute positioned ~ ~ ~ as @n[type=marker,tag=item.time_shard.marker.stasis_field.uninitialized,distance=..0.5] run function it:tech/melee/time_shard/operation/set_data

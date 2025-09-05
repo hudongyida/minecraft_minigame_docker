@@ -1,0 +1,3 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon marker ~ ~ ~ {Tags:["dungeon.special_rooms.shop.fusion_crafter.marker.manager","dungeon.npc"]}
+execute align xyz positioned ~0.5 ~1.5 ~0.5 run summon text_display ~ ~ ~ {billboard:"vertical",see_through:0b,alignment:"center",Tags:["dungeon.special_rooms.shop.fusion_crafter.text_display"],brightness:{sky:15,block:10},text:{"color":"aqua","shadow_color":-46415,"text":"融合台"},background:0}
+execute positioned ~ ~ ~ run function system:dungeon/special_rooms/shop/operation/fusion_crafter/gui/reset

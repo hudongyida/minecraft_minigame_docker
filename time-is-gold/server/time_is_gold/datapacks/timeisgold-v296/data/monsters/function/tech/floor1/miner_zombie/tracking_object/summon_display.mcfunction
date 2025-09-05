@@ -1,0 +1,3 @@
+$summon item_display ~ ~ ~ {item:{id:"stone_pickaxe",count:1,components:{enchantment_glint_override:true}},Tags:[monsters.floor1.miner_zombie.item_display.$(monsteruuid)],teleport_duration:1,interpolation_duration:1,transformation:{left_rotation:[0.393f,-0.588f,-0.393f,0.588f],right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f],translation:[0f,0f,0f]}}
+
+$execute rotated as @s at @s positioned ~-2 ~-2 ~-2 as @e[type=item_display,tag=monsters.floor1.miner_zombie.item_display.$(monsteruuid),dx=4,dy=4,dz=4,limit=1] run rotate @s ~ ~

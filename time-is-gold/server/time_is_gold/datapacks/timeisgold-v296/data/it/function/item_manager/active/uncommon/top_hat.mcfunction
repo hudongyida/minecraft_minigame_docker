@@ -1,0 +1,1 @@
+give @s minecraft:cauldron[minecraft:lore=[{"translate": "item.top_hat.lore.0"}, {"translate": "item.top_hat.lore.1"}, {"translate": "item.top_hat.lore.2"}],minecraft:custom_name={"translate":"item.top_hat.name"},minecraft:custom_data={item:"top_hat",itemRarity:1,itemType:0},consumable={consume_seconds:2147483647},max_stack_size=1,tooltip_style="minecraft:uncommon/active"] 1

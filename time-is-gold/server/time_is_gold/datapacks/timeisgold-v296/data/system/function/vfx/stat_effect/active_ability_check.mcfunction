@@ -1,0 +1,1 @@
+execute at @s run particle trial_omen ~ ~1 ~ 0.2 0.5 0.2 0 4 force

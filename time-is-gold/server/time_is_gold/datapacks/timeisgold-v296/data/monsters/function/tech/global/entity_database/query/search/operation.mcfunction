@@ -1,0 +1,1 @@
+$data modify storage timeisgold:entity_database output set from storage timeisgold:entity_database table.$(id)

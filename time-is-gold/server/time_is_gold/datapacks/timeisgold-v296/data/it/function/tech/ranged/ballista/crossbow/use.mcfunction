@@ -1,0 +1,1 @@
+playsound minecraft:entity.breeze.shoot hostile @a[distance=..10] ~ ~ ~ 0.25 0 0

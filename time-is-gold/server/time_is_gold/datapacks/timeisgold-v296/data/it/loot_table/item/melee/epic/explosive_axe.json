@@ -1,0 +1,102 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.explosive_axe.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.explosive_axe.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.explosive_axe.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.explosive_axe.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.explosive_axe.lore.4"
+                                    },
+                                    {
+                                        "translate": "item.explosive_axe.lore.5"
+                                    },
+                                    {
+                                        "translate": "item.explosive_axe.lore.6"
+                                    },
+                                    {
+                                        "translate": "item.explosive_axe.lore.7"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "13",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.3",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 12.0,
+                                        "id": "explosive_axe_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.7,
+                                        "id": "explosive_axe_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.explosive_axe.name"
+                                },
+                                "custom_data": {
+                                    "item": "explosive_axe",
+                                    "itemRarity": 3,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:epic/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

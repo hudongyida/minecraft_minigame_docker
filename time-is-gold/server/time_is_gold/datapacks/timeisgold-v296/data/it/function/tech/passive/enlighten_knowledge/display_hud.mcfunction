@@ -1,0 +1,2 @@
+scoreboard players add @s item.enlighten_knowledge.number_of_books 0
+title @s actionbar [{"translate": "item.enlighten_knowledge.display_hud"},{"score": {"name": "@s","objective": "item.enlighten_knowledge.number_of_books"},"color":"gold"}]

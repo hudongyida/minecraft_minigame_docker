@@ -1,0 +1,2 @@
+$title @a[scores={playerid=$(playerid)}] actionbar {"translate":"item.automaton_turret.notify.fuel_limited"}
+$execute as @a[scores={playerid=$(playerid)}] at @s run playsound minecraft:block.iron_door.close block @s ~ ~ ~ 1.0 2.0 1.0

@@ -1,0 +1,6 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.necro_transformer.cooldown}
+execute as @a[predicate=system:player] run function it:tech/utils/cooldown/ui_display {value:"item.necro_transformer.cooldown", value_target:"@s", base:"item.necro_transformer.cooldown", base_target:"#MAX_VALUE", invert:1, item:necro_transformer}
+
+execute as @a if items entity @s weapon.* *[custom_data~{item:necro_transformer}] unless score @s item.necro_transformer.charge matches 0.. run scoreboard players add @s item.necro_transformer.charge 0
+execute as @a if items entity @s weapon.mainhand *[custom_data~{item:necro_transformer}] if predicate it:sneaking run title @s actionbar [{"translate":"item.necro_transformer.charge"},{"score": {"name": "@s","objective": "item.necro_transformer.charge"},"color":"dark_red"}]
+execute as @a if items entity @s weapon.offhand *[custom_data~{item:necro_transformer}] run title @s actionbar [{"translate":"item.necro_transformer.charge"},{"score": {"name": "@s","objective": "item.necro_transformer.charge"},"color":"dark_red"}]

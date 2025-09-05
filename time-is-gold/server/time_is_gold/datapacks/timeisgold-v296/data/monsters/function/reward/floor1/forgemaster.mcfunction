@@ -1,0 +1,2 @@
+execute as @s[tag=!monsters.warped_kill] run function monsters:tech/global/utils/reward/init {value:160}
+execute as @s[tag=monsters.warped_kill] run function monsters:tech/global/utils/reward/init {value:480}

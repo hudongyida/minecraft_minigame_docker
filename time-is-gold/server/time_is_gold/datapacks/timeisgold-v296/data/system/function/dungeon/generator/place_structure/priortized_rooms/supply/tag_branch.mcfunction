@@ -1,0 +1,4 @@
+scoreboard players set #TEMP dungeon.special_rooms.supply.entrance_distance 123456789
+
+execute as @e[type=armor_stand,tag=dungeon.generator.vertex.branch,tag=!dungeon.generator.special_room] if score @s dungeon.generator.bfs.depth >= #MIN_VALUE dungeon.special_rooms.supply.entrance_distance if score @s dungeon.generator.bfs.depth <= #MAX_VALUE dungeon.special_rooms.supply.entrance_distance run scoreboard players operation #TEMP dungeon.special_rooms.supply.entrance_distance < @s dungeon.generator.bfs.depth
+execute as @e[type=armor_stand,tag=dungeon.generator.vertex.branch,tag=!dungeon.generator.special_room] if score @s dungeon.generator.bfs.depth = #TEMP dungeon.special_rooms.supply.entrance_distance run tag @s add dungeon.generator.vertex.supply_target

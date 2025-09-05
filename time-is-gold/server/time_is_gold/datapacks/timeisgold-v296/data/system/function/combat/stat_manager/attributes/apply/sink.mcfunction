@@ -1,0 +1,1 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:attack_damage modifier add system.combat.melee.sink_total_multiplier $(sink_total_multiplier) add_multiplied_total

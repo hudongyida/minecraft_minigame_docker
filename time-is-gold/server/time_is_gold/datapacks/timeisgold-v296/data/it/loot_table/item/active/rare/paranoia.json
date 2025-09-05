@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.paranoia.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.paranoia.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.paranoia.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.paranoia.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.paranoia.lore.4"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.paranoia.name"
+                                },
+                                "custom_data": {
+                                    "item": "paranoia",
+                                    "itemRarity": 2,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:rare/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

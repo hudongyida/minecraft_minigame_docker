@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:entity",
+    "pools":[
+        {
+            "rolls":
+            {
+                "type": "binomial",
+                "n": 2,
+                "p": 0.3
+            },
+            "bonus_rolls":
+            {
+                "type": "binomial",
+                "n": 1,
+                "p": 0.03
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/expendables/common/arrow"
+                }
+            ]
+        },
+        {
+            "rolls":
+            {
+                "type": "binomial",
+                "n": 1,
+                "p": 0.33
+            },
+            "bonus_rolls":
+            {
+                "type": "binomial",
+                "n": 1,
+                "p": 0.033
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/expendables/common/gunpowder"
+                }
+            ]
+        }
+    ]
+}

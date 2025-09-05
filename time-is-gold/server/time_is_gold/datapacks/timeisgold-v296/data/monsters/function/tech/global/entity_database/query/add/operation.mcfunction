@@ -1,0 +1,1 @@
+$data modify storage timeisgold:entity_database table.$(id) set from storage timeisgold:function_api stack[-1].data

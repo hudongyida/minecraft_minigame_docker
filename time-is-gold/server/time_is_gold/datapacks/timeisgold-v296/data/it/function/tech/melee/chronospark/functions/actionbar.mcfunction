@@ -1,0 +1,111 @@
+# Charge 0
+execute as @s unless score @s item.chronospark.harmony_charge matches 1..8 if score @s item.chronospark.harmony_charge_tick matches 1..3 run return run title @s actionbar \
+    [{"text":"|","color":"#c0e49a"},{"text":"|||||||||||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true}]
+execute as @s unless score @s item.chronospark.harmony_charge matches 1..8 if score @s item.chronospark.harmony_charge_tick matches 4..7 run return run title @s actionbar \
+    [{"text":"||","color":"#c0e49a"},{"text":"||||||||||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true}]
+execute as @s unless score @s item.chronospark.harmony_charge matches 1..8 if score @s item.chronospark.harmony_charge_tick matches 8..11 run return run title @s actionbar \
+    [{"text":"|||","color":"#c0e49a"},{"text":"|||||||||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true}]
+execute as @s unless score @s item.chronospark.harmony_charge matches 1..8 if score @s item.chronospark.harmony_charge_tick matches 12..15 run return run title @s actionbar \
+    [{"text":"||||","color":"#c0e49a"},{"text":"||||||||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true}]
+execute as @s unless score @s item.chronospark.harmony_charge matches 1..8 if score @s item.chronospark.harmony_charge_tick matches 16..19 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true}]
+
+# Charge 1
+execute as @s if score @s item.chronospark.harmony_charge matches 1 if score @s item.chronospark.harmony_charge_tick matches 1..3 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|","color":"#9fe2a3"},{"text":"||||||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#9fe2a3"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 1 if score @s item.chronospark.harmony_charge_tick matches 4..7 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"||","color":"#9fe2a3"},{"text":"|||||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#9fe2a3"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 1 if score @s item.chronospark.harmony_charge_tick matches 8..11 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||","color":"#9fe2a3"},{"text":"||||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#9fe2a3"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 1 if score @s item.chronospark.harmony_charge_tick matches 12..15 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"||||","color":"#9fe2a3"},{"text":"|||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#9fe2a3"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 1 if score @s item.chronospark.harmony_charge_tick matches 16..19 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"||||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#9fe2a3"}]
+
+# Charge 2
+execute as @s if score @s item.chronospark.harmony_charge matches 2 if score @s item.chronospark.harmony_charge_tick matches 1..3 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|","color":"#7ddeb2"},{"text":"|||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#7ddeb2"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 2 if score @s item.chronospark.harmony_charge_tick matches 4..7 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"||","color":"#7ddeb2"},{"text":"||||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#7ddeb2"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 2 if score @s item.chronospark.harmony_charge_tick matches 8..11 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||","color":"#7ddeb2"},{"text":"|||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#7ddeb2"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 2 if score @s item.chronospark.harmony_charge_tick matches 12..15 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"||||","color":"#7ddeb2"},{"text":"||||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#7ddeb2"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 2 if score @s item.chronospark.harmony_charge_tick matches 16..19 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#7ddeb2"}]
+
+# Charge 3
+execute as @s if score @s item.chronospark.harmony_charge matches 3 if score @s item.chronospark.harmony_charge_tick matches 1..3 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|","color":"#5cd9c3"},{"text":"||||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#5cd9c3"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 3 if score @s item.chronospark.harmony_charge_tick matches 4..7 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"||","color":"#5cd9c3"},{"text":"|||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#5cd9c3"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 3 if score @s item.chronospark.harmony_charge_tick matches 8..11 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||","color":"#5cd9c3"},{"text":"||||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#5cd9c3"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 3 if score @s item.chronospark.harmony_charge_tick matches 12..15 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"||||","color":"#5cd9c3"},{"text":"|||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#5cd9c3"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 3 if score @s item.chronospark.harmony_charge_tick matches 16..19 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"||||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#5cd9c3"}]
+
+# Charge 4
+execute as @s if score @s item.chronospark.harmony_charge matches 4 if score @s item.chronospark.harmony_charge_tick matches 1..3 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|","color":"#3fd2d5"},{"text":"|||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#3fd2d5"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 4 if score @s item.chronospark.harmony_charge_tick matches 4..7 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"||","color":"#3fd2d5"},{"text":"||||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#3fd2d5"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 4 if score @s item.chronospark.harmony_charge_tick matches 8..11 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||","color":"#3fd2d5"},{"text":"|||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#3fd2d5"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 4 if score @s item.chronospark.harmony_charge_tick matches 12..15 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"||||","color":"#3fd2d5"},{"text":"||||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#3fd2d5"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 4 if score @s item.chronospark.harmony_charge_tick matches 16..19 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#3fd2d5"}]
+
+# Charge 5
+execute as @s if score @s item.chronospark.harmony_charge matches 5 if score @s item.chronospark.harmony_charge_tick matches 1..3 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|","color":"#33c9e5"},{"text":"||||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#33c9e5"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 5 if score @s item.chronospark.harmony_charge_tick matches 4..7 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"||","color":"#33c9e5"},{"text":"|||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#33c9e5"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 5 if score @s item.chronospark.harmony_charge_tick matches 8..11 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||","color":"#33c9e5"},{"text":"||||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#33c9e5"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 5 if score @s item.chronospark.harmony_charge_tick matches 12..15 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"||||","color":"#33c9e5"},{"text":"|||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#33c9e5"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 5 if score @s item.chronospark.harmony_charge_tick matches 16..19 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"||||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#33c9e5"}]
+
+# Charge 6
+execute as @s if score @s item.chronospark.harmony_charge matches 6 if score @s item.chronospark.harmony_charge_tick matches 1..3 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"|","color":"#44bef0"},{"text":"|||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#44bef0"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 6 if score @s item.chronospark.harmony_charge_tick matches 4..7 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"||","color":"#44bef0"},{"text":"||||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#44bef0"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 6 if score @s item.chronospark.harmony_charge_tick matches 8..11 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"|||","color":"#44bef0"},{"text":"|||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#44bef0"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 6 if score @s item.chronospark.harmony_charge_tick matches 12..15 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"||||","color":"#44bef0"},{"text":"||||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#44bef0"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 6 if score @s item.chronospark.harmony_charge_tick matches 16..19 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"|||||","color":"#44bef0"},{"text":"|||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#44bef0"}]
+
+# Charge 7
+execute as @s if score @s item.chronospark.harmony_charge matches 7 if score @s item.chronospark.harmony_charge_tick matches 1..3 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"|||||","color":"#44bef0"},{"text":"|","color":"#62b2f4"},{"text":"||||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#62b2f4"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 7 if score @s item.chronospark.harmony_charge_tick matches 4..7 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"|||||","color":"#44bef0"},{"text":"||","color":"#62b2f4"},{"text":"|||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#62b2f4"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 7 if score @s item.chronospark.harmony_charge_tick matches 8..11 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"|||||","color":"#44bef0"},{"text":"|||","color":"#62b2f4"},{"text":"||","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#62b2f4"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 7 if score @s item.chronospark.harmony_charge_tick matches 12..15 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"|||||","color":"#44bef0"},{"text":"||||","color":"#62b2f4"},{"text":"|","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#62b2f4"}]
+execute as @s if score @s item.chronospark.harmony_charge matches 7 if score @s item.chronospark.harmony_charge_tick matches 16..19 run return run title @s actionbar \
+    [{"text":"|||||","color":"#c0e49a"},{"text":"|||||","color":"#9fe2a3"},{"text":"|||||","color":"#7ddeb2"},{"text":"|||||","color":"#5cd9c3"},{"text":"|||||","color":"#3fd2d5"},{"text":"|||||","color":"#33c9e5"},{"text":"|||||","color":"#44bef0"},{"text":"|||||","color":"#62b2f4"},{"text":"","color":"gray"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#62b2f4"}]
+
+# All Charge
+execute as @s if score @s item.chronospark.harmony_charge matches 8 run return run title @s actionbar \
+    [{"text":"|","color":"#f7971e"},{"text":"|","color":"#f7991d"},{"text":"|","color":"#f79a1c"},{"text":"|","color":"#f89c1c"},{"text":"|","color":"#f89d1b"},{"text":"|","color":"#f89f1a"},{"text":"|","color":"#f8a019"},{"text":"|","color":"#f8a219"},{"text":"|","color":"#f9a318"},{"text":"|","color":"#f9a517"},{"text":"|","color":"#f9a616"},{"text":"|","color":"#f9a816"},{"text":"|","color":"#f9a915"},{"text":"|","color":"#faab14"},{"text":"|","color":"#faac13"},{"text":"|","color":"#faae12"},{"text":"|","color":"#faaf12"},{"text":"|","color":"#fab111"},{"text":"|","color":"#fbb210"},{"text":"|","color":"#fbb40f"},{"text":"|","color":"#fbb50f"},{"text":"|","color":"#fbb70e"},{"text":"|","color":"#fcb80d"},{"text":"|","color":"#fcba0c"},{"text":"|","color":"#fcbb0c"},{"text":"|","color":"#fcbd0b"},{"text":"|","color":"#fcbe0a"},{"text":"|","color":"#fdc009"},{"text":"|","color":"#fdc108"},{"text":"|","color":"#fdc308"},{"text":"|","color":"#fdc407"},{"text":"|","color":"#fdc606"},{"text":"|","color":"#fec705"},{"text":"|","color":"#fec905"},{"text":"|","color":"#feca04"},{"text":"|","color":"#fecc03"},{"text":"|","color":"#fecd02"},{"text":"|","color":"#ffcf02"},{"text":"|","color":"#ffd001"},{"text":"|","color":"#ffd200"}," ",{"score":{"objective":"item.chronospark.harmony_charge","name":"@s"},"bold":true,"color":"#ffd200"}]
+
+
+
+#execute as @s if score @s item.chronospark.harmony_charge matches 1 run return run title @s actionbar [{"text":"❚","color":"gold"},{"text":" ❚ ❚ ❚ ❚ ❚ ❚ ❚","color":"gray"}]
+#execute as @s if score @s item.chronospark.harmony_charge matches 2 run return run title @s actionbar [{"text":"❚ ❚","color":"gold"},{"text":" ❚ ❚ ❚ ❚ ❚ ❚","color":"gray"}]
+#execute as @s if score @s item.chronospark.harmony_charge matches 3 run return run title @s actionbar [{"text":"❚ ❚ ❚","color":"gold"},{"text":" ❚ ❚ ❚ ❚ ❚","color":"gray"}]
+#execute as @s if score @s item.chronospark.harmony_charge matches 4 run return run title @s actionbar [{"text":"❚ ❚ ❚ ❚","color":"gold"},{"text":" ❚ ❚ ❚ ❚","color":"gray"}]
+#execute as @s if score @s item.chronospark.harmony_charge matches 5 run return run title @s actionbar [{"text":"❚ ❚ ❚ ❚ ❚","color":"gold"},{"text":" ❚ ❚ ❚","color":"gray"}]
+#execute as @s if score @s item.chronospark.harmony_charge matches 6 run return run title @s actionbar [{"text":"❚ ❚ ❚ ❚ ❚ ❚","color":"gold"},{"text":" ❚ ❚","color":"gray"}]
+#execute as @s if score @s item.chronospark.harmony_charge matches 7 run return run title @s actionbar [{"text":"❚ ❚ ❚ ❚ ❚ ❚ ❚","color":"gold"},{"text":" ❚","color":"gray"}]
+#execute as @s if score @s item.chronospark.harmony_charge matches 8 run return run title @s actionbar [{"text":"❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚","color":"gold"}]
+#title @s actionbar [{"text":"❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚","color":"gray"}]

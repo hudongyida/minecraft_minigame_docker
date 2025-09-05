@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate":
+    {
+        "targeted_entity":
+        {
+            "type": "minecraft:player",
+            "nbt": "{Tags:[\"item.wandering_soul.active\"]}"
+        }
+    }
+}

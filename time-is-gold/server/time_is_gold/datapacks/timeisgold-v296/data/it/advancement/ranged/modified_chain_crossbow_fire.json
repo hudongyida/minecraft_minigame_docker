@@ -1,0 +1,32 @@
+{
+    "criteria":
+    {
+        "event":
+        {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions":
+            {
+                "item":
+                {
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"modified_chain_crossbow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "event"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/ranged/modified_chain_crossbow/trigger"
+    }
+}

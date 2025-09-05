@@ -1,0 +1,3 @@
+execute at @s positioned ~ ~1 ~ run summon marker ~ ~ ~ {Tags:["bosses.automaton.pattern5.obstacle.marker.direction"], Rotation:[0f,90f]}
+execute at @s positioned ~ ~1 ~ as @n[type=marker,tag=bosses.automaton.pattern5.obstacle.marker.direction,distance=..0.5] at @s run function monsters:tech/global/utils/raycast/default/init with storage timeisgold:function_api stack[-1]
+execute at @s positioned ~ ~1 ~ run kill @n[type=marker,tag=bosses.automaton.pattern5.obstacle.marker.direction,distance=..0.5]

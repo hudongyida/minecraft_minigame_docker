@@ -1,0 +1,1 @@
+$playsound item.firecharge.use player @a ~ ~ ~ 1 $(pitch) 0

@@ -1,0 +1,2 @@
+execute as @e[type=marker,tag=zone_particle_1] at @s if entity @e[type=marker,tag=zone_particle_4,distance=..1] unless entity @e[type=marker,tag=particle_killer,distance=..1] run summon marker ~ ~ ~ {Tags:["particle_killer","zone"]}
+execute as @e[type=marker,tag=zone_particle_2] at @s if entity @e[type=marker,tag=zone_particle_3,distance=..1] unless entity @e[type=marker,tag=particle_killer,distance=..1] run summon marker ~ ~ ~ {Tags:["particle_killer","zone"]}

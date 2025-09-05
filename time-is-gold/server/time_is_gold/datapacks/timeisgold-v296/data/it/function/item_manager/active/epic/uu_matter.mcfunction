@@ -1,0 +1,1 @@
+give @s minecraft:magenta_dye[minecraft:lore=[{"translate": "item.uu_matter.lore.0"}, {"translate": "item.uu_matter.lore.1"}],minecraft:custom_name={"translate":"item.uu_matter.name"},minecraft:custom_data={item:"uu_matter",itemRarity:3,itemType:0},tooltip_style="minecraft:epic/active"] 1

@@ -1,0 +1,1 @@
+give @s minecraft:stick[minecraft:lore=[{"translate": "item.milk_vanilla_gelatto.lore.0"}],minecraft:tooltip_style="minecraft:common/expendables",minecraft:custom_name={"translate": "item.milk_vanilla_gelatto.name"},minecraft:custom_data={item:"milk_vanilla_gelatto",itemRarity:0,itemType:4,itemPrice:200},consumable={consume_seconds:2147483647},minecraft:item_model="snowball"] 1

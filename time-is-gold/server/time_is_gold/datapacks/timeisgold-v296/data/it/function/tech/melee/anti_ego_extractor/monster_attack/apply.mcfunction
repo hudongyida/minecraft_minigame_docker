@@ -1,0 +1,1 @@
+$function system:combat/modified_damage/magic/init {playerid:$(playerid), value:$(sink), knockback:0}

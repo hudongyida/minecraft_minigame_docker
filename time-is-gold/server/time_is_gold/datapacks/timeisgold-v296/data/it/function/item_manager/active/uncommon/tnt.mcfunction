@@ -1,0 +1,1 @@
+give @s minecraft:tnt[minecraft:lore=[{"translate": "item.tnt.lore.0"}, {"translate": "item.tnt.lore.1"}, {"translate": "item.tnt.lore.2"}],minecraft:custom_name={"translate": "item.tnt.name"},minecraft:custom_data={item:"tnt",itemRarity:1,itemType:0},consumable={consume_seconds:2147483647},max_stack_size=1,tooltip_style="minecraft:uncommon/active"] 1

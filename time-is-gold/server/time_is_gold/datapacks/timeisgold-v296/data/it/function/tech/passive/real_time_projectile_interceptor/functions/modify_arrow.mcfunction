@@ -1,0 +1,2 @@
+execute as @s store result score @s item.real_time_projectile_interceptor.chance run random value 1..100
+execute as @s if score @s item.real_time_projectile_interceptor.chance matches ..90 at @s run function it:tech/passive/real_time_projectile_interceptor/functions/set_motion

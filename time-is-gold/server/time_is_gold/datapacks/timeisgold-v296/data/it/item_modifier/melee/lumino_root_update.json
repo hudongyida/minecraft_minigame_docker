@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers":
+        [
+            {
+                "attribute": "minecraft:attack_damage",
+                "id": "lumino_root_attack_damage",
+                "amount":
+                {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "item.lumino_root.damage_value",
+                    "scale": 0.6
+                },
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:attack_speed",
+                "id": "lumino_root_attack_speed",
+                "amount": -2,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    }
+]

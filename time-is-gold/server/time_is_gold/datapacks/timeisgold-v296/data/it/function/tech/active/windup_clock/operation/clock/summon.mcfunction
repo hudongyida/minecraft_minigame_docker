@@ -1,0 +1,5 @@
+# $(playeruuid) - 아이템을 사용한 플레이어의 UUID Token
+
+$summon marker ~ ~ ~ {Tags:["item.windup_clock.marker.manager","item.windup_clock.marker.manager.uninitialized","item.windup_clock.marker.manager.$(playeruuid)"],data:{playeruuid:"$(playeruuid)",displayuuid:"",handuuid:""}}
+$summon item_display ~ ~ ~ {Tags:["item.windup_clock.item_display","item.windup_clock.item_display.$(playeruuid)"],item:{id:"minecraft:clock",count:1},teleport_duration:1,interpolation_duration:1,transformation:{scale:[0.75,0.75,0.75],left_rotation:[0.0,0.0,0.0,1.0],right_rotation:[0.0,0.0,0.0,1.0],translation:[0.0,1.0,0.0]}}
+$execute positioned ~ ~ ~ as @n[type=marker,tag=item.windup_clock.marker.manager.$(playeruuid),distance=..0.5] run function it:tech/active/windup_clock/operation/clock/set_display {playeruuid:"$(playeruuid)"}

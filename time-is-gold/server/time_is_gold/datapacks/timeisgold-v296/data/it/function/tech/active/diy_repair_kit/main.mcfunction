@@ -1,0 +1,1 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.diy_repair_kit.cooldown}

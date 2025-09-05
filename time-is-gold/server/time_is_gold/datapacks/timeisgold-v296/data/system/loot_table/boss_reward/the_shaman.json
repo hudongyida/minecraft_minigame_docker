@@ -1,0 +1,76 @@
+{
+    "type": "minecraft:chest",
+    "pools":
+    [
+        {
+            "rolls":
+            {
+                "type": "storage",
+                "storage": "timeisgold:loot_manager",
+                "path": "loot_chest.weapon"
+            },
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "weight": 940,
+                    "value": "system:floor_entry/floor2/weapon"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 60,
+                    "quality": 6,
+                    "value": "system:placeholder/none"
+                }
+            ]
+        },
+        {
+            "rolls":
+            {
+                "type": "storage",
+                "storage": "timeisgold:loot_manager",
+                "path": "loot_chest.ability"
+            },
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "system:floor_entry/floor2/ability"
+                }
+            ]
+        },
+        {
+            "rolls":
+            {
+                "type": "storage",
+                "storage": "timeisgold:loot_manager",
+                "path": "loot_chest.armor"
+            },
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "system:floor_entry/floor2/armor"
+                }
+            ]
+        },
+        {
+            "rolls":
+            {
+                "type": "storage",
+                "storage": "timeisgold:loot_manager",
+                "path": "loot_chest.expendables"
+            },
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "system:floor_entry/floor2/expendables"
+                }
+            ]
+        }
+    ]
+}

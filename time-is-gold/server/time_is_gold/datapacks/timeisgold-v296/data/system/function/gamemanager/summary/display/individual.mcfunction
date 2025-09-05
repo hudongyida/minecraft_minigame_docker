@@ -1,0 +1,5 @@
+tellraw @a [{"text":"                         ","color":"gray"},{"selector":"@s","color":"white"},{"text":" >","color":"gray"}]
+tellraw @a [{"text":"                         "},{"translate":"system.gamemanager.summary.time_earned"},{"score":{"name":"@s","objective":"system.gamemanager.summary.time_earned.integer"},"color":"green","extra":[{"text":".","color":"white"}]},{"score":{"name":"@s","objective":"system.gamemanager.summary.time_earned.decimal"},"color":"green","extra":[{"text":"s","color":"white"}]}]
+tellraw @a [{"text":"                         "},{"translate":"system.gamemanager.summary.damage_taken"},{"score":{"name":"@s","objective":"system.gamemanager.summary.damage_taken.integer"},"color":"green","extra":[{"text":".","color":"white"}]},{"score":{"name":"@s","objective":"system.gamemanager.summary.damage_taken.decimal"},"color":"green","extra":[{"text":"s","color":"white"}]}]
+tellraw @a [{"text":"                         "},{"translate":"system.gamemanager.summary.monsters_killed"},{"score":{"name":"@s","objective":"system.gamemanager.summary.monsters_killed"},"color":"green"}]
+tellraw @a ""

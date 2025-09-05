@@ -1,0 +1,1 @@
+$summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:$(blockname)"}, Motion:[0d,$(motion)d,0d], CancelDrop:true, DropItem:false}

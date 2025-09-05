@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.milk_vanilla_gelatto.lore.0"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:common/expendables",
+                                "custom_name": {
+                                    "translate": "item.milk_vanilla_gelatto.name"
+                                },
+                                "custom_data": {
+                                    "item": "milk_vanilla_gelatto",
+                                    "itemRarity": 0,
+                                    "itemType": 4,
+                                    "itemPrice": 200
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "item_model": "snowball"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

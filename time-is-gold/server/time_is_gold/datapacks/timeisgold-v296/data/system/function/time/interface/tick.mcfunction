@@ -1,0 +1,1 @@
+execute as @s[predicate=system:player] run function system:time/interface/update

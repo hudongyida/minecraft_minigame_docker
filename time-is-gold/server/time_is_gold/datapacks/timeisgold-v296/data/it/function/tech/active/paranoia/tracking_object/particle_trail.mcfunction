@@ -1,0 +1,1 @@
+$particle trail{color:[0.000,0.22,0.77],duration:15,target:[$(x)d, $(y)d, $(z)d]} ~ ~ ~ 0.5 0.5 0.5 0 1 force

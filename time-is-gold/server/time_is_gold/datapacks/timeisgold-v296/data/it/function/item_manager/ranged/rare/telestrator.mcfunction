@@ -1,0 +1,1 @@
+give @s minecraft:bow[minecraft:lore=[{"translate": "item.telestrator.lore.0"}, {"translate": "item.telestrator.lore.1"}, {"translate": "item.telestrator.lore.2"}],minecraft:custom_name={"translate": "item.telestrator.name"},minecraft:custom_data={item:"telestrator",itemRarity:2,itemType:2},minecraft:enchantments={"minecraft:power":1},tooltip_style="minecraft:rare/ranged"] 1

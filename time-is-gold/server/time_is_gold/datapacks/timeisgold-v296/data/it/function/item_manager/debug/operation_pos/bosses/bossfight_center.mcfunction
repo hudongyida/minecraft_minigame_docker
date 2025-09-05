@@ -1,0 +1,1 @@
+give @s minecraft:armor_stand[minecraft:entity_data={Tags:["dungeon.operation_pos","dungeon.bossfight_pos","bossfight_center"],id:"minecraft:armor_stand",PortalCooldown:2147483647,Rotation:[0f,0f]},minecraft:custom_name={"text":"Bossfight Center", "color":"red", "italic":false}] 1

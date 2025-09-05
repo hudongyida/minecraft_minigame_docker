@@ -1,0 +1,28 @@
+{
+    "parent": "system:gamemanager/player_death/root",
+    "criteria":
+    {
+        "death":
+        {
+            "trigger": "entity_hurt_player",
+            "conditions":
+            {
+                "damage":
+                {
+                    "source_entity":
+                    {
+                        "type": "minecraft:creeper",
+                        "nbt": "{Tags:[magnetic_field_creeper]}"
+                    },
+                    "blocked": false
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "death"
+        ]
+    ]
+}

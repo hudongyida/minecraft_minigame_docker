@@ -1,0 +1,89 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.throwing_knife.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.throwing_knife.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.throwing_knife.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.throwing_knife.lore.3"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "5",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "2",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:uncommon/melee",
+                                "custom_name": {
+                                    "translate": "item.throwing_knife.name"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 4.0,
+                                        "id": "throwing_knife_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.0,
+                                        "id": "throwing_knife_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_data": {
+                                    "item": "throwing_knife",
+                                    "itemRarity": 1,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

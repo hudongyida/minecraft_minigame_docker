@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crafter",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.counter_counter.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.counter_counter.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.counter_counter.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.counter_counter.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.counter_counter.lore.4"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.counter_counter.name"
+                                },
+                                "custom_data": {
+                                    "item": "counter_counter",
+                                    "itemRarity": 2,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:rare/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

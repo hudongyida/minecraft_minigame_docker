@@ -1,0 +1,1 @@
+$tag @s[tag=monster,tag=creeper] add item.autophagiease.target.$(playerid)

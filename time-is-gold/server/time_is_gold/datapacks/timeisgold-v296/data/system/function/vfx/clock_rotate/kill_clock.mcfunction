@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run kill @n[type=marker,tag=system.vfx.clock_rotate.marker,distance=..0.5]

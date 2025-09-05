@@ -1,0 +1,1 @@
+$execute as @n[type=tnt,tag=monsters.crystal_alchemyst.marker-$(selfuuid).tnt] at @s run function monsters:tech/floor2/crystal_alchemyst/functions/explode {monsteruuid:"$(monsteruuid)"}

@@ -1,0 +1,2 @@
+execute as @e[type=interaction,tag=system.lobby.social.interaction.discord] if function system:utils/interaction/interaction_check run function system:lobby/social/discord/init
+execute as @e[type=interaction,tag=system.lobby.social.interaction.youtube] if function system:utils/interaction/interaction_check run function system:lobby/social/youtube/init

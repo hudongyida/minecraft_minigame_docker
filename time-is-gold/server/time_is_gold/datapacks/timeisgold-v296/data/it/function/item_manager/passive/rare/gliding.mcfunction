@@ -1,0 +1,1 @@
+give @s minecraft:feather[minecraft:lore=[{"translate": "item.gliding.lore.0"}, {"translate": "item.gliding.lore.1"}, {"translate": "item.gliding.lore.2"}],minecraft:custom_name={"translate":"item.gliding.name"},minecraft:custom_data={item:"gliding",itemRarity:2,itemType:1},max_stack_size=1,tooltip_style="minecraft:rare/passive"] 1

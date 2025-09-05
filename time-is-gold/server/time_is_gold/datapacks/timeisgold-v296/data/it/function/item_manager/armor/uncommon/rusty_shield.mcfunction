@@ -1,0 +1,1 @@
+give @s minecraft:shield[minecraft:lore=[{"translate": "item.rusty_shield.lore.0"}],minecraft:custom_name={"translate": "item.rusty_shield.name"},minecraft:custom_data={item:"rusty_shield",itemRarity:1,itemType:3},max_damage=112,tooltip_style="minecraft:uncommon/armor",blocks_attacks={damage_reductions:[{"factor":0.33,base:0}],bypassed_by:"#bypasses_shield"}] 1

@@ -1,0 +1,7 @@
+execute store result score #Temp bosses.automaton.pattern2.randomizer2 run random value 1..5
+
+execute positioned ~ ~ ~ if score #Temp bosses.automaton.pattern2.randomizer2 matches 1 run summon falling_block ~ ~-0.95 ~ {BlockState:{Name:"minecraft:stone"}, Tags:[bosses.automaton.shockwave.falling_block], Motion:[0d,0.15d,0d], CancelDrop:true, DropItem:false}
+execute positioned ~ ~ ~ if score #Temp bosses.automaton.pattern2.randomizer2 matches 2 run summon falling_block ~ ~-0.95 ~ {BlockState:{Name:"minecraft:stone"}, Tags:[bosses.automaton.shockwave.falling_block], Motion:[0d,0.20d,0d], CancelDrop:true, DropItem:false}
+execute positioned ~ ~ ~ if score #Temp bosses.automaton.pattern2.randomizer2 matches 3 run summon falling_block ~ ~-0.95 ~ {BlockState:{Name:"minecraft:stone"}, Tags:[bosses.automaton.shockwave.falling_block], Motion:[0d,0.25d,0d], CancelDrop:true, DropItem:false}
+execute positioned ~ ~ ~ if score #Temp bosses.automaton.pattern2.randomizer2 matches 4 run summon falling_block ~ ~-0.95 ~ {BlockState:{Name:"minecraft:stone"}, Tags:[bosses.automaton.shockwave.falling_block], Motion:[0d,0.30d,0d], CancelDrop:true, DropItem:false}
+execute positioned ~ ~ ~ if score #Temp bosses.automaton.pattern2.randomizer2 matches 5 run summon falling_block ~ ~-0.95 ~ {BlockState:{Name:"minecraft:stone"}, Tags:[bosses.automaton.shockwave.falling_block], Motion:[0d,0.35d,0d], CancelDrop:true, DropItem:false}

@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.mainhand *[custom_data~{item:book_of_the_unknown}] at @s as @e[tag=monster,distance=..5] run function it:tech/passive/book_of_the_unknown/apply

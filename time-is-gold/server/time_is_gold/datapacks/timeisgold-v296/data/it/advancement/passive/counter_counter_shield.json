@@ -1,0 +1,26 @@
+{
+    "criteria":
+    {
+        "event":
+        {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions":
+            {
+                "damage":
+                {
+                    "blocked": true
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "event"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/passive/counter_counter/on_blocking_shield"
+    }
+}

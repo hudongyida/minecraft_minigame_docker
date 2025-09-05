@@ -1,0 +1,2 @@
+$execute at @s positioned ~ ~90 ~ run function bosses:tech/automaton/pattern5/operation/obstacle/summon_display {selfuuid:"$(selfuuid)"}
+execute at @s run function system:vfx/clock_rotate/init {duration:60, radius:4, distance:1, clock_r:1.0, clock_g:0.0, clock_b:0.0}

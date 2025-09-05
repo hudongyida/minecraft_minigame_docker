@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=item.time_shard.marker.stasis_field] at @s run function it:tech/melee/time_shard/operation/step

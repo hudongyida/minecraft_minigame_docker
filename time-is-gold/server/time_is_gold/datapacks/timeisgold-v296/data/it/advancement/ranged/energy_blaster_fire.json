@@ -1,0 +1,32 @@
+{
+    "criteria":
+    {
+        "event":
+        {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions":
+            {
+                "item":
+                {
+                    "predicates": 
+                    {
+                        "minecraft:custom_data":
+                        {
+                            "item":"energy_blaster"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "event"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/ranged/energy_blaster/trigger"
+    }
+}

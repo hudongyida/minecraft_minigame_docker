@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.scabbard.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.scabbard.lore.1"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.scabbard.name"
+                                },
+                                "custom_data": {
+                                    "item": "scabbard",
+                                    "itemRarity": 1,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "item_model": "minecraft:name_tag",
+                                "tooltip_style": "minecraft:uncommon/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

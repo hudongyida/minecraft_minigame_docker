@@ -1,0 +1,1 @@
+tag @e[tag=item.sans_pointer_2000.hit] remove item.sans_pointer_2000.hit

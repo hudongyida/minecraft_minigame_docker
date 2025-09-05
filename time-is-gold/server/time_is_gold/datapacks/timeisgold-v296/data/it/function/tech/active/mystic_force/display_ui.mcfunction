@@ -1,0 +1,2 @@
+execute as @s if score @s item.mystic_force.tick matches 1.. run function system:ui/bar/set {value:"item.mystic_force.tick", value_target:"@s", base:"item.mystic_force.tick", base_target:"#MAX_VALUE", invert:0, item:mystic_force}
+execute as @s unless score @s item.mystic_force.tick matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.mystic_force.cooldown", value_target:"@s", base:"item.mystic_force.cooldown", base_target:"#MAX_VALUE", invert:1, item:mystic_force}

@@ -1,0 +1,1 @@
+give @s minecraft:skull_pottery_sherd[minecraft:lore=[{"translate": "item.sigil_of_sinister.lore.0"}, {"text": ""}, {"translate": "item.sigil_of_sinister.lore.1"}],minecraft:tooltip_style="minecraft:common/passive",minecraft:custom_name={"translate": "item.sigil_of_sinister.name"},minecraft:custom_data={item:"sigil_of_sinister",itemRarity:0,itemType:1},max_stack_size=1] 1

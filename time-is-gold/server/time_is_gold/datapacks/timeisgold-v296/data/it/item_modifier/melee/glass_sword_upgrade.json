@@ -1,0 +1,38 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers":
+        [
+            {
+                "attribute": "minecraft:attack_damage",
+                "id": "blackjack_attack_damage",
+                "amount": 17,
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:attack_speed",
+                "id": "blackjack_attack_speed",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_damage",
+        "damage": -0.033,
+        "add": true
+    },
+    {
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:custom_data": {
+				"fragile": true,
+                "item": "glass_sword",
+                "itemRarity": 2,
+                "itemType": 2
+			}
+		}
+    }
+]

@@ -1,0 +1,2 @@
+function system:gamemanager/teleport/shop/operation
+function system:gamemanager/teleport/boss_portal/operation

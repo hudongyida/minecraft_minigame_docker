@@ -1,0 +1,1 @@
+clear @s gunpowder[custom_data~{item:gunpowder}] 1

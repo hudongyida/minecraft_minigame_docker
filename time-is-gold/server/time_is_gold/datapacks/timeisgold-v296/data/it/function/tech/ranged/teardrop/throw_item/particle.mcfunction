@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run particle dripping_water ~ ~ ~ 0.2 0.2 0 0.5 1 force

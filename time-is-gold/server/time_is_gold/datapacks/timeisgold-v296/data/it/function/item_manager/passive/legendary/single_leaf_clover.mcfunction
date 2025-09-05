@@ -1,0 +1,1 @@
+give @s minecraft:lily_pad[minecraft:lore=[{"translate": "item.single_leaf_clover.lore.0"}],minecraft:tooltip_style="minecraft:legendary/passive",minecraft:custom_name={"translate": "item.single_leaf_clover.name"},minecraft:custom_data={item:"single_leaf_clover",itemRarity:4,itemType:1},max_stack_size=1,enchantment_glint_override=true] 1

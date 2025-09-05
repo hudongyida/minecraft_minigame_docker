@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blade_pottery_sherd",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.sigil_of_strength.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.sigil_of_strength.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.sigil_of_strength.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.sigil_of_strength.name"
+                                },
+                                "custom_data": {
+                                    "item": "sigil_of_strength",
+                                    "itemRarity": 1,
+                                    "itemType": 1
+                                },
+                                "tooltip_style": "minecraft:uncommon/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

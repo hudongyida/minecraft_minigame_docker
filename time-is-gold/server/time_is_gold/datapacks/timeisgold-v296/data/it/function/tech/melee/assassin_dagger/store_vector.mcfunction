@@ -1,0 +1,4 @@
+function system:math/vectors/looking_direction/init {storage_x:item.assassin_dagger.looking_direction.x, storage_y:item.assassin_dagger.looking_direction.y, storage_z:item.assassin_dagger.looking_direction.z}
+$execute store result storage timeisgold:function_api stack[-1].$(x) int 1 run scoreboard players get @s item.assassin_dagger.looking_direction.x
+$execute store result storage timeisgold:function_api stack[-1].$(y) int 1 run scoreboard players get @s item.assassin_dagger.looking_direction.y
+$execute store result storage timeisgold:function_api stack[-1].$(z) int 1 run scoreboard players get @s item.assassin_dagger.looking_direction.z

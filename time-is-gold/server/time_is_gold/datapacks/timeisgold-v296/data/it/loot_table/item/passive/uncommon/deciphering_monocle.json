@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lead",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.deciphering_monocle.lore.0"
+                                    },
+                                    {
+                                        "text": ""
+                                    },
+                                    {
+                                        "translate": "item.deciphering_monocle.lore.1"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.deciphering_monocle.name"
+                                },
+                                "custom_data": {
+                                    "item": "deciphering_monocle",
+                                    "itemRarity": 1,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:uncommon/passive",
+                                "equippable": {
+                                    "slot": "head",
+                                    "swappable": true,
+                                    "equip_on_interact": true,
+                                    "equip_sound": "item.armor.equip_leather"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

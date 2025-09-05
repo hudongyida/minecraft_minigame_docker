@@ -1,0 +1,2 @@
+execute positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["item.hyperretractor.marker.placed","admin.kill_on_reset","item.hyperretractor.marker.uninitialized"],data:{displayuuid:""}}
+execute positioned ~ ~ ~ as @n[type=marker,tag=item.hyperretractor.marker.uninitialized,distance=..0.5] run function it:tech/active/hyperretractor/operation/setup

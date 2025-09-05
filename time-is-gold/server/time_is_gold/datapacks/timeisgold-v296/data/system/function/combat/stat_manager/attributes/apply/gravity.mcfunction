@@ -1,0 +1,1 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:gravity modifier add system.combat.gravity $(gravity) add_value

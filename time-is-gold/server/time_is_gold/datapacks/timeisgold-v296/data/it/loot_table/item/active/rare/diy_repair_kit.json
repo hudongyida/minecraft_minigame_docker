@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glow_item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.diy_repair_kit.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.diy_repair_kit.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.diy_repair_kit.lore.2",
+                                        "with": [
+                                            {
+                                                "text": "3",
+                                                "color": "red",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.diy_repair_kit.name"
+                                },
+                                "custom_data": {
+                                    "item": "diy_repair_kit",
+                                    "itemRarity": 2,
+                                    "itemType": 0,
+                                    "durability": 3
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:rare/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

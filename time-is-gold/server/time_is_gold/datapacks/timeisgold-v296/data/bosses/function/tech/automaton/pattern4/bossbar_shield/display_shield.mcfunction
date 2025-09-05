@@ -1,0 +1,1 @@
+$execute as @s at @s store result bossbar $(bossbarid) value run data get entity @s AbsorptionAmount 1

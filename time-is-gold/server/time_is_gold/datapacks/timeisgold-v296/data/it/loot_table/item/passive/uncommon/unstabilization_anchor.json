@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shulker_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.unstabilization_anchor.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.unstabilization_anchor.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.unstabilization_anchor.lore.2"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:uncommon/passive",
+                                "custom_name": {
+                                    "translate": "item.unstabilization_anchor.name"
+                                },
+                                "custom_data": {
+                                    "item": "unstabilization_anchor",
+                                    "itemRarity": 1,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

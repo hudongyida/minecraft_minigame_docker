@@ -1,0 +1,2 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:entity_interaction_range modifier add system.combat.melee.attack_range_delta $(attack_range_delta) add_value
+$attribute @s[tag=combat.apply_attributes.temp_] minecraft:entity_interaction_range modifier add system.combat.melee.attack_range_multiplier $(attack_range_multiplier) add_multiplied_base

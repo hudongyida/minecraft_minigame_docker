@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run function system:shop/create/init {loottable:"system:shop/expendables", type:0, stock:1}

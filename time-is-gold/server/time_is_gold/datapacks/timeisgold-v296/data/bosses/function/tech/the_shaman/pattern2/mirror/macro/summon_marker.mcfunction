@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["bosses.the_shaman.pattern2.mirror.marker.direction.$(selfuuid)"]}

@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:heart_of_the_sea",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.arthcomociph.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.arthcomociph.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.arthcomociph.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.arthcomociph.lore.3"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:legendary/passive",
+                                "custom_name": {
+                                    "translate": "item.arthcomociph.name"
+                                },
+                                "custom_data": {
+                                    "item": "arthcomociph",
+                                    "itemRarity": 4,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

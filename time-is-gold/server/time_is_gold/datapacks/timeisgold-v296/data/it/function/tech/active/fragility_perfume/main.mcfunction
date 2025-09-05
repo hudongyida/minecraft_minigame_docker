@@ -1,0 +1,2 @@
+execute as @e[tag=monster,tag=item.fragility_perfume.doubles] run function it:tech/active/fragility_perfume/functions/doubling
+execute as @e[tag=monster,tag=item.fragility_perfume.doubled] at @s run function it:tech/active/fragility_perfume/functions/tick

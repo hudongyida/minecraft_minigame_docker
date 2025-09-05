@@ -1,0 +1,1 @@
+$execute at @s as @e[tag=monster.ally,tag=monster.ally.player-$(playerid)] run tp @s ~ ~ ~

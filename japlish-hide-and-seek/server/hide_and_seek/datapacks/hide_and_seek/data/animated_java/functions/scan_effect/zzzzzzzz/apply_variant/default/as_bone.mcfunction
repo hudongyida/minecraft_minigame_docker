@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.scan_effect.bone.scan_effect] run data modify entity @s item.tag.CustomModelData set value 53

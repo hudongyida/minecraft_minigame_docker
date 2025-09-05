@@ -1,0 +1,3 @@
+execute as @s if score @s item.anticognition_field.tick matches 1.. run function system:ui/bar/set {value:"item.anticognition_field.tick", value_target:"@s", base:"item.anticognition_field.tick", base_target:"#MAX_VALUE", invert:0, item:anticognition_field}
+execute as @s if score @s item.anticognition_field.tick matches 1.. run title @s actionbar {"translate":"item.anticognition_field.notify"}
+execute as @s unless score @s item.anticognition_field.tick matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.anticognition_field.cooldown", value_target:"@s", base:"item.anticognition_field.cooldown", base_target:"#MAX_VALUE", invert:1, item:anticognition_field}

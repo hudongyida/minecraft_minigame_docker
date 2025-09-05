@@ -1,0 +1,2 @@
+summon block_display ~ ~2 ~ {block_state:{Name:"minecraft:pearlescent_froglight",Properties:{axis:"x"}},transformation:[0.7071067812f,-0.7071067812f,0f,0f,0.5826753055f,0.5826753055f,0.5665500655f,-0.8125f,-0.4006113932f,-0.4006113932f,0.8240273195f,0f,0f,0f,0f,1f],Tags:["item.chrono_anchor.marker","item.chrono_anchor.display","admin.kill_on_reset"],Glowing:true,teleport_duration:1}
+execute positioned ~ ~2 ~ run scoreboard players set @n[type=block_display,tag=item.chrono_anchor.display] item.chrono_anchor.tick 300

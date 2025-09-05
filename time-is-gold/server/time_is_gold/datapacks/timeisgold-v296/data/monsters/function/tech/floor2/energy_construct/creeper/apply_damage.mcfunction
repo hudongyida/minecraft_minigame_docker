@@ -1,0 +1,2 @@
+$execute positioned ~ ~ ~ as @a[predicate=system:player,distance=..5] run function monsters:tech/global/utils/monster_damage/explosion/init {value:20, monsteruuid:"$(monsteruuid)"}
+execute positioned ~ ~ ~ as @a[predicate=system:player,distance=..5] run scoreboard players add @s monsters.floor2.energy_construct.lockdown_tick 160

@@ -1,0 +1,1 @@
+scoreboard players reset @s item.energy_blaster.marker_delay

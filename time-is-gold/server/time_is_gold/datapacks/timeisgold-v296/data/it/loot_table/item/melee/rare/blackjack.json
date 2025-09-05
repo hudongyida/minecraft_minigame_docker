@@ -1,0 +1,102 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_shovel",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.blackjack.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.blackjack.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.blackjack.lore.2"
+                                    },
+                                    {
+                                        "text": ""
+                                    },
+                                    {
+                                        "translate": "item.blackjack.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.blackjack.lore.4"
+                                    },
+                                    {
+                                        "translate": "item.blackjack.lore.5"
+                                    },
+                                    {
+                                        "translate": "item.blackjack.lore.6"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "11",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.3",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 10,
+                                        "id": "blackjack_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.7,
+                                        "id": "blackjack_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.blackjack.name"
+                                },
+                                "custom_data": {
+                                    "item": "blackjack",
+                                    "itemRarity": 2,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:rare/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+$data modify storage timeisgold:uuid_tokenizer output set value "$(byte0)$(byte1)$(byte2)$(byte3)-$(byte4)$(byte5)-$(byte6)$(byte7)-$(byte8)$(byte9)-$(byte10)$(byte11)$(byte12)$(byte13)$(byte14)$(byte15)"

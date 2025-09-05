@@ -1,0 +1,2 @@
+execute if score @s combat.stun matches 1.. run particle dust{color:[0.141, 0.541, 1.000], scale:1} ~ ~1 ~ .3 .5 .3 0 5 force
+execute unless score @s combat.stun matches 1.. run tag @s remove item.zero_point.stun_particle

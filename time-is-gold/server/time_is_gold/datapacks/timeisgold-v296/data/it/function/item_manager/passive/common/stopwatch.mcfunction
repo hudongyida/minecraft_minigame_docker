@@ -1,0 +1,1 @@
+give @s minecraft:clock[minecraft:lore=[{"translate": "item.stopwatch.lore.0"}, {"translate": "item.stopwatch.lore.1"}],minecraft:custom_name={"translate": "item.stopwatch.name"},minecraft:custom_data={item:"stopwatch",itemRarity:0,itemType:1},max_stack_size=1,tooltip_style="minecraft:common/passive"]

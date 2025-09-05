@@ -1,0 +1,1 @@
+$execute as @n[type=block_display,tag=item.automaton_turret.id-$(playerid),tag=item.automaton_turret.head,distance=..3] if entity @s[x_rotation=-90..20] at @s run tp @s ~ ~ ~ ~ ~3

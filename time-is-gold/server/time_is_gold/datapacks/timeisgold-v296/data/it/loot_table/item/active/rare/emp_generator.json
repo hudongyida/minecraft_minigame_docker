@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.emp_generator.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.emp_generator.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.emp_generator.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.emp_generator.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.emp_generator.lore.4"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.emp_generator.name",
+                                    "color": "#5555ff",
+                                    "italic": false
+                                },
+                                "profile": {
+                                    "id": [
+                                        -214525208,
+                                        875252292,
+                                        -2125181663,
+                                        1290496316
+                                    ],
+                                    "name": "",
+                                    "properties": [
+                                        {
+                                            "name": "textures",
+                                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0OWIzNjQyNTM2ZjJmMDBhMjVhMDc0ZTFiZjhjNDA0MTYyZjdmYTVmNTQ5NjBiYmVkZGFiNDdjYjgxZDRmMyJ9fX0="
+                                        }
+                                    ]
+                                },
+                                "custom_data": {
+                                    "item": "emp_generator",
+                                    "itemRarity": 2,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "equippable": {
+                                    "swappable": false,
+                                    "slot": "offhand"
+                                },
+                                "tooltip_style": "minecraft:rare/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

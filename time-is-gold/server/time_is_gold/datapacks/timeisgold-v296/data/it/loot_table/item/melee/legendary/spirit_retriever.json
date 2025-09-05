@@ -1,0 +1,89 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_shovel",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.spirit_retriever.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.spirit_retriever.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.spirit_retriever.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.spirit_retriever.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.spirit_retriever.lore.4"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "1",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.6",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:legendary/melee",
+                                "custom_name": {
+                                    "translate": "item.spirit_retriever.name"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 0,
+                                        "id": "spirit_retriever_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.4,
+                                        "id": "spirit_retriever_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_data": {
+                                    "item": "spirit_retriever",
+                                    "itemRarity": 4,
+                                    "itemType": 2
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

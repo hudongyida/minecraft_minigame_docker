@@ -1,0 +1,25 @@
+summon breeze ~ ~ ~ {\
+    Health:1f,\
+    Tags:["monster"],\
+    DeathLootTable:"system:placeholder/none",\
+    PersistenceRequired:1b,\
+    PortalCooldown:2147483647,\
+    Passengers:[{\
+        id:"minecraft:zombie",\
+        Health:50f,\
+        Tags:["monster","elite","lab_guard"],\
+        DeathLootTable:"it:monster/loot",\
+        PersistenceRequired:1b,\
+        IsBaby:0b,\
+        PortalCooldown:2147483647,\
+        equipment:{\
+            mainhand:{id:"minecraft:breeze_rod",count:1},\
+            head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY2MmU5ZDk4MDI5YmZmYjg5ZjM1M2JkM2Y4OGQ5NGI2MzE4ZTgwYjk1M2I2MWIwYmZhNDI5ZjM1ZTY3MDExIn19fQ=="}]}}},\
+            chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":3435440,"minecraft:trim":{material:"minecraft:diamond",pattern:"minecraft:rib"},attribute_modifiers:[],unbreakable:{}}},\
+            legs:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":3563694,attribute_modifiers:[],unbreakable:{}}},\
+            feet:{id:"minecraft:iron_boots",count:1,components:{attribute_modifiers:[],unbreakable:{}}}\
+        },\
+        drop_chances:{mainhand:0f,offhand:0f,head:0f,chest:0f,legs:0f,feet:0f},\
+        attributes:[{id:"minecraft:armor",base:8},{id:"minecraft:attack_damage",base:12},{id:"minecraft:knockback_resistance",base:0.2},{id:"minecraft:max_health",base:50},{id:"minecraft:movement_speed",base:0.35}]\
+        }]\
+    }

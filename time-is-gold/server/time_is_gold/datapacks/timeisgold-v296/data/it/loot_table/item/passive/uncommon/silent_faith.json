@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.silent_faith.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.silent_faith.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.silent_faith.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.silent_faith.name"
+                                },
+                                "custom_data": {
+                                    "item": "silent_faith",
+                                    "itemRarity": 1,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 2,
+                                "tooltip_style": "minecraft:uncommon/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

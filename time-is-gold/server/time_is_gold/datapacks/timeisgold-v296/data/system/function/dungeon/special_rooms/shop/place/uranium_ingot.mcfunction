@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run function system:shop/create/init {loottable:"it:item/expendables/uncommon/uranium_ingot", type:1, stock:10}

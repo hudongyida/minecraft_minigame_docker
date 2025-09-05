@@ -1,0 +1,2 @@
+$execute if entity @n[tag=monster,scores={entityid=$(entityid)}] as @n[tag=monster,scores={entityid=$(entityid)}] at @s run function it:tech/melee/time_shard/operation/init
+$execute unless entity @n[tag=monster,scores={entityid=$(entityid)}] at @s run function it:tech/melee/time_shard/operation/init

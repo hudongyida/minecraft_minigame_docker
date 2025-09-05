@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^-1 unless block ~ ~-1 ~ #it:air if block ~ ~ ~ #it:air if block ~ ~1 ~ #it:air positioned ^ ^ ^-1 unless block ~ ~-1 ~ #it:air if block ~ ~ ~ #it:air if block ~ ~1 ~ #it:air positioned ^ ^ ^-1 unless block ~ ~-1 ~ #it:air if block ~ ~ ~ #it:air if block ~ ~1 ~ #it:air run return 1
+return fail

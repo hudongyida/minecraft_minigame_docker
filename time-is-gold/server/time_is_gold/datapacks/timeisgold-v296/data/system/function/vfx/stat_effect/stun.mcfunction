@@ -1,0 +1,1 @@
+execute at @s run particle end_rod ~ ~1 ~ 0.3 0.5 0.3 0 2 normal

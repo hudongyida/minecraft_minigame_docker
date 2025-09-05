@@ -1,0 +1,28 @@
+{
+    "parent": "system:gamemanager/player_death/root",
+    "criteria":
+    {
+        "death":
+        {
+            "trigger": "entity_hurt_player",
+            "conditions":
+            {
+                "damage":
+                {
+                    "source_entity":
+                    {
+                        "type": "minecraft:blaze",
+                        "nbt": "{Tags:[autonomy_generator]}"
+                    },
+                    "blocked": false
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "death"
+        ]
+    ]
+}

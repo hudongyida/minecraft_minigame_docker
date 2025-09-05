@@ -1,0 +1,15 @@
+
+
+
+
+##Seekerの初期人数(初期は3人)
+/data modify storage settings: camp.seeker.count set value 人数
+
+##Start
+/function hide_and_seek:system/start
+
+##強制終了
+/function hide_and_seek:system/end
+
+##中心位置変更
+/function hide_and_seek:system/set

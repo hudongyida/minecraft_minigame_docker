@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:empty",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/weapon_rare",
+                    "weight": 400
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/weapon_epic",
+                    "weight": 160
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/weapon_legendary",
+                    "weight": 80
+                }
+            ]
+        }
+    ]
+}

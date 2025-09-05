@@ -1,0 +1,4 @@
+execute store result score @s system.eventlistener.monster_kill.fragility.player_attack_check run data get storage timeisgold:function_api stack[-1].player_attack_check
+execute store result score @s system.eventlistener.monster_kill.fragility.melee_check run data get storage timeisgold:function_api stack[-1].melee_check
+execute store result score @s system.eventlistener.monster_kill.fragility.ranged_check run data get storage timeisgold:function_api stack[-1].ranged_check
+execute store result score @s system.eventlistener.monster_kill.fragility.magic_check run data get storage timeisgold:function_api stack[-1].magic_check

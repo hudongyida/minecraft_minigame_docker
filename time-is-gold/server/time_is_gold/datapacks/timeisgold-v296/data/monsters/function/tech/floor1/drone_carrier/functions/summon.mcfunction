@@ -1,0 +1,9 @@
+$execute positioned ~ ~2 ~ run function monsters:summon/floor1/drone {id:$(id)}
+$execute at @n[predicate=system:player,distance=..25] positioned ~ ~1 ~ if block ~ ~ ~ #it:air positioned ~ ~2 ~ unless block ~ ~ ~ #it:air positioned ~ ~-1 ~ run return run function monsters:tech/floor1/drone_carrier/functions/marker {id:$(id)}
+$execute at @n[predicate=system:player,distance=..25] positioned ~ ~2 ~ if block ~ ~ ~ #it:air positioned ~ ~3 ~ unless block ~ ~ ~ #it:air positioned ~ ~-1 ~ run return run function monsters:tech/floor1/drone_carrier/functions/marker {id:$(id)}
+$execute at @n[predicate=system:player,distance=..25] positioned ~ ~3 ~ if block ~ ~ ~ #it:air positioned ~ ~4 ~ unless block ~ ~ ~ #it:air positioned ~ ~-1 ~ run return run function monsters:tech/floor1/drone_carrier/functions/marker {id:$(id)}
+$execute at @n[predicate=system:player,distance=..25] positioned ~ ~4 ~ if block ~ ~ ~ #it:air positioned ~ ~5 ~ unless block ~ ~ ~ #it:air positioned ~ ~-1 ~ run return run function monsters:tech/floor1/drone_carrier/functions/marker {id:$(id)}
+$execute at @n[predicate=system:player,distance=..25] positioned ~ ~6 ~ if block ~ ~ ~ #it:air positioned ~ ~7 ~ unless block ~ ~ ~ #it:air positioned ~ ~-1 ~ run return run function monsters:tech/floor1/drone_carrier/functions/marker {id:$(id)}
+$execute at @n[predicate=system:player,distance=..25] positioned ~ ~7 ~ if block ~ ~ ~ #it:air positioned ~ ~8 ~ unless block ~ ~ ~ #it:air positioned ~ ~-1 ~ run return run function monsters:tech/floor1/drone_carrier/functions/marker {id:$(id)}
+$execute at @n[predicate=system:player,distance=..25] positioned ~ ~7 ~ if block ~ ~ ~ #it:air positioned ~ ~-1 ~ run return run function monsters:tech/floor1/drone_carrier/functions/marker {id:$(id)}
+$execute positioned ~ ~2 ~ run kill @n[type=phantom,scores={monsters.floor1.drone_carrier.id=$(id)}]

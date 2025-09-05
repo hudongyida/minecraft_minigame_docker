@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.time_crystal.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.time_crystal.lore.1"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.time_crystal.name"
+                                },
+                                "custom_data": {
+                                    "item": "time_crystal",
+                                    "itemPrice": 600,
+                                    "itemRarity": 4,
+                                    "itemType": 4
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "tooltip_style": "minecraft:legendary/expendables"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

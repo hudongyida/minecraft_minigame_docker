@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.jail_cell.root] run function animated_java:jail_cell/zzzzzzzz/tick_as_root

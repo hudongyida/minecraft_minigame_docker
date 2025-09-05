@@ -1,0 +1,1 @@
+execute store result score @s item.tiny_rocket.gunpowder_count run clear @s minecraft:gunpowder[custom_data~{item:gunpowder}] 0

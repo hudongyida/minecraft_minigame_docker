@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~ ~$(z) align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ #it:air unless block ~ ~-1 ~ #it:air run summon marker ~ ~ ~ {Tags:["$(tag)"]}

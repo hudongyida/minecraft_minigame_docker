@@ -1,0 +1,16 @@
+execute at @s if predicate it:melee/lumino_root/light_0 run return run scoreboard players set @s item.lumino_root.damage_value 1
+execute at @s if predicate it:melee/lumino_root/light_1 run return run scoreboard players set @s item.lumino_root.damage_value 2
+execute at @s if predicate it:melee/lumino_root/light_2 run return run scoreboard players set @s item.lumino_root.damage_value 3
+execute at @s if predicate it:melee/lumino_root/light_3 run return run scoreboard players set @s item.lumino_root.damage_value 4
+execute at @s if predicate it:melee/lumino_root/light_4 run return run scoreboard players set @s item.lumino_root.damage_value 5
+execute at @s if predicate it:melee/lumino_root/light_5 run return run scoreboard players set @s item.lumino_root.damage_value 6
+execute at @s if predicate it:melee/lumino_root/light_6 run return run scoreboard players set @s item.lumino_root.damage_value 7
+execute at @s if predicate it:melee/lumino_root/light_7 run return run scoreboard players set @s item.lumino_root.damage_value 8
+execute at @s if predicate it:melee/lumino_root/light_8 run return run scoreboard players set @s item.lumino_root.damage_value 9
+execute at @s if predicate it:melee/lumino_root/light_9 run return run scoreboard players set @s item.lumino_root.damage_value 10
+execute at @s if predicate it:melee/lumino_root/light_10 run return run scoreboard players set @s item.lumino_root.damage_value 11
+execute at @s if predicate it:melee/lumino_root/light_11 run return run scoreboard players set @s item.lumino_root.damage_value 12
+execute at @s if predicate it:melee/lumino_root/light_12 run return run scoreboard players set @s item.lumino_root.damage_value 13
+execute at @s if predicate it:melee/lumino_root/light_13 run return run scoreboard players set @s item.lumino_root.damage_value 14
+execute at @s if predicate it:melee/lumino_root/light_14 run return run scoreboard players set @s item.lumino_root.damage_value 15
+execute at @s if predicate it:melee/lumino_root/light_15 run return run scoreboard players set @s item.lumino_root.damage_value 16

@@ -1,0 +1,1 @@
+give @s minecraft:written_book[minecraft:lore=[{"translate": "item.necronomicon.lore.0"}, {"translate": "item.necronomicon.lore.1"}, {"translate": "item.necronomicon.lore.2"}],minecraft:tooltip_style="minecraft:legendary/passive",minecraft:custom_name={"translate": "item.necronomicon.name"},minecraft:custom_data={item:"necronomicon",itemRarity:4,itemType:1},max_stack_size=1] 1

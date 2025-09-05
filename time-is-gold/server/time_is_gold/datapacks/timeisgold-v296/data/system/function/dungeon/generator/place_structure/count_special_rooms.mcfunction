@@ -1,0 +1,1 @@
+$execute as @e[type=armor_stand,tag=dungeon.generator.special_room] run scoreboard players add $(uuid) dungeon.generator.special_rooms_count 1

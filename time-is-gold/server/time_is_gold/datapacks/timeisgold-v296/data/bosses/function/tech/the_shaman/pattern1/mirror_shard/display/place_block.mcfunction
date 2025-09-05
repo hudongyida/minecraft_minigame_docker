@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:$(blockname)"}, Tags:[bosses.the_shaman.pattern1.falling_block], Motion:[0d,$(motion)d,0d], CancelDrop:true, DropItem:false}

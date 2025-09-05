@@ -1,0 +1,1 @@
+give @s minecraft:flower_pot[minecraft:lore=[{"translate": "item.quiver.lore.0"}, {"translate": "item.quiver.lore.1"}],minecraft:custom_name={"translate":"item.quiver.name"},minecraft:custom_data={item:"quiver",itemRarity:0,itemType:1},max_stack_size=1,item_model="minecraft:bundle",tooltip_style="minecraft:common/passive"] 1

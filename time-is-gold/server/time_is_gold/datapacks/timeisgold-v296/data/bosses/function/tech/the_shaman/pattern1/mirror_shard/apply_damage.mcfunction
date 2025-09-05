@@ -1,0 +1,7 @@
+$execute positioned ^ ^-1 ^-0.25 as @a[predicate=system:player,dx=0,dy=1.1,dz=0] if entity @s run function monsters:tech/global/utils/monster_damage/melee/init {value:15, monsteruuid:"$(bossuuid)"}
+$execute positioned ^0.5 ^-1 ^-0.25 as @a[predicate=system:player,dx=0,dy=1.1,dz=0] if entity @s run function monsters:tech/global/utils/monster_damage/melee/init {value:15, monsteruuid:"$(bossuuid)"}
+$execute positioned ^-0.5 ^-1 ^-0.25 as @a[predicate=system:player,dx=0,dy=1.1,dz=0] if entity @s run function monsters:tech/global/utils/monster_damage/melee/init {value:15, monsteruuid:"$(bossuuid)"}
+$execute positioned ^1 ^-1 ^-0.25 as @a[predicate=system:player,dx=0,dy=1.1,dz=0] if entity @s run function monsters:tech/global/utils/monster_damage/melee/init {value:15, monsteruuid:"$(bossuuid)"}
+$execute positioned ^-1 ^-1 ^-0.25 as @a[predicate=system:player,dx=0,dy=1.1,dz=0] if entity @s run function monsters:tech/global/utils/monster_damage/melee/init {value:15, monsteruuid:"$(bossuuid)"}
+$execute positioned ^1.5 ^-1 ^-0.25 as @a[predicate=system:player,dx=0,dy=1.1,dz=0] if entity @s run function monsters:tech/global/utils/monster_damage/melee/init {value:15, monsteruuid:"$(bossuuid)"}
+$execute positioned ^-1.5 ^-1 ^-0.25 as @a[predicate=system:player,dx=0,dy=1.1,dz=0] if entity @s run function monsters:tech/global/utils/monster_damage/melee/init {value:15, monsteruuid:"$(bossuuid)"}

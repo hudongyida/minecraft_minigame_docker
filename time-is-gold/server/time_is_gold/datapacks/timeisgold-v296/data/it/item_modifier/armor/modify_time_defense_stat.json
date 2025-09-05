@@ -1,0 +1,16 @@
+{
+    "function": "copy_custom_data",
+    "source":
+    {
+        "type": "storage",
+        "source": "timeisgold:function_api"
+    },
+    "ops":
+    [
+        {
+            "op": "replace",
+            "source": "stack[-1].armor",
+            "target": "armor"
+        }
+    ]
+}

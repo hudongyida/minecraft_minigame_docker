@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run particle minecraft:block_crumble{block_state:{Name:"gold_block"}} ~ ~ ~ $(dx) $(dy) $(dz) 0.1 20 force

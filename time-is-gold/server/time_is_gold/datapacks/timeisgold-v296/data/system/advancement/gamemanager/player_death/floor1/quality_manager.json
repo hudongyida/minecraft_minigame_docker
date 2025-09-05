@@ -1,0 +1,35 @@
+{
+    "parent": "system:gamemanager/player_death/root",
+    "criteria":
+    {
+        "death":
+        {
+            "trigger": "entity_hurt_player",
+            "conditions":
+            {
+                "damage":
+                {
+                    "source_entity":
+                    {
+                        "type": "minecraft:vindicator",
+                        "nbt": "{Tags:[quality_manager]}"
+                    },
+                    "blocked": false
+                },
+                "player": 
+                {
+                    "type_specific":
+                    {
+                        "type": "minecraft:player"
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "death"
+        ]
+    ]
+}

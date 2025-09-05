@@ -1,0 +1,85 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.lantern.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.lantern.lore.1"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "3",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "2.5",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 2,
+                                        "id": "lantern_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -1.5,
+                                        "id": "lantern_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.lantern.name"
+                                },
+                                "custom_data": {
+                                    "item": "lantern",
+                                    "itemRarity": 0,
+                                    "itemType": 2
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:common/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                },
+                                "enchantments": {
+                                    "knockback": 2
+                                },
+                                "enchantment_glint_override": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

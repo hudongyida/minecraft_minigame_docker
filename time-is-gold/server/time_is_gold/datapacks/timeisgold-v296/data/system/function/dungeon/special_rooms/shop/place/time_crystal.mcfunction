@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run function system:shop/create/init {loottable:"it:item/expendables/legendary/time_crystal", type:1, stock:-1}

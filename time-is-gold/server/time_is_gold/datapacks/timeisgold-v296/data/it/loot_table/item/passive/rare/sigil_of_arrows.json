@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:archer_pottery_sherd",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.sigil_of_arrows.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.sigil_of_arrows.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.sigil_of_arrows.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.sigil_of_arrows.name"
+                                },
+                                "custom_data": {
+                                    "item": "sigil_of_arrows",
+                                    "itemRarity": 2,
+                                    "itemType": 1
+                                },
+                                "tooltip_style": "minecraft:rare/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

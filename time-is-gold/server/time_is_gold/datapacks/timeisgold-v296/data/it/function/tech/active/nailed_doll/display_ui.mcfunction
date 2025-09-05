@@ -1,0 +1,2 @@
+execute as @s if score @s item.nailed_doll.tick matches 1.. run function system:ui/bar/set {value:"item.nailed_doll.tick", value_target:"@s", base:"item.nailed_doll.tick", base_target:"#MAX_VALUE", invert:0, item:nailed_doll}
+execute as @s unless score @s item.nailed_doll.tick matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.nailed_doll.cooldown", value_target:"@s", base:"item.nailed_doll.cooldown", base_target:"#MAX_VALUE", invert:1, item:nailed_doll}

@@ -1,0 +1,2 @@
+scoreboard players set @s aj.scan_effect.rig_loaded 1
+execute unless score @s aj.scan_effect.export_version = aj.scan_effect.export_version aj.i at @s run function animated_java:scan_effect/zzzzzzzz/mark_outdated_rig

@@ -1,0 +1,1 @@
+execute at @s run function system:shop/create/free_item/init {loottable:"system:special_rooms/quiet_forest/item", stock:1}

@@ -1,0 +1,1 @@
+$data modify entity @s equipment.mainhand.components."minecraft:lore"[$(offset)].with[].text set value "$(damage_value)"

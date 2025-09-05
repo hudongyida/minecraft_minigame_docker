@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name":[{"text":"拟态解除","color":"white","italic":false}]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[技能说明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "解除拟态",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,Tags:[\"ability\",\"hider_ability\",\"release\",\"no_drop\"],HideFlags:63}"
+            },
+	    {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:vanishing_curse": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

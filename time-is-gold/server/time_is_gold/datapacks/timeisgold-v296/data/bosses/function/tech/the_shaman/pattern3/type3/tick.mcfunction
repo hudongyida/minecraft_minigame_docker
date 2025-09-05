@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=bosses.the_shaman.pattern3.chalice.type3.wave.center] at @s run function bosses:tech/the_shaman/pattern3/type3/wave/step

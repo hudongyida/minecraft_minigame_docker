@@ -1,0 +1,25 @@
+{
+    "criteria":
+    {
+        "requirement":
+        {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions":
+            {
+                "damage":
+                {
+                    "blocked": false,
+                    "source_entity":
+                    {
+                        "type": "minecraft:zombie",
+                        "nbt": "{Tags:[acid_zombie]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "monsters:tech/floor1/acid_zombie/apply_poison"
+    }
+}

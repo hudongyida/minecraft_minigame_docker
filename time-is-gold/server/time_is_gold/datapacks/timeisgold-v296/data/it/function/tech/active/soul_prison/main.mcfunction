@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.soul_prison.cooldown}
+execute as @a[predicate=system:player] run function it:tech/utils/cooldown/ui_display {value:item.soul_prison.cooldown, value_target:"@s", base:item.soul_prison.cooldown, base_target:"#MAX_VALUE", invert:1, item:soul_prison}

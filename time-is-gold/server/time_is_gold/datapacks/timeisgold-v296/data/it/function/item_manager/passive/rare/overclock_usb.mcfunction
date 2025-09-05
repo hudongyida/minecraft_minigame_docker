@@ -1,0 +1,1 @@
+give @s minecraft:stick[minecraft:lore=[{"translate": "item.overclock_usb.lore.0"}, {"translate": "item.overclock_usb.lore.1"}],minecraft:custom_name={"translate":"item.overclock_usb.name"},minecraft:custom_data={item:"overclock_usb",itemRarity:2,itemType:1},max_stack_size=1,tooltip_style="minecraft:rare/passive",item_model="disc_fragment_5"] 1

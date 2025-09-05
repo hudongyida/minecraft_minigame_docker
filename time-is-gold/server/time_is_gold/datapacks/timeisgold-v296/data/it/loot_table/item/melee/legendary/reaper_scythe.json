@@ -1,0 +1,104 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_hoe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.reaper_scythe.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.reaper_scythe.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.reaper_scythe.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.reaper_scythe.lore.3"
+                                    },
+                                    {
+                                        "text": ""
+                                    },
+                                    {
+                                        "translate": "item.reaper_scythe.lore.4"
+                                    },
+                                    {
+                                        "translate": "item.reaper_scythe.lore.5"
+                                    },
+                                    {
+                                        "translate": "item.reaper_scythe.lore.6"
+                                    },
+                                    {
+                                        "translate": "item.reaper_scythe.lore.7"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "8.5",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "2",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 7.5,
+                                        "id": "reaper_scythe_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.0,
+                                        "id": "reaper_scythe_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.reaper_scythe.name"
+                                },
+                                "custom_data": {
+                                    "item": "reaper_scythe",
+                                    "itemRarity": 4,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "tooltip_style": "minecraft:legendary/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

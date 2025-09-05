@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.chicken_shooter.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.chicken_shooter.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.chicken_shooter.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.chicken_shooter.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.chicken_shooter.name"
+                                },
+                                "custom_data": {
+                                    "item": "chicken_shooter",
+                                    "itemRarity": 0,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:common/ranged",
+                                "item_model": "minecraft:chicken_spawn_egg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

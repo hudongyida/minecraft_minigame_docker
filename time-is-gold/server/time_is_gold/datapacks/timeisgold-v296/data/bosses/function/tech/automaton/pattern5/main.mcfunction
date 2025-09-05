@@ -1,0 +1,1 @@
+execute as @s[tag=bosses.automaton.pattern5.init] at @s run function bosses:tech/automaton/pattern5/pattern5_init

@@ -1,0 +1,50 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"mode":"append",
+		"lore": [
+			{
+				"text": "Fuel: ",
+				"color": "dark_gray",
+				"italic": false,
+				"extra":[
+					{
+						"score": {
+							"name": "@s",
+							"objective": "item.automaton_turret.fuel"
+						},
+						"color": "white",
+						"italic": false
+					}
+				]
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"mode":"append",
+		"lore": [
+			{
+				"text": "",
+				"color": "#5555ff",
+				"bold": true,
+				"italic": false
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"mode": "append",
+		"lore": [
+			{
+				"text": "罕见主动物品",
+				"color": "#5555ff",
+				"bold": true,
+				"italic": false
+			}
+		]
+	}
+]

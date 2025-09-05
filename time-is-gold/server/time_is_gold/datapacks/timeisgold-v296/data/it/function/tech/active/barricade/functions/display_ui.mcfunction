@@ -1,0 +1,2 @@
+execute as @s if score @s item.barricade.tick matches 1.. run function system:ui/bar/set {value:"item.barricade.tick", value_target:"@s", base:"item.barricade.tick", base_target:"#MAX_VALUE", invert:0, item:barricade}
+execute as @s unless score @s item.barricade.tick matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.barricade.cooldown", value_target:"@s", base:"item.barricade.cooldown", base_target:"#MAX_VALUE", invert:1, item:barricade}

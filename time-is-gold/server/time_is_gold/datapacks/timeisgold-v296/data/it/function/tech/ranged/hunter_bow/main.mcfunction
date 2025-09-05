@@ -1,0 +1,2 @@
+execute as @e[type=wolf,tag=item.hunter_bow.wolf] if score @s item.hunter_bow.wolf_life_tick matches 1.. run scoreboard players remove @s item.hunter_bow.wolf_life_tick 1
+execute as @e[type=wolf,tag=item.hunter_bow.wolf] if score @s item.hunter_bow.wolf_life_tick matches 0 run kill @s

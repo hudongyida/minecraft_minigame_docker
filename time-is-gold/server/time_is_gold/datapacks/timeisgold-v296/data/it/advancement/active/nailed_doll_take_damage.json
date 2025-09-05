@@ -1,0 +1,21 @@
+{
+	"criteria":
+	{
+		"requirement":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"player":
+				{
+					"type": "minecraft:player",
+					"nbt": "{Tags:[\"item.nailed_doll.active\"]}"
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "it:tech/active/nailed_doll/trigger"
+	}
+}

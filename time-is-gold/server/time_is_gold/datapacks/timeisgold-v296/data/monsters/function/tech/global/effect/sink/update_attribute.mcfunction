@@ -1,0 +1,2 @@
+attribute @s minecraft:attack_damage modifier remove monsters.global.effect.sink_total_multiplier
+$attribute @s minecraft:attack_damage modifier add monsters.global.effect.sink_total_multiplier $(sink_total_multiplier) add_multiplied_total

@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:smoker",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.ashy_furance.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.ashy_furance.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.ashy_furance.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.ashy_furance.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.ashy_furance.lore.4"
+                                    },
+                                    {
+                                        "translate": "item.ashy_furance.lore.5"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.ashy_furance.name"
+                                },
+                                "custom_data": {
+                                    "item": "ashy_furance",
+                                    "itemRarity": 3,
+                                    "itemType": 0
+                                },
+                                "tooltip_style": "minecraft:epic/active",
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

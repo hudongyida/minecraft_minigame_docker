@@ -1,0 +1,1 @@
+$execute as @a[scores={playerid=$(playerid)}] run scoreboard players set @s item.nano_boost.detect_player 1

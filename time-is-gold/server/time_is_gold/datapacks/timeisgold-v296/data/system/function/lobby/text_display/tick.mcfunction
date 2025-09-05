@@ -1,0 +1,2 @@
+execute if score #SYSTEM system.lobby.text_display.tick matches 1.. run scoreboard players remove #SYSTEM system.lobby.text_display.tick 1
+execute unless score #SYSTEM system.lobby.text_display.tick matches 1.. run function system:lobby/text_display/align

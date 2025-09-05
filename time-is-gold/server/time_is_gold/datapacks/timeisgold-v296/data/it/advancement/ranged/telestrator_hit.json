@@ -1,0 +1,42 @@
+{
+    "parent": "system:eventlistener/monster_attack",
+    "criteria":
+    {
+        "event":
+        {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions":
+            {
+                "damage":
+                {
+                    "source_entity":
+                    {
+                        "type": "minecraft:player"
+                    },
+                    "blocked": false,
+                    "type":
+                    {
+                        "tags":
+                        [
+                            {
+                                "id": "minecraft:is_arrow_damage",
+                                "expected": true
+                            }
+                        ],
+                        "direct_entity":
+                        {
+                            "type": "minecraft:arrow",
+                            "nbt": "{Tags:[\"telestrator\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "event"
+        ]
+    ]
+}

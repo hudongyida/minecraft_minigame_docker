@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run playsound minecraft:entity.enderman.teleport hostile @a ~ ~ ~ 1 $(pitch) 0

@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_door",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.scientific_calculator.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.scientific_calculator.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.scientific_calculator.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.scientific_calculator.name"
+                                },
+                                "custom_data": {
+                                    "item": "scientific_calculator",
+                                    "itemRarity": 3,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:epic/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

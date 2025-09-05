@@ -1,0 +1,3 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.zero_point.cooldown}
+execute as @a[predicate=system:player] run function system:ui/bar/set {value:item.zero_point.cooldown, value_target:"@s", base:item.zero_point.cooldown, base_target:"#MAX_VALUE", invert:1, item:zero_point}
+execute as @a if items entity @s weapon.mainhand *[custom_data~{item:zero_point}] run function it:tech/melee/zero_point/display_state

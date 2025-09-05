@@ -1,0 +1,15 @@
+{
+    "criteria":
+    {
+        "null":
+        {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements":
+    [
+        [
+            "null"
+        ]
+    ]
+}

@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.glass_sword.cooldown}
+execute as @a if items entity @s weapon.mainhand *[custom_data~{item:glass_sword,fragile:true}] at @s anchored eyes positioned ^-.3 ^ ^.3 positioned ~ ~-0.5 ~ run particle witch ~ ~ ~ 0.1 0.2 0.1 0.05 2 force

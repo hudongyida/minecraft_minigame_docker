@@ -1,0 +1,1 @@
+$data modify storage timeisgold:function_api stack[-1].dy set from storage timeisgold:lookup_table mirror_animation[$(index)]

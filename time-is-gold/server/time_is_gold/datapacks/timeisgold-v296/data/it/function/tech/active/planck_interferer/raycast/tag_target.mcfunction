@@ -1,0 +1,1 @@
+$tag @s[tag=monster,tag=!boss,tag=!monster.fixed] add item.planck_interferer.swap_target.$(playerid)

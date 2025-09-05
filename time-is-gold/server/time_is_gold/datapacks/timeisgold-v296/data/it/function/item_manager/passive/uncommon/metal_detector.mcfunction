@@ -1,0 +1,1 @@
+give @s minecraft:detector_rail[minecraft:lore=[{"translate": "item.metal_detector.lore.0"}],minecraft:tooltip_style="minecraft:uncommon/passive",minecraft:custom_name={"translate": "item.metal_detector.name"},minecraft:custom_data={item:"metal_detector",itemRarity:1,itemType:1},max_stack_size=1] 1

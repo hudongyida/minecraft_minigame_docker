@@ -1,0 +1,2 @@
+scoreboard players add $round pgs_timer 1
+execute if score $round pgs_timer matches ..10 if entity @a[tag=playing,team=pgs,gamemode=adventure,tag=!pgs_failed] run tellraw @a[tag=playing,team=pgs] [{"text":"吉恩","color":"dark_aqua"},{"text":"说","color":"aqua"},{"text":"| ","color":"red"},{"text":"回合: ","color":"green"},{"score":{"objective":"pgs_timer","name":"$round"},"color":"dark_green"},{"text":"/10","color":"dark_green"}]

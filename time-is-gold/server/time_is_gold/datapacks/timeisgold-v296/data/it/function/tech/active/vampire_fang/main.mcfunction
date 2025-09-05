@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.vampire_fang.cooldown}
+execute as @a[predicate=system:player] run function it:tech/utils/cooldown/ui_display {value:item.vampire_fang.cooldown, value_target:"@s", base:item.vampire_fang.cooldown, base_target:"#MAX_VALUE", invert:1, item:vampire_fang}

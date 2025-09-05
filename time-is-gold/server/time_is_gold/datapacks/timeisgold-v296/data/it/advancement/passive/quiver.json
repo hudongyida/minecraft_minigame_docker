@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "slots": {
+                                "container.*": {
+                                    "items": "minecraft:flower_pot",
+                                    "predicates": {
+                                        "minecraft:custom_data": {
+                                            "item": "quiver"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "direct_entity": {
+                            "type": "#minecraft:arrows"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trigger"
+        ]
+    ],
+    "rewards": {
+        "function": "it:tech/passive/quiver/functions/chance"
+    }
+}

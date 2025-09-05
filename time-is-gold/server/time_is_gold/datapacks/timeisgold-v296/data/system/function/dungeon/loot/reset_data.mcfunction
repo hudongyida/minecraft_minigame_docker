@@ -1,0 +1,2 @@
+data remove storage timeisgold:loot_manager entrance_supply_chest
+data remove storage timeisgold:loot_manager loot_chest

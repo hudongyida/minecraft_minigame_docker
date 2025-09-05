@@ -1,0 +1,3 @@
+$execute unless entity @n[tag=item.time_supply.target.$(playerid)] as @n[scores={playerid=$(playerid)}] run function it:tech/utils/notify/init {function:"it:tech/active/time_supply/notify/no_target_found"}
+$execute if entity @n[tag=item.time_supply.target.$(playerid)] as @n[scores={playerid=$(playerid)}] run function it:tech/active/time_supply/operation/user
+$tag @a remove item.time_supply.target.$(playerid)

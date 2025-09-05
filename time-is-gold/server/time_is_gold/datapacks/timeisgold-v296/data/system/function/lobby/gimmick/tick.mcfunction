@@ -1,0 +1,1 @@
+execute as @a at @s if block ~ ~-0.1 ~ diamond_block run effect give @s speed 2 10 true

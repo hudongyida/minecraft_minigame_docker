@@ -1,0 +1,2 @@
+tag @s add unlock_p_22
+tellraw @s [{"text":"- - - - - - - - - - - - - - - - - - - - - - - - - - -","color":"gray","bold":true},{"text":"\n你已解锁传奇装饰品!","color":"gold","bold":false},{"text":"\n讲台 ","color":"dark_aqua","bold":true},{"text":"- ","color":"gray","bold":true},{"text":"云","color":"#0eedcf","bold":true},{"text":"\n你可以在末影箱内选择它!","color":"gray","bold":false}]

@@ -1,0 +1,1 @@
+$execute as @n[type=block_display,tag=item.automaton_turret.id-$(playerid),tag=item.automaton_turret.head,distance=..3] at @s facing entity @n[tag=monster,distance=..25] eyes run tp @s ~ ~ ~ ~ ~

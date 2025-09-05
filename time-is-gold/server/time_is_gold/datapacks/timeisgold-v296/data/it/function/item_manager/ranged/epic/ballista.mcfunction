@@ -1,0 +1,1 @@
+give @s minecraft:crossbow[minecraft:lore=[{"translate": "item.ballista.lore.0"}],minecraft:custom_name={"translate": "item.ballista.name"},minecraft:custom_data={item:"ballista",itemRarity:3,itemType:2},minecraft:enchantments={"minecraft:power":10},tooltip_style="minecraft:epic/ranged",max_damage=64] 1

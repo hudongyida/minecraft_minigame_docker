@@ -1,0 +1,2 @@
+execute as @s if score @s item.pocket_refrigerator.tick matches 1.. run function system:ui/bar/set {value:"item.pocket_refrigerator.tick", value_target:"@s", base:"item.pocket_refrigerator.tick", base_target:"#MAX_VALUE", invert:0, item:pocket_refrigerator}
+execute as @s unless score @s item.pocket_refrigerator.tick matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.pocket_refrigerator.cooldown", value_target:"@s", base:"item.pocket_refrigerator.cooldown", base_target:"#MAX_VALUE", invert:1, item:pocket_refrigerator}

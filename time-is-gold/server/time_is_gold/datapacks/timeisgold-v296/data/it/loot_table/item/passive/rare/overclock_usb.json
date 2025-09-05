@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.overclock_usb.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.overclock_usb.lore.1"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.overclock_usb.name"
+                                },
+                                "custom_data": {
+                                    "item": "overclock_usb",
+                                    "itemRarity": 2,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:rare/passive",
+                                "item_model": "disc_fragment_5"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

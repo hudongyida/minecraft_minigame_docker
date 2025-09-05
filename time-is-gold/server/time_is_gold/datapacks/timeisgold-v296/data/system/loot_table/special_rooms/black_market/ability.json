@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:empty",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/ability_rare",
+                    "weight": 400
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/ability_epic",
+                    "weight": 160
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/ability_legendary",
+                    "weight": 80
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.jail_cell.animation.open] run function animated_java:jail_cell/zzzzzzzz/animations/open/tick

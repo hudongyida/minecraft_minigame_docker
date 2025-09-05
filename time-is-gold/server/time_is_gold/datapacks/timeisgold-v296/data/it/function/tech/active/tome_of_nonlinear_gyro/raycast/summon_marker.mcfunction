@@ -1,0 +1,3 @@
+$execute align xyz positioned ~0.5 ~ ~0.5 run summon marker ~ ~ ~ {Tags:["item.tome_of_nonlinear_gyro.marker.singularity","item.tome_of_nonlinear_gyro.marker.uninitialized"],data:{playerid:$(playerid),selfuuid:0,step:0.133d,radius:0d}}
+
+execute align xyz positioned ~0.5 ~ ~0.5 as @n[type=marker,tag=item.tome_of_nonlinear_gyro.marker.uninitialized,distance=..0.5] run function it:tech/active/tome_of_nonlinear_gyro/raycast/set_data

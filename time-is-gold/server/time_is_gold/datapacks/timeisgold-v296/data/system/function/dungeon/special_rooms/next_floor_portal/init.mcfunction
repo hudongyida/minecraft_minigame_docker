@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run function system:portal/create/init {radius:5, function:"system:gamemanager/next_floor/init", single_use:1}

@@ -1,0 +1,3 @@
+#give @s minecraft:shield{display:{Name:{"text":"Mundane Shield","color":"#55ff55","italic":false},Lore:[[{"text":""}],[{"text":"UNCOMMON","color":"#55ff55","italic":false,"bold":true}]]},customDurability:{durability:23,maxDurability:23},item:mundane_shield,itemRarity:1,itemType:2} 1
+
+give @s minecraft:shield[minecraft:lore=[{"translate": "item.better_shield.lore.0"}],minecraft:custom_name={"translate": "item.better_shield.name"},minecraft:custom_data={item:"better_shield",itemRarity:3,itemType:3},max_damage=112,tooltip_style="minecraft:epic/armor",blocks_attacks={damage_reductions:[{"factor":0.66,base:0}],bypassed_by:"#bypasses_shield"}] 1

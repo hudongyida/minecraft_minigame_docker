@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers":
+        [
+            {
+                "attribute": "minecraft:attack_damage",
+                "id": "magic_stick_attack_damage",
+                "amount":
+                {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "item.magic_stick.bonus_value",
+                    "scale": 1
+                },
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:attack_speed",
+                "id": "magic_stick_attack_speed",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    }
+]

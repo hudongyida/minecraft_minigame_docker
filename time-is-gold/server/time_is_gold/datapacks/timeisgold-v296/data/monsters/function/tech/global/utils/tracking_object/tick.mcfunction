@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=monsters.utils.tracking_object.marker] at @s run function monsters:tech/global/utils/tracking_object/step with entity @s data

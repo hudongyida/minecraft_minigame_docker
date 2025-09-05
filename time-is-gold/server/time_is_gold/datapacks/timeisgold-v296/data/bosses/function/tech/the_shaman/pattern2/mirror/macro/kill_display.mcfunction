@@ -1,0 +1,1 @@
+$execute at @s run kill @e[type=block_display,tag=bosses.the_shaman.mirror.block_display.$(selfuuid),distance=..1]

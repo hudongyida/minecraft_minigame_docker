@@ -1,0 +1,1 @@
+$execute as @e[tag=monster,scores={entityid=$(entityid)}] run function it:tech/utils/effect/sink/init {value:1}

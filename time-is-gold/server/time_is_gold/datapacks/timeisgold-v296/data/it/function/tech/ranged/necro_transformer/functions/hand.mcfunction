@@ -1,0 +1,2 @@
+execute as @s if items entity @s weapon.mainhand *[custom_data~{item:necro_transformer}] run return run tag @s add item.necro_transformer.pre_shoot
+execute as @s if items entity @s weapon.offhand *[custom_data~{item:necro_transformer}] run tag @s add item.necro_transformer.pre_charge

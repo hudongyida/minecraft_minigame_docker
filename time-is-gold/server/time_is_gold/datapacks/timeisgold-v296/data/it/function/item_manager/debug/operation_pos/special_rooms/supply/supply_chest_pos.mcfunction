@@ -1,0 +1,1 @@
+give @s armor_stand[minecraft:entity_data={Tags:["dungeon.operation_pos","dungeon.supply_chest_pos"],id:"minecraft:armor_stand"},minecraft:custom_name={"text":"Supply Chest", "color":"red", "italic":false},minecraft:lore=[[{"text":""}],[{"text":"DEBUG ITEM","color":"#ff5555","italic":false,"bold":true}]]] 1

@@ -1,0 +1,1 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.milk_vanilla_gelatto.cooldown}

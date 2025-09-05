@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run summon falling_block ~ ~-0.95 ~ {BlockState:{Name:"minecraft:purple_concrete_powder"}, Tags:[item.tome_of_nonlinear_gyro.block_display], Motion:[0d,0.20d,0d], CancelDrop:true, DropItem:false}

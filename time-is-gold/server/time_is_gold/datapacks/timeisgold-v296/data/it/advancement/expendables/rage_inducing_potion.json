@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:potion",
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "rage_inducing_potion"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "it:tech/expendables/rage_inducing_potion/trigger"
+	}
+}

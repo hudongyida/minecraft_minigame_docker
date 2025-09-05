@@ -1,0 +1,1 @@
+give @s minecraft:bow[minecraft:lore=[],minecraft:custom_name={"translate": "item.default_bow.name"},minecraft:custom_data={item:"default_bow",itemRarity:0,itemType:2},tooltip_style="minecraft:common/ranged"] 1

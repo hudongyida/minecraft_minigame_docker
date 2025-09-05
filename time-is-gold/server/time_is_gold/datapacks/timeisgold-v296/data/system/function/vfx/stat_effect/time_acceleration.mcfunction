@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:enchanted_hit ~ ~1 ~ 0.3 0.5 0.3 0.05 1 force

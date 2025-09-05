@@ -1,0 +1,1 @@
+$execute at @s positioned ~ ~-1 ~ as @a[distance=..5] run function monsters:tech/global/utils/monster_damage/explosion/init {value:40, monsteruuid:"$(monsteruuid)"}

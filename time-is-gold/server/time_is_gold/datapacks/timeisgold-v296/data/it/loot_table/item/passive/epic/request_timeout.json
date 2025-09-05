@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magenta_glazed_terracotta",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.request_timeout.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.request_timeout.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.request_timeout.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.request_timeout.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.request_timeout.name"
+                                },
+                                "custom_data": {
+                                    "item": "request_timeout",
+                                    "itemRarity": 3,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:epic/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

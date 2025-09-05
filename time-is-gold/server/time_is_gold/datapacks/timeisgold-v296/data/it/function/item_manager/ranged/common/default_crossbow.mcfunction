@@ -1,0 +1,1 @@
+give @s minecraft:crossbow[minecraft:lore=[{"translate": "item.default_crossbow.lore.0"}, {"translate": "item.default_crossbow.lore.1"}],minecraft:custom_name={"translate": "item.default_crossbow.name"},minecraft:custom_data={item:"default_crossbow",itemRarity:0,itemType:2},tooltip_style="minecraft:common/ranged"] 1

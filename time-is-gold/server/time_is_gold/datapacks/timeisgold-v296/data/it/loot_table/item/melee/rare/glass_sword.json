@@ -1,0 +1,88 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.glass_sword.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.glass_sword.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.glass_sword.lore.2"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "5",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.6",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 7.0,
+                                        "id": "glass_sword_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.4,
+                                        "id": "glass_sword_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.glass_sword.name"
+                                },
+                                "custom_data": {
+                                    "item": "glass_sword",
+                                    "itemRarity": 2,
+                                    "itemType": 2,
+                                    "fragile": false
+                                },
+                                "max_damage": 1500,
+                                "tooltip_style": "minecraft:rare/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

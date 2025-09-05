@@ -1,0 +1,3 @@
+scoreboard players add @s dungeon.generator.special_rooms_count 1
+execute as @e[type=armor_stand,tag=bfs.vertex.leaf,tag=!dungeon.generator.special_room,tag=!dungeon.generator.allocate_special_room_id_target,sort=random,limit=1] run tag @s add dungeon.generator.allocate_special_room_id_target
+execute if score @s dungeon.generator.special_rooms_count < #SYSTEM dungeon.max_special_rooms if entity @e[type=armor_stand,tag=bfs.vertex.leaf,tag=!dungeon.generator.special_room,tag=!dungeon.generator.allocate_special_room_id_target,limit=1] run function system:dungeon/generator/place_structure/allocate_special_room_id/tag_targets

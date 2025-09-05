@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_horse_armor",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.necro_transformer.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.necro_transformer.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.necro_transformer.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.necro_transformer.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.necro_transformer.lore.4"
+                                    },
+                                    {
+                                        "text": ""
+                                    },
+                                    {
+                                        "translate": "item.necro_transformer.lore.5"
+                                    },
+                                    {
+                                        "translate": "item.necro_transformer.lore.6"
+                                    },
+                                    {
+                                        "translate": "item.necro_transformer.lore.7"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.necro_transformer.name"
+                                },
+                                "custom_data": {
+                                    "item": "necro_transformer",
+                                    "itemRarity": 2,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:rare/ranged",
+                                "dyed_color": 2634310,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "dyed_color"
+                                    ]
+                                },
+                                "attribute_modifiers": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

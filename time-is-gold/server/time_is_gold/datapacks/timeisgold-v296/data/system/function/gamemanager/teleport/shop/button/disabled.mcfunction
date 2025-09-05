@@ -1,0 +1,1 @@
+item replace entity @s container.17 with gray_stained_glass_pane[item_name={"translate":"system.gamemanager.teleport.shop.button.disabled_name"},custom_data={item:"teleport_to_shop",enabled:false,teleport_shop_throw:{}},item_model="barrier"]

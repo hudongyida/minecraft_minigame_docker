@@ -1,0 +1,1 @@
+$execute as @s at @s run particle dust{color:[$(clock_r)f, $(clock_g)f, $(clock_b)f], scale:1} ^ ^ ^$(radius) 0 0 0 0.1 1 force

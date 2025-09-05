@@ -1,0 +1,2 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:attack_damage modifier add system.combat.melee.damage_delta $(damage_delta) add_value
+$attribute @s[tag=combat.apply_attributes.temp_] minecraft:attack_damage modifier add system.combat.melee.damage_multiplier $(damage_multiplier) add_multiplied_base

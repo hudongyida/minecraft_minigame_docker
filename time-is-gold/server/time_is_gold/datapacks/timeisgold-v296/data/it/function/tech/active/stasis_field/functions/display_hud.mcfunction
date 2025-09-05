@@ -1,0 +1,2 @@
+scoreboard players add @s item.stasis_field.charge 0
+title @s actionbar [{"translate": "item.stasis_field.display_hud"},{"score": {"name": "@s","objective": "item.stasis_field.charge"},"color":"aqua"}]

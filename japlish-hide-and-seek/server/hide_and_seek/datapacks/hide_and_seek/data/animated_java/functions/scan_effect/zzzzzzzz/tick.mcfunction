@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.scan_effect.root] run function animated_java:scan_effect/zzzzzzzz/tick_as_root

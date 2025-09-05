@@ -1,0 +1,1 @@
+give @s minecraft:bow[minecraft:lore=[],minecraft:custom_name={"translate":"item.compound_bow.name"},minecraft:custom_data={item:"compound_bow",itemRarity:2,itemType:2},minecraft:enchantments={"minecraft:power":2,"minecraft:punch":1,"minecraft:piercing":5},tooltip_style="minecraft:rare/ranged"] 1

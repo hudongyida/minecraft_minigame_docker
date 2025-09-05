@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run playsound minecraft:entity.experience_orb.pickup hostile @s ~ ~ ~ 0.5 $(pitch) 0

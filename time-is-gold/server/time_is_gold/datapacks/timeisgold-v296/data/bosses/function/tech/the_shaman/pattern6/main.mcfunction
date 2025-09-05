@@ -1,0 +1,2 @@
+execute if score @s bosses.the_shaman.pattern6.cooldown matches 1.. run scoreboard players remove @s bosses.the_shaman.pattern6.cooldown 1
+execute unless score @s bosses.the_shaman.pattern6.cooldown matches 1.. at @s if entity @p[predicate=system:player,distance=..50] run function bosses:tech/the_shaman/pattern6/pattern6_init

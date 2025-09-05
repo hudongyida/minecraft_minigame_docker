@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "it:item/melee/ancient/iron_fist"
+                }
+            ]
+        }
+    ]
+}

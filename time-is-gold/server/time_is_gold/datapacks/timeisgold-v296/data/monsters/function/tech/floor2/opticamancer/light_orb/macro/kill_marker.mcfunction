@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run kill @e[type=marker,tag=opticamancer.light_orb.marker.direction.$(monsteruuid),distance=..0.5]

@@ -1,0 +1,2 @@
+execute as @a if score @s item.vintage_brass_spyglass.time = @s item.vintage_brass_spyglass.time_previous run function it:tech/ranged/vintage_brass_spyglass/functions/init
+execute as @a if score @s item.vintage_brass_spyglass.time matches 1.. run scoreboard players operation @s item.vintage_brass_spyglass.time_previous = @s item.vintage_brass_spyglass.time

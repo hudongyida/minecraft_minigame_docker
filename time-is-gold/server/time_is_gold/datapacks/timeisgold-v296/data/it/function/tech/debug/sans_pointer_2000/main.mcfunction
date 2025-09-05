@@ -1,0 +1,1 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.sans_pointer_2000.cooldown}

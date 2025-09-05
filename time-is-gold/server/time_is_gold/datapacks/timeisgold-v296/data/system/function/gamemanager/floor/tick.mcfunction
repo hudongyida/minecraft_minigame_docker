@@ -1,0 +1,2 @@
+# 층 플레이 시작 체크
+execute if score #SYSTEM system.gamemanager.floor_started matches 0 unless score #SYSTEM system.gamemanager.floor_started.room_count = #SYSTEM dungeon.room_id run function system:gamemanager/floor/start_floor

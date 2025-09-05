@@ -1,0 +1,2 @@
+$execute store result storage timeisgold:random shuffle_range.index int 1 run random value 0..$(range)
+return run function system:math/random/shuffle_range/macro/roll_value with storage timeisgold:random shuffle_range

@@ -1,0 +1,1 @@
+give @s minecraft:stick[minecraft:lore=[{"translate": "item.tiny_rocket.lore.0"}, {"translate": "item.tiny_rocket.lore.1"}, {"translate": "item.tiny_rocket.lore.2"}],minecraft:custom_name={"translate":"item.tiny_rocket.name"},minecraft:custom_data={item:"tiny_rocket",itemRarity:0,itemType:1},max_stack_size=1,tooltip_style="minecraft:common/passive",item_model="firework_rocket"] 1

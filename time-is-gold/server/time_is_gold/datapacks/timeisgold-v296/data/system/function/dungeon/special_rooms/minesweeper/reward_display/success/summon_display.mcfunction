@@ -1,0 +1,28 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~1 ~ ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:oak_stairs",Properties:{facing:"west",shape:"straight",half:"top"}},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~-1 ~ ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:oak_stairs",Properties:{facing:"east",shape:"straight",half:"top"}},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~ ~1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:oak_stairs",Properties:{facing:"north",shape:"straight",half:"top"}},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~ ~-1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:oak_stairs",Properties:{facing:"south",shape:"straight",half:"top"}},CancelDrop:true,DropItem:false}
+
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~1 ~1 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~-1 ~1 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~1 ~1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~1 ~-1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~1 ~2 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~-1 ~2 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~2 ~1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~2 ~-1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~1 ~3 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~-1 ~3 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~3 ~1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~3 ~-1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:nether_brick_fence"},CancelDrop:true,DropItem:false}
+
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~1 ~4 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:oak_stairs",Properties:{facing:"west",shape:"straight",half:"bottom"}},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~-1 ~4 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:oak_stairs",Properties:{facing:"east",shape:"straight",half:"bottom"}},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~4 ~1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:oak_stairs",Properties:{facing:"north",shape:"straight",half:"bottom"}},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~4 ~-1 {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:oak_stairs",Properties:{facing:"south",shape:"straight",half:"bottom"}},CancelDrop:true,DropItem:false}
+
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~1 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:tnt",Properties:{unstable:"false"}},CancelDrop:true,DropItem:false}
+#execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~2 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:chest",Properties:{facing:"north",type:"single"}},CancelDrop:true,DropItem:false}
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon falling_block ~ ~3 ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display],BlockState:{Name:"minecraft:tnt",Properties:{unstable:"false"}},CancelDrop:true,DropItem:false}

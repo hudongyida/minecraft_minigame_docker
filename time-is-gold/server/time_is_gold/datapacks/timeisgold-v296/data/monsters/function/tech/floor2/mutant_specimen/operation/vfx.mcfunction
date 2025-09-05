@@ -1,0 +1,2 @@
+execute at @s if block ~ ~ ~ #it:air unless block ~ ~-1 ~ #it:air run return run function system:vfx/block_wave/init {tick:10, step:0.6, function:"monsters:tech/floor2/mutant_specimen/wave/summon_block"}
+execute at @s positioned ~ ~-1 ~ if block ~ ~ ~ #it:air unless block ~ ~-1 ~ #it:air run return run function system:vfx/block_wave/init {tick:10, step:0.6, function:"monsters:tech/floor2/mutant_specimen/wave/summon_block"}

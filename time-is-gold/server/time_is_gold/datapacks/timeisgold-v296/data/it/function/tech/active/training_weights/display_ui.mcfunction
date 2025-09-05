@@ -1,0 +1,2 @@
+execute as @s if score @s item.training_weights.active matches 1.. run function system:ui/bar/set {value:"item.training_weights.active", value_target:"@s", base:"item.training_weights.active", base_target:"#MAX_VALUE", invert:0, item:training_weights}
+execute as @s unless score @s item.training_weights.active matches 1.. run function it:tech/utils/cooldown/ui_display {value:"item.training_weights.cooldown", value_target:"@s", base:"item.training_weights.cooldown", base_target:"#MAX_VALUE", invert:1, item:training_weights}

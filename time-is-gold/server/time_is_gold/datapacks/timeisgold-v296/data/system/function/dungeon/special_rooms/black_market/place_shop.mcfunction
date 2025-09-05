@@ -1,0 +1,1 @@
+execute at @s run function system:shop/create/init {loottable:"system:special_rooms/black_market/item", type:0, stock:1}

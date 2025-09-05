@@ -1,0 +1,1 @@
+$data modify storage timeisgold:function_api stack[-1].loot_table set value "it:item/meta/$(type)_$(rarity)"

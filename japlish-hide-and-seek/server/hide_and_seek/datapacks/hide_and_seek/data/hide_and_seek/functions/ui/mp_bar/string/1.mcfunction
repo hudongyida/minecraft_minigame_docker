@@ -1,0 +1,2 @@
+$execute if score @s reserve_1 matches 10..99 run data modify storage macro: ui.mp_bar_string set value "  $(mp_bar_string)"
+$execute if score @s reserve_1 matches 0..9 run data modify storage macro: ui.mp_bar_string set value "    $(mp_bar_string)"

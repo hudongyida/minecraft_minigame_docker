@@ -1,0 +1,64 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.bone_m_arrow.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.bone_m_arrow.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.bone_m_arrow.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.bone_m_arrow.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.bone_m_arrow.name"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 3.0,
+                                        "id": "bone_m_arrow_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.4,
+                                        "id": "bone_m_arrow_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_data": {
+                                    "item": "bone_m_arrow",
+                                    "itemRarity": 4,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:legendary/ranged"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

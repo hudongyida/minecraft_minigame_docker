@@ -1,0 +1,1 @@
+give @s minecraft:armor_stand[minecraft:lore=[{"translate": "item.ar_m.lore.0"}, {"translate": "item.ar_m.lore.1"}],minecraft:custom_name={"translate":"item.ar_m.name"},minecraft:custom_data={item:"ar_m",itemRarity:1,itemType:0},consumable={consume_seconds:2147483647},tooltip_style="minecraft:uncommon/active"] 1

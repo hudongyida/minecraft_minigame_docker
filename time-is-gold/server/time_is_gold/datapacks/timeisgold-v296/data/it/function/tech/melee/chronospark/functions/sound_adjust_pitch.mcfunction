@@ -1,0 +1,1 @@
+$playsound minecraft:block.end_portal_frame.fill block @a ~ ~ ~ 0.2 $(pitch) 0

@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.better_shield.lore.0"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.better_shield.name"
+                                },
+                                "custom_data": {
+                                    "item": "better_shield",
+                                    "itemRarity": 3,
+                                    "itemType": 3
+                                },
+                                "max_damage": 112,
+                                "tooltip_style": "minecraft:epic/armor",
+                                "blocks_attacks": {
+                                    "damage_reductions": [
+                                        {
+                                            "factor": 0.66,
+                                            "base": 0
+                                        }
+                                    ],
+                                    "bypassed_by": "#bypasses_shield"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

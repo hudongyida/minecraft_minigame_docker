@@ -1,0 +1,1 @@
+function it:tech/utils/detect/crossbow/fire {advancement:"it:ranged/energy_blaster_fire", item:"energy_blaster", path:"it:tech/ranged/energy_blaster/crossbow/use"}

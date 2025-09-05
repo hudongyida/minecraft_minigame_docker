@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.chainsaw.cooldown}
+execute as @a[predicate=system:player] run function system:ui/bar/set {value:item.chainsaw.cooldown, value_target:"@s", base:item.chainsaw.cooldown, base_target:"#MAX_VALUE", invert:1, item:chainsaw}

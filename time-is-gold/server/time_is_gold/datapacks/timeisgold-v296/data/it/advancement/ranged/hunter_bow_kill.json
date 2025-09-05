@@ -1,0 +1,37 @@
+{
+    "parent": "system:eventlistener/monster_attack",
+    "criteria":
+    {
+        "event": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions":
+            {
+                "killing_blow":
+                {
+                    "direct_entity":
+                    {
+                        "type": "minecraft:arrow",
+                        "nbt": "{Tags:[\"hunter_bow\"]}"
+                    },
+                    "source_entity":
+                    {
+                        "type": "minecraft:player"
+                    },
+                    "tags":
+                    [
+                        {
+                            "id": "minecraft:is_arrow_damage",
+                            "expected": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "event"
+        ]
+    ]
+}

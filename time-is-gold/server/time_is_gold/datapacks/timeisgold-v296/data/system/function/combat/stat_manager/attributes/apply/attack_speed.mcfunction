@@ -1,0 +1,2 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:attack_speed modifier add system.combat.melee.attack_speed_delta $(attack_speed_delta) add_value
+$attribute @s[tag=combat.apply_attributes.temp_] minecraft:attack_speed modifier add system.combat.melee.attack_speed_multiplier $(attack_speed_multiplier) add_multiplied_base

@@ -1,0 +1,2 @@
+execute as @s if score @s monsters.specimen.fear matches 1.. run scoreboard players remove @s monsters.specimen.fear 1
+execute as @s if score @s monsters.specimen.fear matches 1.. run function monsters:tech/global/utils/fear/screen_shake

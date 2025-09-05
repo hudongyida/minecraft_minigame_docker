@@ -1,0 +1,1 @@
+execute as @e[type=#minecraft:arrows,tag=!system.combat.player_arrow.damage_checked] at @s run function it:tech/utils/arrow/step

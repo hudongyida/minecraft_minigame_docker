@@ -1,0 +1,1 @@
+$data remove storage timeisgold:entity_database table.$(id)

@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.dawnveil_eye.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.dawnveil_eye.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.dawnveil_eye.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.dawnveil_eye.lore.3"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:rare/active",
+                                "custom_name": {
+                                    "translate": "item.dawnveil_eye.name"
+                                },
+                                "custom_data": {
+                                    "item": "dawnveil_eye",
+                                    "itemRarity": 2,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 5,
+                                "item_model": "ender_eye"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

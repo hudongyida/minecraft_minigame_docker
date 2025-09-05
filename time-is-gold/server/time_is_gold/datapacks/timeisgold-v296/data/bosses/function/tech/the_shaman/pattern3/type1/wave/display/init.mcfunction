@@ -1,0 +1,9 @@
+execute at @s positioned ^-4 ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block
+execute at @s positioned ^-3 ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block
+execute at @s positioned ^-2 ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block
+execute at @s positioned ^-1 ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block
+execute at @s positioned ^ ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block
+execute at @s positioned ^1 ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block
+execute at @s positioned ^2 ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block
+execute at @s positioned ^3 ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block
+execute at @s positioned ^4 ^-1 ^ run function bosses:tech/the_shaman/pattern3/type1/wave/display/summon_block

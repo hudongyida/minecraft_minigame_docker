@@ -1,0 +1,2 @@
+scoreboard players reset @s bosses.the_shaman.pattern2.mirror.glow
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=block_display,tag=bosses.the_shaman.mirror.block_display.$(selfuuid),dx=1,dy=1,dz=1] run data modify entity @s Glowing set value off

@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.planck_interferer.cooldown}
+execute as @a[predicate=system:player] run function it:tech/utils/cooldown/ui_display {value:item.planck_interferer.cooldown, value_target:"@s", base:item.planck_interferer.cooldown, base_target:"#MAX_VALUE", invert:1, item:planck_interferer}

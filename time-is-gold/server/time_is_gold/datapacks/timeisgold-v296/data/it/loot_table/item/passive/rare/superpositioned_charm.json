@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.superpositioned_charm.lore.0"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.superpositioned_charm.name"
+                                },
+                                "custom_data": {
+                                    "item": "superpositioned_charm",
+                                    "itemRarity": 2,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 64,
+                                "item_model": "minecraft:music_disc_precipice",
+                                "tooltip_style": "minecraft:rare/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+$execute as @s at @s run playsound entity.guardian.attack hostile @a ~ ~ ~ 1 $(pitch) 0

@@ -1,0 +1,3 @@
+$execute align xyz positioned ~ ~ ~ as @e[type=marker,tag=dungeon.special_rooms.minesweeper.mine_target,tag=!dungeon.special_rooms.minesweeper.mine,dx=$(size_x),dy=-1,dz=$(size_z),sort=random,limit=1] run tag @s add dungeon.special_rooms.minesweeper.mine
+scoreboard players remove #SYSTEM dungeon.special_rooms.minesweeper.mine_count 1
+$execute if score #SYSTEM dungeon.special_rooms.minesweeper.mine_count matches 1.. positioned ~ ~ ~ run function system:dungeon/special_rooms/minesweeper/create/place_mine/loop {size_x:$(size_x), size_z:$(size_z)}

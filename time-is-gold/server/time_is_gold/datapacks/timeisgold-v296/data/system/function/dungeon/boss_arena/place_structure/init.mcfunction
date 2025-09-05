@@ -1,0 +1,3 @@
+execute as @e[type=armor_stand,tag=dungeon.bossfight.armor_stand.boss_arena] at @s run function system:dungeon/boss_arena/place_structure/place with storage timeisgold:function_api stack[-1].arena
+execute as @e[type=armor_stand,tag=dungeon.bossfight.armor_stand.exit_passage] at @s run function system:dungeon/boss_arena/place_structure/place with storage timeisgold:function_api stack[-1].passage
+execute as @e[type=armor_stand,tag=dungeon.bossfight.armor_stand.next_floor_portal] at @s run function system:dungeon/boss_arena/place_structure/place with storage timeisgold:function_api stack[-1].portal

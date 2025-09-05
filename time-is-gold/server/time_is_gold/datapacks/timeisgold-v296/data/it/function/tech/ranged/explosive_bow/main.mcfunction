@@ -1,0 +1,2 @@
+execute as @e[type=#minecraft:arrows,tag=item.explosive_bow.arrow] at @s if entity @s[nbt={inGround:true}] run function it:tech/ranged/explosive_bow/functions/ground_explode
+execute as @e[type=#minecraft:arrows,tag=item.explosive_bow.arrow] at @s positioned ^ ^ ^ run particle small_flame ~ ~ ~ 0 0 0 0 1 force

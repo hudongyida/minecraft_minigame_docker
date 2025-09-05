@@ -1,0 +1,1 @@
+give @s minecraft:stone_button[minecraft:lore=[{"translate": "item.pebble.lore.0"}, {"translate": "item.pebble.lore.1"}],minecraft:custom_name={"translate":"item.pebble.name"},minecraft:custom_data={item:"pebble",itemRarity:0,itemType:1},max_stack_size=2,tooltip_style="minecraft:common/passive"] 1

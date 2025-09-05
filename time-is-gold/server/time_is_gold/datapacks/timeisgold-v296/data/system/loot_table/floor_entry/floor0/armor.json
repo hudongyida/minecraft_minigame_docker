@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:empty",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/armor_common",
+                    "weight": 600
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/armor_uncommon",
+                    "weight": 340
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/armor_rare",
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/armor_epic",
+                    "weight": 20,
+                    "quality": 8
+                }
+            ]
+        }
+    ]
+}

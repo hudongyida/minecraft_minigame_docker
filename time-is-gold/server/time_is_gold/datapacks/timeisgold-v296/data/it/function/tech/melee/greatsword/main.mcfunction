@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.mainhand *[minecraft:custom_data~{item:greatsword}] if items entity @s weapon.offhand * run function it:tech/utils/force_drop/offhand {delay:40}

@@ -1,0 +1,2 @@
+execute as @s[tag=!mutant_specimen.ability_active] unless predicate system:on_ground run tag @s add mutant_specimen.ability_active
+execute as @s[tag=mutant_specimen.ability_active] if predicate system:on_ground at @s run function monsters:tech/floor2/mutant_specimen/operation/terminate

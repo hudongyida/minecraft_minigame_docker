@@ -1,0 +1,1 @@
+execute as @e[type=arrow,tag=!monsters.arrow.damage_checked] run function monsters:tech/global/arrow_modifier/modify_damage

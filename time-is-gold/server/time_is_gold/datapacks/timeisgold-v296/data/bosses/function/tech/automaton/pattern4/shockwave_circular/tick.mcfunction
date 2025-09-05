@@ -1,0 +1,5 @@
+execute as @e[type=marker,tag=bosses.automaton.pattern4.marker.shockwave_circular.center] run function bosses:tech/automaton/pattern4/shockwave_circular/shockwave_circular_calc with entity @s data
+
+execute as @e[type=marker,tag=bosses.automaton.pattern4.marker.shockwave_circular.center] if score @s bosses.automaton.pattern4.shockwave_life_tick < @s bosses.automaton.pattern4.shockwave_max_life_tick run scoreboard players add @s bosses.automaton.pattern4.shockwave_life_tick 1
+execute as @e[type=marker,tag=bosses.automaton.pattern4.marker.shockwave_circular.center] if score @s bosses.automaton.pattern4.shockwave_life_tick >= @s bosses.automaton.pattern4.shockwave_max_life_tick run kill @s
+execute as @e[type=marker,tag=bosses.automaton.pattern4.marker.shockwave_circular.center] at @s positioned ~ ~ ~ run function bosses:tech/automaton/pattern4/shockwave_circular/shockwave_circular_damage with entity @s data

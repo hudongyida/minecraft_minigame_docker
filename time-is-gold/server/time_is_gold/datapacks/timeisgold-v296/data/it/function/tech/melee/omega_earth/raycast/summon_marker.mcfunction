@@ -1,0 +1,2 @@
+$execute align xyz positioned ~0.5 ~ ~0.5 run summon marker ~ ~ ~ {Tags:["item.omega_earth.marker.sword","item.omega_earth.marker.sword.init_target.$(playerid)"], data:{playerid:$(playerid), selfuuid0:0, selfuuid1:0, selfuuid2:0, selfuuid3:0}}
+$execute align xyz positioned ~0.5 ~ ~0.5 as @n[type=marker,tag=item.omega_earth.marker.sword.init_target.$(playerid),distance=..0.5] at @s run function it:tech/melee/omega_earth/raycast/init_data {playerid:$(playerid)}

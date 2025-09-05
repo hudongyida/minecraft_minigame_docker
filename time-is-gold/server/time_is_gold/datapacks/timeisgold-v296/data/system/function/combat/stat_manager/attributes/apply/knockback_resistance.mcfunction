@@ -1,0 +1,1 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:knockback_resistance modifier add system.combat.knockback_resistance $(knockback_resistance) add_value

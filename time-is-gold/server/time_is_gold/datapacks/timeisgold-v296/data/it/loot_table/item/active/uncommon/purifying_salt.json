@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.purifying_salt.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.purifying_salt.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.purifying_salt.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.purifying_salt.lore.3"
+                                    },
+                                    {
+                                        "text": ""
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.purifying_salt.name"
+                                },
+                                "custom_data": {
+                                    "item": "purifying_salt",
+                                    "itemRarity": 1,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:uncommon/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

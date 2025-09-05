@@ -1,0 +1,1 @@
+$execute positioned ~-4.25 ~-1 ~-0.75 as @a[predicate=system:player,dx=7.5,dy=7,dz=1.5] run function monsters:tech/global/utils/monster_damage/melee/init {value:40, monsteruuid:"$(bossuuid)"}

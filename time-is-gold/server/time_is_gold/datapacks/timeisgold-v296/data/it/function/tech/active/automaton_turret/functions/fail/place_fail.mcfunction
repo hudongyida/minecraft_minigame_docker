@@ -1,0 +1,2 @@
+$title @a[scores={playerid=$(playerid)}] actionbar {"translate": "item.automaton_turret.notify.cannot_place"}
+$execute as @a[scores={playerid=$(playerid)}] at @s run playsound minecraft:entity.enderman.teleport hostile @s ~ ~ ~ 0.5 0.5 0.5

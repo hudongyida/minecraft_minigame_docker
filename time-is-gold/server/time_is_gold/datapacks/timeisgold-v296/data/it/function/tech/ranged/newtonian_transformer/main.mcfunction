@@ -1,0 +1,1 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.newtonian_transformer.cooldown}

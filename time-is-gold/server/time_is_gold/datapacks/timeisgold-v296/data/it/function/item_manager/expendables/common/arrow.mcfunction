@@ -1,0 +1,1 @@
+give @s minecraft:arrow[minecraft:lore=[],minecraft:custom_name={"translate": "item.arrow.name"},minecraft:custom_data={item:"arrow",itemRarity:0,itemType:4,itemPrice:50},tooltip_style="minecraft:common/expendables"] 1

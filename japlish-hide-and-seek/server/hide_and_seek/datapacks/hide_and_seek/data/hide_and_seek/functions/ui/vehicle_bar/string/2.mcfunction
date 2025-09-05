@@ -1,0 +1,2 @@
+$execute if score @s reserve_2 matches 10..99 run data modify storage macro: ui.vehicle_bar_string_2 set value "  $(vehicle_bar_string_2)"
+$execute if score @s reserve_2 matches 0..9 run data modify storage macro: ui.vehicle_bar_string_2 set value "    $(vehicle_bar_string_2)"

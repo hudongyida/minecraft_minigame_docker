@@ -1,0 +1,18 @@
+scoreboard players remove @s monsters.utils.raycast.default.step 1
+$execute as @s positioned ^ ^ ^ run function $(path)/raycast/$(tickfunction) with storage timeisgold:function_api stack[-1]
+
+execute as @s if score @s monsters.utils.raycast.default.step matches 0 run scoreboard players set @s monsters.utils.raycast.default.terminate_check 1
+$execute as @s if score @s monsters.utils.raycast.default.wall_check matches 1 positioned ^ ^ ^$(speed) unless block ~ ~ ~ #it:air run scoreboard players set @s monsters.utils.raycast.default.terminate_check 1
+
+$execute as @s if score @s monsters.utils.raycast.default.entity_check matches 1 if score @s monsters.utils.raycast.default.target matches 0..1 positioned ~-$(hitbox_1) ~-$(hitbox_1) ~-$(hitbox_1) as @a[predicate=system:player,dx=0] positioned ~-$(hitbox_2) ~-$(hitbox_2) ~-$(hitbox_2) if entity @s[dx=0] run scoreboard players set $(selfuuid) monsters.utils.raycast.default.terminate_check 1
+$execute as @s if score @s monsters.utils.raycast.default.entity_check matches 1 if score @s monsters.utils.raycast.default.target matches -1..0 positioned ~-$(hitbox_1) ~-$(hitbox_1) ~-$(hitbox_1) as @e[tag=monster.ally,dx=0] positioned ~-$(hitbox_2) ~-$(hitbox_2) ~-$(hitbox_2) if entity @s[dx=0] run scoreboard players set $(selfuuid) monsters.utils.raycast.default.terminate_check 1
+
+$execute if score @s monsters.utils.raycast.default.system matches 0 as @s[tag=!monsters.arrow_reflected] positioned ~ ~ ~ if entity @a[scores={item.real_time_projectile_interceptor.active=1},distance=..2.5] run function it:tech/passive/real_time_projectile_interceptor/functions/block_raycast {selfuuid:"$(selfuuid)"}
+
+$execute as @s if score @s monsters.utils.raycast.default.target matches 0..1 positioned ~-$(hitbox_1) ~-$(hitbox_1) ~-$(hitbox_1) as @a[predicate=system:player,tag=!monsters.utils.raycast.default.hit.$(selfuuid),dx=0] positioned ~-$(hitbox_2) ~-$(hitbox_2) ~-$(hitbox_2) if entity @s[dx=0] positioned ~$(hitbox_3) ~$(hitbox_3) ~$(hitbox_3) run function $(path)/raycast/$(hitfunction) {monsteruuid:"$(monsteruuid)"}
+$execute as @s if score @s monsters.utils.raycast.default.target matches 0..1 positioned ~-$(hitbox_1) ~-$(hitbox_1) ~-$(hitbox_1) as @a[predicate=system:player,tag=!monsters.utils.raycast.default.hit.$(selfuuid),dx=0] positioned ~-$(hitbox_2) ~-$(hitbox_2) ~-$(hitbox_2) if entity @s[dx=0] positioned ~$(hitbox_3) ~$(hitbox_3) ~$(hitbox_3) run tag @s add monsters.utils.raycast.default.hit.$(selfuuid)
+$execute as @s if score @s monsters.utils.raycast.default.target matches -1..0 positioned ~-$(hitbox_1) ~-$(hitbox_1) ~-$(hitbox_1) as @e[tag=monster.ally,tag=!monsters.utils.raycast.default.hit.$(selfuuid),dx=0] positioned ~-$(hitbox_2) ~-$(hitbox_2) ~-$(hitbox_2) if entity @s[dx=0] positioned ~$(hitbox_3) ~$(hitbox_3) ~$(hitbox_3) run function $(path)/raycast/$(hitfunction) {monsteruuid:"$(monsteruuid)"}
+$execute as @s if score @s monsters.utils.raycast.default.target matches -1..0 positioned ~-$(hitbox_1) ~-$(hitbox_1) ~-$(hitbox_1) as @e[tag=monster.ally,tag=!monsters.utils.raycast.default.hit.$(selfuuid),dx=0] positioned ~-$(hitbox_2) ~-$(hitbox_2) ~-$(hitbox_2) if entity @s[dx=0] positioned ~$(hitbox_3) ~$(hitbox_3) ~$(hitbox_3) run tag @s add monsters.utils.raycast.default.hit.$(selfuuid)
+
+$execute as @s unless score @s monsters.utils.raycast.default.terminate_check matches 1 positioned ^ ^ ^$(speed) run function monsters:tech/global/utils/raycast/default/step with storage timeisgold:function_api stack[-1]
+execute as @s if score @s monsters.utils.raycast.default.terminate_check matches 1 positioned ^ ^ ^ run function monsters:tech/global/utils/raycast/default/terminate with storage timeisgold:function_api stack[-1]

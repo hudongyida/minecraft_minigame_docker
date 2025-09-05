@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:chest",
+    "pools":
+    [
+        {
+            "rolls":
+            {
+                "type": "storage",
+                "storage": "timeisgold:loot_manager",
+                "path": "entrance_supply_chest.weapon"
+            },
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "system:floor_entry/entrance/weapon"
+                }
+            ]
+        },
+        {
+            "rolls":
+            {
+                "type": "storage",
+                "storage": "timeisgold:loot_manager",
+                "path": "entrance_supply_chest.ability"
+            },
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "system:floor_entry/entrance/ability"
+                }
+            ]
+        },
+        {
+            "rolls":
+            {
+                "type": "storage",
+                "storage": "timeisgold:loot_manager",
+                "path": "entrance_supply_chest.armor"
+            },
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "system:floor_entry/entrance/armor"
+                }
+            ]
+        },
+        {
+            "rolls":
+            {
+                "type": "storage",
+                "storage": "timeisgold:loot_manager",
+                "path": "entrance_supply_chest.expendables"
+            },
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "system:floor_entry/entrance/expendables"
+                }
+            ]
+        }
+    ]
+}

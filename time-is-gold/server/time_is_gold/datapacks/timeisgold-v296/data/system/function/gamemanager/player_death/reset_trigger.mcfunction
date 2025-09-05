@@ -1,0 +1,2 @@
+execute as @s[advancements={system:gamemanager/player_death/root=true}] run advancement revoke @s from system:gamemanager/player_death/root
+advancement grant @s only system:gamemanager/player_death/root

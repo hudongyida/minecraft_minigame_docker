@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.ar_m.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.ar_m.lore.1"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.ar_m.name"
+                                },
+                                "custom_data": {
+                                    "item": "ar_m",
+                                    "itemRarity": 1,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "tooltip_style": "minecraft:uncommon/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

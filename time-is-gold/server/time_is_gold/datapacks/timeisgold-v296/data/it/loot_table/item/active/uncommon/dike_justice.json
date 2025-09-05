@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:brewing_stand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.dike_justice.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.dike_justice.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.dike_justice.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.dike_justice.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.dike_justice.name"
+                                },
+                                "custom_data": {
+                                    "item": "dike_justice",
+                                    "itemRarity": 1,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:uncommon/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

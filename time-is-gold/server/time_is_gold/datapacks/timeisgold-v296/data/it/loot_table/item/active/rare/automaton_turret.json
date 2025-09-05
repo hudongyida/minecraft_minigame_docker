@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:grindstone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.automaton_turret.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.automaton_turret.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.automaton_turret.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.automaton_turret.lore.3"
+                                    },
+                                    [
+                                        {
+                                            "translate": "item.automaton_turret.lore.4"
+                                        },
+                                        {
+                                            "text": "0",
+                                            "color": "white",
+                                            "italic": false
+                                        }
+                                    ]
+                                ],
+                                "custom_name": {
+                                    "translate": "item.automaton_turret.name"
+                                },
+                                "custom_data": {
+                                    "item": "automaton_turret",
+                                    "itemRarity": 2,
+                                    "itemType": 0,
+                                    "runtime": 0,
+                                    "fuel": 0
+                                },
+                                "max_stack_size": 1,
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "tooltip_style": "minecraft:rare/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

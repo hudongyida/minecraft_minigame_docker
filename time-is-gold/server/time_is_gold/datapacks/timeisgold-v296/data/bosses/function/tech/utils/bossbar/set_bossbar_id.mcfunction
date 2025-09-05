@@ -1,0 +1,1 @@
+$data modify storage timeisgold:function_api stack[-1].bossbarid set value "$(uuid)-$(id)"

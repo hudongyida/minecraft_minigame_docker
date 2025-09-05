@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.bard_guitar.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.bard_guitar.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.bard_guitar.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.bard_guitar.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.bard_guitar.lore.4"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.bard_guitar.name"
+                                },
+                                "custom_data": {
+                                    "item": "bard_guitar",
+                                    "itemRarity": 3,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647,
+                                    "animation": "block"
+                                },
+                                "max_stack_size": 1,
+                                "item_model": "minecraft:brush",
+                                "tooltip_style": "minecraft:epic/ranged"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

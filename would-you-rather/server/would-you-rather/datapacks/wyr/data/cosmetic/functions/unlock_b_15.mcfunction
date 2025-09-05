@@ -1,0 +1,2 @@
+tag @s add unlock_b_15
+tellraw @s [{"text":"- - - - - - - - - - - - - - - - - - - - - - - - - - -","color":"gray","bold":true},{"text":"\n你已解锁传奇装饰品!","color":"gold","bold":false},{"text":"\n横幅 ","color":"dark_aqua","bold":true},{"text":"- ","color":"gray","bold":true},{"text":"王冠","color":"#ffff40","bold":true},{"text":"\n你可以在末影箱内选择它!","color":"gray","bold":false}]

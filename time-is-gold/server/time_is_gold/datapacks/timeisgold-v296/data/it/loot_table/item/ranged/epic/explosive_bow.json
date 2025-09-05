@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.explosive_bow.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.explosive_bow.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.explosive_bow.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.explosive_bow.name"
+                                },
+                                "custom_data": {
+                                    "item": "explosive_bow",
+                                    "itemRarity": 3,
+                                    "itemType": 2
+                                },
+                                "enchantments": {
+                                    "minecraft:power": 3
+                                },
+                                "tooltip_style": "minecraft:epic/ranged"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

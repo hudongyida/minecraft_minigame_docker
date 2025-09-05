@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.translocator.cooldown}
+execute as @a[predicate=system:player] run function it:tech/utils/cooldown/ui_display {value:item.translocator.cooldown, value_target:"@s", base:item.translocator.cooldown, base_target:"#MAX_VALUE", invert:1, item:translocator}

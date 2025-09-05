@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.revelatory_record.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.revelatory_record.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.revelatory_record.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.revelatory_record.name"
+                                },
+                                "custom_data": {
+                                    "item": "revelatory_record",
+                                    "itemRarity": 3,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:epic/passive",
+                                "item_model": "minecraft:music_disc_11"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

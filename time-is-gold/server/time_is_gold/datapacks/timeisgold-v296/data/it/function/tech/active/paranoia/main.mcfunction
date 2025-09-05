@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.paranoia.cooldown}
+execute as @a[predicate=system:player] run function it:tech/utils/cooldown/ui_display {value:item.paranoia.cooldown, value_target:"@s", base:item.paranoia.cooldown, base_target:"#MAX_VALUE", invert:1, item:paranoia}

@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.scan_effect.animation.scanning] run function animated_java:scan_effect/zzzzzzzz/animations/scanning/tick

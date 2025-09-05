@@ -1,0 +1,2 @@
+function it:tech/utils/cooldown/tick {scoreboard:item.impact_pulser.cooldown}
+execute as @a[predicate=system:player] run function it:tech/utils/cooldown/ui_display {value:item.impact_pulser.cooldown, value_target:"@s", base:item.impact_pulser.cooldown, base_target:"#MAX_VALUE", invert:1, item:impact_pulser}

@@ -1,0 +1,2 @@
+$execute align y positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["bosses.automaton.pattern5.marker.obstacle","bosses.automaton.pattern5.marker.obstacle.uninitialized"], data:{bossuuid:"$(monsteruuid)", selfuuid:""}}
+execute align y positioned ~ ~ ~ as @n[type=marker,tag=bosses.automaton.pattern5.marker.obstacle.uninitialized,distance=..0.5] run function bosses:tech/automaton/pattern5/operation/raycast/set_data

@@ -1,0 +1,89 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lightning_rod",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.auction_microphone_pro.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone_pro.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone_pro.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone_pro.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone_pro.lore.4"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone_pro.lore.5"
+                                    },
+                                    {
+                                        "text": ""
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "1",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.6",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:rare/melee",
+                                "custom_name": {
+                                    "translate": "item.auction_microphone_pro.name"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": -2.4,
+                                        "id": "auction_microphone_pro_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_data": {
+                                    "item": "auction_microphone_pro",
+                                    "itemRarity": 2,
+                                    "itemType": 2
+                                },
+                                "max_stack_size": 1,
+                                "enchantment_glint_override": true,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

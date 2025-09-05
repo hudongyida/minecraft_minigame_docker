@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_sand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.wandering_soul.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.wandering_soul.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.wandering_soul.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.wandering_soul.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.wandering_soul.name"
+                                },
+                                "custom_data": {
+                                    "item": "wandering_soul",
+                                    "itemRarity": 4,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:legendary/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

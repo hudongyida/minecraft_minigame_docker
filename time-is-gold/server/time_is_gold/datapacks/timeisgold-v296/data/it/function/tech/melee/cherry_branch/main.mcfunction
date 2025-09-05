@@ -1,0 +1,1 @@
+execute as @e[tag=monster] if score @s item.cherry_branch.fragility_tick matches 1.. run scoreboard players remove @s item.cherry_branch.fragility_tick 1

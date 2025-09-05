@@ -1,0 +1,1 @@
+give @s minecraft:iron_bars[minecraft:lore=[{"translate": "item.the_fault.lore.0"}, {"translate": "item.the_fault.lore.1"}, {"translate": "item.the_fault.lore.2"}],minecraft:custom_name={"translate":"item.the_fault.name"},minecraft:custom_data={item:"the_fault",itemRarity:0,itemType:0},consumable={consume_seconds:2147483647},tooltip_style="minecraft:common/active"] 1

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=item.iron_fist.shockwave.marker] at @s run function it:tech/melee/iron_fist/shockwave_step

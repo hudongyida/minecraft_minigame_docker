@@ -1,0 +1,1 @@
+give @s minecraft:arms_up_pottery_sherd[minecraft:lore=[{"translate": "item.sigil_of_shield.lore.0"}, {"translate": "item.sigil_of_shield.lore.1"}, {"translate": "item.sigil_of_shield.lore.2"}],minecraft:custom_name={"translate":"item.sigil_of_shield.name"},minecraft:custom_data={item:"sigil_of_shield",itemRarity:0,itemType:1},tooltip_style="minecraft:common/passive"]

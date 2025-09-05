@@ -1,0 +1,1 @@
+$attribute @s[tag=combat.apply_attributes.temp] minecraft:luck modifier add system.combat.luck $(luck) add_value

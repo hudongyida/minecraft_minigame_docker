@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:raw_gold",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.saint_berries.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.saint_berries.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.saint_berries.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.saint_berries.name"
+                                },
+                                "custom_data": {
+                                    "item": "saint_berries",
+                                    "itemRarity": 0,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:rare/passive",
+                                "item_model": "minecraft:glow_berries"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.door_breaching_manual.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.door_breaching_manual.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.door_breaching_manual.lore.2"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.door_breaching_manual.name"
+                                },
+                                "custom_data": {
+                                    "item": "door_breaching_manual",
+                                    "itemRarity": 1,
+                                    "itemType": 1,
+                                    "itemSortTag": [
+                                        "book"
+                                    ]
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:uncommon/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

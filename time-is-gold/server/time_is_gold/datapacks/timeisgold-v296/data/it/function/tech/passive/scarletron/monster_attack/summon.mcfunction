@@ -1,0 +1,1 @@
+$execute at @s positioned ~$(pos_x) ~1 ~$(pos_z) run summon arrow ~ ~ ~ {Motion:[$(motion_x), $(motion_y), $(motion_z)],damage:5f,pickup:2b,Owner:$(playeruuidlist),Tags:["scarletron_arrow"]}

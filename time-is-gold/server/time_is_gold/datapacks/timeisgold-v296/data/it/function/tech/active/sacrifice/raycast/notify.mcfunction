@@ -1,0 +1,2 @@
+$execute unless entity @n[tag=item.sacrifice.target.$(playerid)] as @a[scores={playerid=$(playerid)}] run function it:tech/active/sacrifice/functions/fail
+$tag @a[tag=item.sacrifice.target.$(playerid)] remove item.sacrifice.target.$(playerid)

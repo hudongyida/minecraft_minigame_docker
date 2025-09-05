@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run playsound block.chain.break block @a ~ ~ ~ 4 $(pitch) 1

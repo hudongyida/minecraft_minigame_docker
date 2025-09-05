@@ -1,0 +1,1 @@
+tag @s remove aj.jail_cell.animation.open

@@ -1,0 +1,2 @@
+execute as @s at @s run playsound minecraft:entity.arrow.hit_player master @a ~ ~ ~ 1 1.5 0.1
+$execute as @s at @s run function system:combat/modified_damage/laser/init {playerid:$(playerid), value:27d, knockback:1}

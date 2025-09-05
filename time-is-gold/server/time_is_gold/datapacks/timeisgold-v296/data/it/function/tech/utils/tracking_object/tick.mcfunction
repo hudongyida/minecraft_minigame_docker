@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=item.utils.tracking_object.marker] at @s run function it:tech/utils/tracking_object/step with entity @s data

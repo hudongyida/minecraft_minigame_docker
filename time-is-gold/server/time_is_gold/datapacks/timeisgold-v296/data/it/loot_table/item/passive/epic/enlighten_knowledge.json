@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chiseled_bookshelf",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.enlighten_knowledge.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.enlighten_knowledge.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.enlighten_knowledge.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.enlighten_knowledge.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.enlighten_knowledge.name"
+                                },
+                                "custom_data": {
+                                    "item": "enlighten_knowledge",
+                                    "itemRarity": 3,
+                                    "itemType": 1,
+                                    "itemSortTag": [
+                                        "book"
+                                    ]
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:epic/passive"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

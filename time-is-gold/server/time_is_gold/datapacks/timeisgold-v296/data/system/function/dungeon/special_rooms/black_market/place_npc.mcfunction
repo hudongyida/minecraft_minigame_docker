@@ -1,0 +1,2 @@
+execute positioned ~ ~ ~ run summon vindicator ~ ~ ~ {Tags:["dungeon.npc","dungeon.special_rooms.black_market.shopkeeper"],CustomName:{"text":"可疑商人","color":"white","italic":false},CustomNameVisible:false,PersistenceRequired:true,NoAI:true,Silent:true,Invulnerable:true}
+execute positioned ~ ~ ~ run summon interaction ~ ~ ~ {Tags:["dungeon.npc","dungeon.special_rooms.black_market.shopkeeper_interaction"],response:true,height:2f,width:1f}

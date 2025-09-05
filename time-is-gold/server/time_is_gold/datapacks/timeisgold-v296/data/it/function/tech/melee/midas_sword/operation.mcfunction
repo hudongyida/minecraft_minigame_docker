@@ -1,0 +1,3 @@
+function it:tech/utils/count/item_in_inventory {scoreboard:item.midas_sword.time_cluster_count, item_id:gold_block, item_tag:time_cluster}
+execute if score @s item.midas_sword.time_cluster_count matches 6.. run scoreboard players set @s item.midas_sword.time_cluster_count 6
+execute at @s unless score @s item.midas_sword.time_cluster_count = @s item.midas_sword.time_cluster_previous run function it:tech/melee/midas_sword/update_attribute

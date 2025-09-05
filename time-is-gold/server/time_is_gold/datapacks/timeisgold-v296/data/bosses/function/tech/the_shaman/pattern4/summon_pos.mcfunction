@@ -1,0 +1,3 @@
+execute as @s at @s align y positioned ~ ~0.5 ~ rotated as @s rotated ~ 0 if function bosses:tech/the_shaman/pattern4/check_back positioned ^ ^ ^-3 run summon marker ~ ~ ~ {Tags:["bosses.the_shaman.pattern4.marker.tp_pos"]}
+execute as @s at @s align y positioned ~ ~0.5 ~ rotated as @s rotated ~ 0 if function bosses:tech/the_shaman/pattern4/check_left positioned ^2.5 ^ ^-2.5 run summon marker ~ ~ ~ {Tags:["bosses.the_shaman.pattern4.marker.tp_pos"]}
+execute as @s at @s align y positioned ~ ~0.5 ~ rotated as @s rotated ~ 0 if function bosses:tech/the_shaman/pattern4/check_right positioned ^-2.5 ^ ^-2.5 run summon marker ~ ~ ~ {Tags:["bosses.the_shaman.pattern4.marker.tp_pos"]}

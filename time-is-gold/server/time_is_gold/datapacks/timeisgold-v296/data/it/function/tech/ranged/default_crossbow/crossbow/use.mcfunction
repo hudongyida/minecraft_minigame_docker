@@ -1,0 +1,1 @@
+execute as @s at @s anchored eyes positioned ^ ^ ^ run function it:tech/ranged/default_crossbow/raycast_call with entity @s

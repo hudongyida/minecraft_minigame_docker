@@ -1,0 +1,1 @@
+give @s minecraft:netherite_ingot[minecraft:lore=[{"translate": "item.neutronium_ingot.lore.0"}],minecraft:custom_name={"translate": "item.neutronium_ingot.name"},minecraft:custom_data={item:"neutronium_ingot",itemRarity:3,itemType:4},tooltip_style="minecraft:epic/expendables"] 1

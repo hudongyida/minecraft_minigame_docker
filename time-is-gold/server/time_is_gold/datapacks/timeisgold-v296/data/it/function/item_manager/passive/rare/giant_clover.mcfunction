@@ -1,0 +1,1 @@
+give @s minecraft:big_dripleaf[minecraft:lore=[{"translate": "item.giant_clover.lore.0"}],minecraft:custom_name={"translate":"item.giant_clover.name"},minecraft:custom_data={item:"giant_clover",itemRarity:2,itemType:1},max_stack_size=1,tooltip_style="minecraft:rare/passive"] 1

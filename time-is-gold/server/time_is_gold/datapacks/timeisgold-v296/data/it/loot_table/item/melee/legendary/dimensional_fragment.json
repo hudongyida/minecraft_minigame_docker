@@ -1,0 +1,173 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    [
+                                        {
+                                            "text": "\\\\uE011 ",
+                                            "color": "#ffff55",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "裂隙冲击 ",
+                                            "color": "#55ff55",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "(6s)",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "能力充能需要击杀 ",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "5 怪物",
+                                            "color": "#ff5555",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": ".",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "使用时",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "暂时获得",
+                                            "color": "#00aaaa",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "完全无敌状态。",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "激活时无法",
+                                            "color": "#ff5555",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "对怪物造成伤害。",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "碰到怪物时附加 ",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "+5 \u2623易伤 ",
+                                            "color": "#ffffff",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "并持续 ",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "10s ",
+                                            "color": "#55ff55",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "。",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "再次使用该物品并按下 ",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "\\\\uE011 ",
+                                            "color": "#ffff55",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "键以关闭能力。",
+                                            "color": "#aaaaaa",
+                                            "italic": false
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": ""
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "传奇近战武器",
+                                            "color": "#ffaa00",
+                                            "italic": false,
+                                            "bold": true
+                                        }
+                                    ]
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 8.0,
+                                        "id": "dimensional_fragment_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.4,
+                                        "id": "dimensional_fragment_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "text": "维度碎片",
+                                    "color": "#ffaa00",
+                                    "italic": false
+                                },
+                                "custom_data": {
+                                    "item": "dimensional_fragment",
+                                    "itemRarity": 4,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

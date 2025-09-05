@@ -1,0 +1,5 @@
+BungeeCord = false
+BungeeCordWorkaround = true
+Velocity = true
+allowBypassProxy = false
+secret = "bNNin6uP8xLw"

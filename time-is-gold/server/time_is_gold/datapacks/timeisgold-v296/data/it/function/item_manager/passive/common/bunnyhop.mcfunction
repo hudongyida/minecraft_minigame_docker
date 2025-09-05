@@ -1,0 +1,1 @@
+give @s minecraft:rabbit_hide[minecraft:lore=[{"translate": "item.bunnyhop.lore.0"}, {"translate": "item.bunnyhop.lore.1"}],minecraft:custom_name={"translate":"item.bunnyhop.name"},minecraft:custom_data={item:"bunnyhop",itemRarity:0,itemType:1},max_stack_size=1,tooltip_style="minecraft:common/passive"] 1

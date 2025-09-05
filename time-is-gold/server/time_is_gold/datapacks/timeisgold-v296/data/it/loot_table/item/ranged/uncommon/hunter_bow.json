@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.hunter_bow.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.hunter_bow.lore.1"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.hunter_bow.name"
+                                },
+                                "custom_data": {
+                                    "item": "hunter_bow",
+                                    "itemRarity": 1,
+                                    "itemType": 2
+                                },
+                                "enchantments": {
+                                    "minecraft:power": 1
+                                },
+                                "tooltip_style": "minecraft:uncommon/ranged"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

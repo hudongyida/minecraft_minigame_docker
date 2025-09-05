@@ -1,0 +1,1 @@
+give @s minecraft:blade_pottery_sherd[minecraft:lore=[{"translate": "item.sigil_of_strength.lore.0"}, {"translate": "item.sigil_of_strength.lore.1"}, {"translate": "item.sigil_of_strength.lore.2"}],minecraft:custom_name={"translate":"item.sigil_of_strength.name"},minecraft:custom_data={item:"sigil_of_strength",itemRarity:1,itemType:1},tooltip_style="minecraft:uncommon/passive"] 1

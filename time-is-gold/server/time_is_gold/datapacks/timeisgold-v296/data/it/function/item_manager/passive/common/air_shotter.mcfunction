@@ -1,0 +1,1 @@
+give @s minecraft:glow_ink_sac[minecraft:lore=[{"translate": "item.air_shotter.lore.0"}, {"translate": "item.air_shotter.lore.1"}],minecraft:custom_name={"translate":"item.air_shotter.name"},minecraft:custom_data={item:"air_shotter",itemRarity:0,itemType:1},max_stack_size=1,tooltip_style="minecraft:common/passive"] 1

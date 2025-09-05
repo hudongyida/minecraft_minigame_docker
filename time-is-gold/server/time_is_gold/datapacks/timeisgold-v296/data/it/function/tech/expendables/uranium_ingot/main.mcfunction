@@ -1,0 +1,1 @@
+execute as @a if score @s item.uranium_ingot.tick matches 1.. at @s run function it:tech/expendables/uranium_ingot/operation

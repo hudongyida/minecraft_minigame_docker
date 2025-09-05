@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:block{block_state:{Name:"minecraft:white_stained_glass"}} ~ ~1 ~ 0.25 0.5 0.25 4 1 force

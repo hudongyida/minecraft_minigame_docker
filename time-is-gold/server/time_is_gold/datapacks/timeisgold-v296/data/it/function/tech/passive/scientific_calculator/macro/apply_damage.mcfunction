@@ -1,0 +1,1 @@
+$execute at @s as @e[tag=monster,distance=..10] run function system:combat/modified_damage/melee/init {value:50, knockback:1, playerid:$(playerid)}

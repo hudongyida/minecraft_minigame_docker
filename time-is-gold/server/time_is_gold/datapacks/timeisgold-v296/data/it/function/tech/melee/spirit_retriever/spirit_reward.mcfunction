@@ -1,0 +1,1 @@
+execute if items entity @s weapon.mainhand *[custom_data~{item:spirit_retriever}] run function system:time/reward/init {value:50}

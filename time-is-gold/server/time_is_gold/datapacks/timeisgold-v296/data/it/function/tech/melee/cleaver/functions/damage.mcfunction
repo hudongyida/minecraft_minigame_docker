@@ -1,0 +1,2 @@
+$execute at @e[tag=monster,scores={entityid=$(entityid)}] as @e[tag=monster,distance=0.1..5] run function system:combat/modified_damage/melee/init {playerid:$(playerid),knockback:0,value:$(damage)}
+$execute at @e[tag=monster,scores={entityid=$(entityid)}] run particle block_crumble{block_state:"stone"} ~ ~ ~ 1.5 1.5 1.5 0.5 10 force

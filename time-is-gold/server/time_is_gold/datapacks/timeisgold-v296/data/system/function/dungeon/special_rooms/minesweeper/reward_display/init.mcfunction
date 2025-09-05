@@ -1,0 +1,4 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon marker ~ ~ ~ {Tags:["dungeon.special_rooms.minesweeper.reward_display.marker"],data:{}}
+execute align xyz positioned ~ ~ ~ run summon block_display ~ ~ ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display.tnt],block_state:{Name:"minecraft:tnt"}}
+execute align xyz positioned ~ ~1 ~ run summon block_display ~ ~ ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display.chest],block_state:{Name:"minecraft:chest",Properties:{type:"single"}}}
+execute align xyz positioned ~ ~2 ~ run summon block_display ~ ~ ~ {Tags:[dungeon.special_rooms.minesweeper.reward_display.block_display.tnt],block_state:{Name:"minecraft:tnt"}}

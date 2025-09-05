@@ -1,0 +1,2 @@
+$execute positioned ~$(center_x_offset) ~ ~$(z) positioned ~-1 ~ ~-3 as @e[type=interaction,tag=dungeon.door,dx=7,dy=-256,dz=7,limit=2] run tag @s add dungeon.bossfight.disabled_door
+$execute positioned ~$(center_x_offset) ~ ~$(z) positioned ~-1 ~ ~-3 as @e[type=interaction,tag=dungeon.door,dx=7,dy=-256,dz=7,limit=2] run tag @s remove dungeon.door

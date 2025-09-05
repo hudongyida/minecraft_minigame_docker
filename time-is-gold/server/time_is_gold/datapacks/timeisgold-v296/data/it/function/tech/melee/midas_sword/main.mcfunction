@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.mainhand *[custom_data~{item:midas_sword}] run function it:tech/melee/midas_sword/operation

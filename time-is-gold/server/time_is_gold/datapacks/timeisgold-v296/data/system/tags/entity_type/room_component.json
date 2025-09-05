@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": 
+    [
+        "minecraft:armor_stand",
+        "minecraft:block_display",
+        "minecraft:falling_block",
+        "minecraft:item",
+        "minecraft:item_frame",
+        "minecraft:item_display",
+        "minecraft:interaction",
+        "minecraft:painting",
+        "minecraft:text_display",
+        "minecraft:marker"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ghast_tear",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.teardrop.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.teardrop.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.teardrop.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.teardrop.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.teardrop.lore.4"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.teardrop.name"
+                                },
+                                "custom_data": {
+                                    "item": "teardrop",
+                                    "itemRarity": 2,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:rare/ranged"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

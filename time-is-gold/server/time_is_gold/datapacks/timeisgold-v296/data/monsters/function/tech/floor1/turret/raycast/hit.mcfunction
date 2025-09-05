@@ -1,0 +1,1 @@
+$function monsters:tech/global/utils/monster_damage/magic/init {value:6, monsteruuid:"$(monsteruuid)"}

@@ -1,0 +1,1 @@
+tellraw @a [{"text":"🔌 ","color":"red","italic":false}, {"selector":"@s","color":"gray","bold":false}, {"text":"已断线并被淘汰。","color":"gray","bold":false}]

@@ -1,0 +1,26 @@
+{
+    "criteria":
+    {
+        "event":
+        {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions":
+            {
+                "damage":
+                {
+                    "blocked": false
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "event"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "it:tech/melee/manchineel_sword/on_hit_trigger"
+    }
+}

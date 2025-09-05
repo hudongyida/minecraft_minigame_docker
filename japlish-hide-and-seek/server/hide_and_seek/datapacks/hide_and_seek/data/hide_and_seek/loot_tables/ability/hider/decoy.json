@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name":[{"text":"诱饵","color":"white","italic":false}]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[技能说明]",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "召唤一个与你相似的诱饵",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Shift+ 右键则召唤一个固定的诱饵",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,Tags:[\"ability\",\"hider_ability\",\"decoy\",\"no_drop\"],HideFlags:63}"
+            },
+	    {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:vanishing_curse": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+data remove storage timeisgold:player_name output

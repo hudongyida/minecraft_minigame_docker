@@ -1,0 +1,2 @@
+scoreboard players remove @s bosses.automaton.pattern5.spawn_delay 1
+execute if score @s bosses.automaton.pattern5.spawn_delay matches ..0 run scoreboard players reset @s bosses.automaton.pattern5.spawn_delay

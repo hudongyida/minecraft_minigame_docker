@@ -1,0 +1,86 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lightning_rod",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.auction_microphone.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone.lore.4"
+                                    },
+                                    {
+                                        "translate": "item.auction_microphone.lore.5"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "1",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.6",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": -2.4,
+                                        "id": "auction_microphone_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.auction_microphone.name"
+                                },
+                                "custom_data": {
+                                    "item": "auction_microphone",
+                                    "itemRarity": 0,
+                                    "itemType": 2
+                                },
+                                "max_stack_size": 1,
+                                "tooltip_style": "common/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "criteria":
+    {
+        "requirement":
+        {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions":
+            {
+                "damage":
+                {
+                    "blocked": false,
+                    "source_entity":
+                    {
+                        "type": "minecraft:zombie",
+                        "nbt": "{Tags:[supply_worker]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "monsters:tech/floor1/supply_worker/apply_slow"
+    }
+}

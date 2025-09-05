@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:jail_cell/zzzzzzzz/apply_variant/default/as_bone

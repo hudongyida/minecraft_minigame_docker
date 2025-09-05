@@ -1,0 +1,1 @@
+give @s minecraft:bow[minecraft:lore=[{"translate": "item.hunter_bow.lore.0"}, {"translate": "item.hunter_bow.lore.1"}],minecraft:custom_name={"translate":"item.hunter_bow.name"},minecraft:custom_data={item:"hunter_bow",itemRarity:1,itemType:2},minecraft:enchantments={"minecraft:power":1},tooltip_style="minecraft:uncommon/ranged"] 1

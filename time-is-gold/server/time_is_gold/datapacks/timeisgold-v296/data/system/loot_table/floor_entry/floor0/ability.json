@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:empty",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/ability_common",
+                    "weight": 500
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/ability_uncommon",
+                    "weight": 300
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/ability_rare",
+                    "weight": 130
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/ability_epic",
+                    "weight": 60,
+                    "quality": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "it:item/meta/ability_legendary",
+                    "weight": 10,
+                    "quality": 1
+                }
+            ]
+        }
+    ]
+}

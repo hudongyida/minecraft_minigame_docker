@@ -1,0 +1,1 @@
+give @s minecraft:pumpkin_pie[minecraft:lore=[{"translate": "item.butterscotch_waffle.lore.0"}, ],minecraft:custom_name={"translate": "item.butterscotch_waffle.name"},minecraft:custom_data={item:"butterscotch_waffle",itemRarity:0,itemType:4},consumable={consume_seconds:1.6},food={nutrition:0,saturation:0,can_always_eat:true},tooltip_style="minecraft:common/expendables"] 1

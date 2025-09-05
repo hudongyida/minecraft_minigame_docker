@@ -1,0 +1,1 @@
+execute as @e[tag=monster,scores={item.poison_eproce.interval=1..}] run scoreboard players remove @s item.poison_eproce.interval 1

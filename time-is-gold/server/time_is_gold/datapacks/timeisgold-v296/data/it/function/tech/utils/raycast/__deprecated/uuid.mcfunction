@@ -1,0 +1,1 @@
+$execute store result entity @e[type=marker,tag=$(marker),distance=..0.5,sort=nearest,limit=1] data.player int 1 run data get entity @s UUID[0]

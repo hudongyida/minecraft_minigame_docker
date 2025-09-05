@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.training_weights.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.training_weights.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.training_weights.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.training_weights.lore.3"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.training_weights.name"
+                                },
+                                "custom_data": {
+                                    "item": "training_weights",
+                                    "itemRarity": 0,
+                                    "itemType": 0
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647
+                                },
+                                "tooltip_style": "minecraft:common/active"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

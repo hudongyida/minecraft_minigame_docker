@@ -1,0 +1,1 @@
+$execute as @s run function system:combat/modified_damage/melee/init {playerid:$(playerid), value:10d, knockback:1}

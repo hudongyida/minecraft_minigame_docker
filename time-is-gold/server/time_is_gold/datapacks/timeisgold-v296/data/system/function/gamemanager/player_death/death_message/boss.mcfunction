@@ -1,0 +1,2 @@
+#tellraw @a [{"text":"✗ ","color":"red","italic":false}, {"selector":"@s","color":"gray","bold":false},{"text":"死于 ","color":"gray","bold":false}, {"nbt":"stack[-1].cause","interpret":false,"storage":"timeisgold:function_api","color":"red","bold":true,"italic":false}, {"text":".","color":"gray","bold":false}]
+tellraw @a {"translate":"system.gamemanager.player_death.boss",with:[{"selector":"@s"},{"nbt":"stack[-1].cause","interpret":false,"storage":"timeisgold:function_api","color":"red","bold":true,"italic":false}]}

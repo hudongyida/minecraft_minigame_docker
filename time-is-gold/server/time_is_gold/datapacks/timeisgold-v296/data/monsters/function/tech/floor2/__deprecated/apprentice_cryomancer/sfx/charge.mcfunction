@@ -1,0 +1,1 @@
+$playsound block.snow.step block @a ~ ~ ~ 2 $(pitch) 0

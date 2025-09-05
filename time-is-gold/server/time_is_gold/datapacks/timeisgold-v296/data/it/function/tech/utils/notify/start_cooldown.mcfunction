@@ -1,0 +1,1 @@
+scoreboard players operation @s item.utils.notify.cooldown = #SYSTEM item.utils.notify.cooldown

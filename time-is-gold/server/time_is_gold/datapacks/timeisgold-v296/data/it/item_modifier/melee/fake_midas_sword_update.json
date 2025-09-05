@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers":
+        [
+            {
+                "attribute": "minecraft:attack_damage",
+                "id": "fake_midas_sword_attack_damage",
+                "amount":
+                {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "item.fake_midas_sword.bonus",
+                    "scale": 1
+                },
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "attribute": "minecraft:attack_speed",
+                "id": "fake_midas_sword_attack_speed",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+        ]
+    }
+]

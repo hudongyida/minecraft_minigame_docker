@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.scan_effect.bone.scan_effect] run data modify entity @s {} merge value {transformation:[-9.450000000000001f,0f,1.157291225194249e-15f,0f,0f,9.450000000000001f,0f,0f,-1.157291225194249e-15f,0f,-9.450000000000001f,0f,0f,0f,0f,1f],start_interpolation:0}

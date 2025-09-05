@@ -1,0 +1,1 @@
+give @s minecraft:leather_horse_armor[minecraft:lore=[{"translate": "item.moonwalker.lore.0"}, {"translate": "item.moonwalker.lore.1"}],minecraft:custom_name={"translate":"item.moonwalker.name"},minecraft:custom_data={item:"moonwalker",itemRarity:1,itemType:1},max_stack_size=1,attribute_modifiers=[],tooltip_style="minecraft:uncommon/passive"] 1

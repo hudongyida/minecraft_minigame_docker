@@ -1,0 +1,1 @@
+give @s minecraft:stick[minecraft:lore=[{"translate": "item.scabbard.lore.0"}, {"translate": "item.scabbard.lore.1"}],minecraft:custom_name={"translate":"item.scabbard.name"},minecraft:custom_data={item:"scabbard",itemRarity:1,itemType:1},max_stack_size=1,item_model="minecraft:name_tag",tooltip_style="minecraft:uncommon/passive"] 1

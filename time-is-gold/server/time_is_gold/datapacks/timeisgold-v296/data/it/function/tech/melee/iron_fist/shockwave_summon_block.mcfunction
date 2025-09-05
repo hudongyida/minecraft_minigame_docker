@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:$(blockid)"}, Tags:[item.iron_fist.shockwave.falling_block], Motion:[0d,0.$(motion)d,0d], CancelDrop:true, DropItem:false}

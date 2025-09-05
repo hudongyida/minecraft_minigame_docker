@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rabbit_foot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.noble_leap.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.noble_leap.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.noble_leap.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.noble_leap.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.noble_leap.lore.4"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:uncommon/passive",
+                                "custom_name": {
+                                    "translate": "item.noble_leap.name"
+                                },
+                                "custom_data": {
+                                    "item": "noble_leap",
+                                    "itemRarity": 1,
+                                    "itemType": 1
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

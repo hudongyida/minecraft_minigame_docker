@@ -1,0 +1,1 @@
+item replace entity @s container.16 with stick[item_name={"translate":"system.gamemanager.teleport.boss_portal.button.enabled_name"},custom_data={item:"teleport_to_boss_portal",enabled:true,teleport_boss_portal_throw:{}},item_model="ominous_trial_key"]

@@ -1,0 +1,9 @@
+execute unless block ~ ~-0.001 ~ #it:air run kill @s
+execute unless block ~ ~-0.001 ~0.125 #it:air run kill @s
+execute unless block ~ ~-0.001 ~-0.125 #it:air run kill @s
+execute unless block ~0.125 ~-0.001 ~ #it:air run kill @s
+execute unless block ~-0.125 ~-0.001 ~ #it:air run kill @s
+execute unless block ~0.125 ~-0.001 ~0.125 #it:air run kill @s
+execute unless block ~-0.125 ~-0.001 ~-0.125 #it:air run kill @s
+execute unless block ~0.125 ~-0.001 ~-0.125 #it:air run kill @s
+execute unless block ~-0.125 ~-0.001 ~0.125 #it:air run kill @s

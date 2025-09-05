@@ -1,0 +1,1 @@
+$summon item_display ~ ~ ~ {item:{id:"written_book",count:1,components:{enchantment_glint_override:true}},Tags:[monsters.floor2.student_b.item_display.$(monsteruuid)],teleport_duration:1,interpolation_duration:1,transformation:{left_rotation:[-0.707f,0f,0f,0.707f],right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f],translation:[0f,0f,0f]}}

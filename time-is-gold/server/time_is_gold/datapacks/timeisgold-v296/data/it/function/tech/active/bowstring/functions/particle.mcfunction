@@ -1,0 +1,2 @@
+execute as @s at @s run particle dust{color:[0.450, 1.000, 0.900], scale:1} ~ ~1 ~ .3 .5 .3 0 5 force
+execute as @s unless score @s combat.stun matches 1.. run scoreboard players reset @s item.bowstring.particle

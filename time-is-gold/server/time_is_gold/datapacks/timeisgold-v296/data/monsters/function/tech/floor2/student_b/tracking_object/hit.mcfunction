@@ -1,0 +1,1 @@
+$function monsters:tech/global/utils/monster_damage/melee/init {value:15.0, monsteruuid:"$(monsteruuid)"}

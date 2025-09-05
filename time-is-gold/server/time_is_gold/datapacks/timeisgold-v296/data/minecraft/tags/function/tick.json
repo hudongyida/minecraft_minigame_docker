@@ -1,0 +1,19 @@
+{
+    "values": 
+    [
+        "it:item_abilities",
+        "it:tech/utils/throw_item/tick",
+        "it:tech/utils/tracking_object/tick",
+        "monsters:tech/tick",
+        "bosses:tech/boss_abilities",
+        
+        "system:combat/damage_indicator/tick",
+        "system:dungeon/tick",
+        "system:lobby/tick",
+        "system:portal/tick",
+        "system:remove/tick",
+        "system:shop/tick",
+        "system:vfx/tick",
+        "system:gamemanager/tick"
+    ]
+}

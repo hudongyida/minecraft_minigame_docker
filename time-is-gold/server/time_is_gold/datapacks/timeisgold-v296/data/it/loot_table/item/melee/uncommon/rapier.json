@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.rapier.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.rapier.lore.1"
+                                    },
+                                    {
+                                        "translate": "item.rapier.lore.2"
+                                    },
+                                    {
+                                        "translate": "item.rapier.lore.3"
+                                    },
+                                    {
+                                        "translate": "item.rapier.lore.4"
+                                    },
+                                    "",
+                                    {
+                                        "translate": "item.melee.attack_damage",
+                                        "with": [
+                                            {
+                                                "text": "7",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "item.melee.attack_speed",
+                                        "with": [
+                                            {
+                                                "text": "1.8",
+                                                "color": "dark_green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "attribute_modifiers": [
+                                    {
+                                        "amount": 6.0,
+                                        "id": "rapier_attack_damage",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_damage"
+                                    },
+                                    {
+                                        "amount": -2.2,
+                                        "id": "rapier_attack_speed",
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "type": "minecraft:attack_speed"
+                                    }
+                                ],
+                                "custom_name": {
+                                    "translate": "item.rapier.name"
+                                },
+                                "custom_data": {
+                                    "item": "rapier",
+                                    "itemRarity": 1,
+                                    "itemType": 2
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2147483647,
+                                    "animation": "spear"
+                                },
+                                "tooltip_style": "minecraft:uncommon/melee",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers"
+                                    ]
+                                },
+                                "item_model": "breeze_rod",
+                                "max_damage": 200
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

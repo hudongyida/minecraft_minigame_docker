@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run particle enchant ~ ~ ~ $(dx) $(dy) $(dz) 0.5 10 force

@@ -1,0 +1,1 @@
+$damage @s $(value) in_fire by @a[scores={playerid=$(playerid)},limit=1]

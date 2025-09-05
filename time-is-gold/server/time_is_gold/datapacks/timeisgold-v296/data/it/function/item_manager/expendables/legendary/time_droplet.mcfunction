@@ -1,0 +1,1 @@
+give @s minecraft:gold_nugget[minecraft:lore=[{"translate": "item.time_droplet.lore.0"}, {"translate": "item.time_droplet.lore.1"}],minecraft:custom_name={"translate": "item.time_droplet.name"},minecraft:custom_data={item:"time_droplet",itemPrice:100,itemRarity:4,itemType:4},consumable={consume_seconds:2147483647},tooltip_style="minecraft:legendary/expendables"] 1

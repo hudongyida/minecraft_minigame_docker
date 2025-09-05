@@ -1,0 +1,3 @@
+execute as @e[type=interaction,tag=item.automaton_turret.interaction] if function system:utils/interaction/interaction_check at @s run function it:tech/active/automaton_turret/functions/interaction with entity @n[type=marker,tag=item.automaton_turret.marker,distance=..1] data
+
+execute as @e[type=marker,tag=item.automaton_turret.marker] at @s run function it:tech/active/automaton_turret/operation with entity @s data

@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    {
+                                        "translate": "item.uranium_ingot.lore.0"
+                                    },
+                                    {
+                                        "translate": "item.uranium_ingot.lore.1"
+                                    }
+                                ],
+                                "tooltip_style": "minecraft:uncommon/expendables",
+                                "custom_name": {
+                                    "translate": "item.uranium_ingot.name"
+                                },
+                                "custom_data": {
+                                    "item": "uranium_ingot",
+                                    "itemRarity": 1,
+                                    "itemType": 4
+                                },
+                                "consumable": {
+                                    "consume_seconds": 1.6,
+                                    "sound": "block.iron.break"
+                                },
+                                "food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+$execute positioned ~ ~ ~ run kill @e[type=marker,tag=bosses.the_shaman.pattern2.mirror.marker.direction.$(selfuuid),distance=..0.5]

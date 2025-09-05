@@ -1,0 +1,1 @@
+scoreboard players set #SYSTEM system.gamemanager.floor_started 1

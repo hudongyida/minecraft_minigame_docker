@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [],
+                                "custom_name": {
+                                    "translate": "item.arrow.name"
+                                },
+                                "custom_data": {
+                                    "item": "arrow",
+                                    "itemRarity": 0,
+                                    "itemType": 4,
+                                    "itemPrice": 50
+                                },
+                                "tooltip_style": "minecraft:common/expendables"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

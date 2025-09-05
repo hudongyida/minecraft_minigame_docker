@@ -1,0 +1,1 @@
+$playsound minecraft:block.note_block.snare block @a ~ ~ ~ 1 $(pitch) 0

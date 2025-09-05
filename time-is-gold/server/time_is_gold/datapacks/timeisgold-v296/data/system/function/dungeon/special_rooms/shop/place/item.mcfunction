@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ if function system:dungeon/special_rooms/shop/operation/shop/cancel_entry run function system:shop/create/init {loottable:"system:shop/item", type:0, stock:1}

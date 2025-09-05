@@ -1,0 +1,1 @@
+give @s minecraft:raw_iron[minecraft:lore=[{"translate": "item.rosegold.lore.0"}, {"translate": "item.rosegold.lore.1"}, {"translate": "item.rosegold.lore.2"}],enchantment_glint_override=true,minecraft:custom_name={"translate":"item.rosegold.name"},minecraft:custom_data={item:"rosegold",itemRarity:4,itemType:1},max_stack_size=1,tooltip_style="minecraft:legendary/passive"] 1

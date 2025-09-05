@@ -1,0 +1,4 @@
+$summon firework_rocket ~ ~ ~ {Tags:[item.tiny_rocket.firework_rocket.$(selfuuid)],Owner:$(playeruuidlist),FireworksItem:{components:{"minecraft:fireworks":{explosions:[{fade_colors:[I;13192525],shape:"small_ball",colors:[I;16711680]}]}},count:1,id:"minecraft:firework_rocket"},LeftOwner:false,ShotAtAngle:true,LifeTime:10}
+
+$data modify entity @n[type=firework_rocket,tag=item.tiny_rocket.firework_rocket.$(selfuuid),distance=..0.5] Rotation set from entity @s Rotation
+$data modify entity @n[type=firework_rocket,tag=item.tiny_rocket.firework_rocket.$(selfuuid),distance=..0.5] Motion set from entity @s Motion

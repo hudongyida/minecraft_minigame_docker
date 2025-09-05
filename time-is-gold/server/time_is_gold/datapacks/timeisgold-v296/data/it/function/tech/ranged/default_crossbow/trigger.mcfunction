@@ -1,0 +1,1 @@
+function it:tech/utils/detect/crossbow/fire {advancement:"it:ranged/default_crossbow_fire", item:"default_crossbow", path:"it:tech/ranged/default_crossbow/crossbow/use"}

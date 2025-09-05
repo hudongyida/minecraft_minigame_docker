@@ -1,0 +1,1 @@
+execute as @s run scoreboard players set @s item.energy_blaster.marker_delay 5
