@@ -19,3 +19,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## 版权说明 (Copyright Notice)
+
+本项目中的 Minecraft 游戏地图由原作者独立创作，版权归其所有。本镜像的分发已获得原作者的特别许可。地图资源不受本项目MIT/CC-BY-NC许可证的约束，请务必阅读  MAP_LICENSE.md  文件了解详细条款。
+
+The Minecraft map included in this project is the independent creation of its original author and is copyrighted by them. The distribution of this image has been specially permitted by the original author. The map resources are NOT covered by this project's MIT/CC-BY-NC license. Please be sure to read the  MAP_LICENSE.md  file for detailed terms.
