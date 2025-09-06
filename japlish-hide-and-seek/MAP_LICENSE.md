@@ -6,11 +6,11 @@
 本文件是针对本项目内所含 特定游戏地图资源 的版权和许可声明。该部分资源不受项目主体开源许可证（位于根目录 LICENSE 文件）的约束。
 
 This document pertains to the copyright and license notice for the specific game map resources contained within this project. These resources are NOT governed by the project's main open source license (located in the root directory LICENSE file).
-1. 地图信息 (Map Information)
-
-    地图名称 (Map Name): [ブロック擬態かくれんぼ ―ブロックに変身して隠れきれ]
-    原作品发布页 (Original Work Page): (https://minecraft-mcworld.com/70901/)
-    在本项目中的位置 (Location in this Project): [(ブロック擬態かくれんぼ ―ブロックに変身して隠れきれ)[https://github.com/hudongyida/minecraft_minigame_docker/tree/main/japlish-hide-and-seek/server]]`
+1. 地图信息 (Map Information)  
+  
+    地图名称 (Map Name): [ブロック擬態かくれんぼ ―ブロックに変身して隠れきれ]  
+    原作品发布页 (Original Work Page): (https://minecraft-mcworld.com/70901/)  
+    在本项目中的位置 (Location in this Project): [(ブロック擬態かくれんぼ ―ブロックに変身して隠れきれ)[https://github.com/hudongyida/minecraft_minigame_docker/tree/main/japlish-hide-and-seek/server]]`  
 
 2. 翻译信息 (Translator Information)  
    翻译者 (Translator): [[北极熊icebear](https://www.zeroicebear.com/about)]  
