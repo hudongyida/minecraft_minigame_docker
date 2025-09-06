@@ -12,8 +12,8 @@ This document pertains to the copyright and license notice for the specific game
     原作品发布页 (Original Work Page): [https://www.planetminecraft.com/project/backstabbed/]
     在本项目中的位置 (Location in this Project): [[backstabbed](https://github.com/hudongyida/minecraft_minigame_docker/tree/main/backstabbed/Backstabbed/Backstabbed)]`
 
-2. 翻译者信息 (Translator Information)
-- 翻译者 (Translator Contact): [[北极熊icebear](https://www.zeroicebear.com/about)]
+2. 翻译信息 (Translator Information)
+- 翻译者 (Translator): [[北极熊icebear](https://www.zeroicebear.com/about)]
 
 3. 联系我 (Contact Me)
 
