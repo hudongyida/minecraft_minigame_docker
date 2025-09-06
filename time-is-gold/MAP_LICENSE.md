@@ -9,7 +9,7 @@ This document pertains to the copyright and license notice for the specific game
 1. 地图信息 (Map Information)  
   
     地图名称 (Map Name): [Time is Gold]  
-    原作品发布页 (Original Work Page): [[time-is-gold](https://github.com/DIApotter/time-is-gold)]`  
+    原作品发布页 (Original Work Page): [[time-is-gold](https://github.com/DIApotter/time-is-gold)]  
     在本项目中的位置 (Location in this Project): [[time-is-gold](https://github.com/hudongyida/minecraft_minigame_docker/tree/main/time-is-gold/server))]`  
 
 2. 翻译信息 (Translator Information)  
