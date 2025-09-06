@@ -18,7 +18,7 @@ This document pertains to the copyright and license notice for the **specific ga
 *   **原作品发布页 (Original Work Page):** `[https://github.com/CaaMoe/HadesGame]`
 *   **在本项目中的位置 (Location in this Project):** `[[HadesGameV2-1.0-Game.Version.jar`](https://github.com/hudongyida/minecraft_minigame_docker/tree/main/HadesGame/server/mods/HadesGameV2-1.0-Game.Version.jar)]`
 
-## 2. 联系我们 (Contact Us)
+## 2. 联系我 (Contact Me)
 
 如果您是该地图的原始作者并认为此处的声明有误，或您是相关利益方并有疑问，请通过以下方式联系我：
 If you are the original author of the Map and believe this notice is incorrect, or if you are a stakeholder with questions, please contact us at:
