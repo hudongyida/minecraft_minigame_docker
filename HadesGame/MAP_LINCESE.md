@@ -16,7 +16,7 @@ This document pertains to the copyright and license notice for the **specific ga
 *   **MOD名称 (Mod Name):** `[HadesGame]`
 *   **原始作者 (Original Author):** `[米可绫夏MikkoAyaka]`
 *   **原作品发布页 (Original Work Page):** `[https://github.com/CaaMoe/HadesGame]`
-*   **在本项目中的位置 (Location in this Project):** `[[地图文件所在的路径，例如：`/data/world/`](https://github.com/hudongyida/minecraft_minigame_docker/tree/main/HadesGame/server/mods/HadesGameV2-1.0-Game.Version.jar)]`
+*   **在本项目中的位置 (Location in this Project):** `[[HadesGameV2-1.0-Game.Version.jar`](https://github.com/hudongyida/minecraft_minigame_docker/tree/main/HadesGame/server/mods/HadesGameV2-1.0-Game.Version.jar)]`
 
 ## 2. 联系我们 (Contact Us)
 
