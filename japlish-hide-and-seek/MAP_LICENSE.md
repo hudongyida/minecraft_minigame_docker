@@ -12,9 +12,9 @@ This document pertains to the copyright and license notice for the specific game
     原作品发布页 (Original Work Page): (https://minecraft-mcworld.com/70901/)
     在本项目中的位置 (Location in this Project): [(ブロック擬態かくれんぼ ―ブロックに変身して隠れきれ)[https://github.com/hudongyida/minecraft_minigame_docker/tree/main/japlish-hide-and-seek/server]]`
 
-2. 翻译信息 (Translator Information)
-   翻译者 (Translator): [[北极熊icebear](https://www.zeroicebear.com/about)]
-   翻译链接(Translator Page): (https://www.zeroicebear.com/2024/10/01/ri-shi-fang-kuai-duo-mao-mao)
+2. 翻译信息 (Translator Information)  
+   翻译者 (Translator): [[北极熊icebear](https://www.zeroicebear.com/about)]  
+   翻译链接(Translator Page): (https://www.zeroicebear.com/2024/10/01/ri-shi-fang-kuai-duo-mao-mao)  
 
 3. 联系我 (Contact Me)
 
